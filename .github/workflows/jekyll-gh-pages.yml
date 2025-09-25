@@ -1,5 +1,5 @@
-# Sample workflow for building and deploying a Jekyll site to GitHub Pages
-name: Deploy Jekyll with GitHub Pages dependencies preinstalled
+# Workflow for deploying Next.js site to GitHub Pages
+name: Deploy Next.js site to Pages
 
 on:
   # Runs on pushes targeting the default branch
@@ -28,10 +28,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-      - name: Build with Jekyll
-        uses: actions/jekyll-build-pages@v1
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
           node-version: "18"    # change if you need a different Node version
           cache: "npm"
@@ -48,15 +46,15 @@ jobs:
           NODE_ENV: production
         run: |
           npm run build
+          # Copy static assets
+          cp -r static/* public/
           # if your build does not create out/ automatically (older Next), run: npm run build && npm run export
-
         working-directory: ./website
 
       - name: Ensure .nojekyll (prevents Jekyll ignoring _next)
         run: |
           # create a blank .nojekyll inside the final output folder (out/)
-          mkdir -p out
-          touch out/.nojekyll
+          touch ./website/out/.nojekyll
 
       - name: Upload pages artifact
         # this packages & uploads the static output for use by the deploy job
