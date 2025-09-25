@@ -88,10 +88,38 @@ export default function App() {
         <div className="max-w-5xl mx-auto">
           <h2 className="text-2xl font-bold text-center mb-8">Partners & Supporters</h2>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 items-center justify-center">
-            <Image src="/images/WayWithWords.png" alt="Way With Words" width={64} height={64} className="h-16 mx-auto" />
-            <Image src="/images/Law_UP.png" alt="UP Law" width={48} height={48} className="h-12 mx-auto" />
-            <Image src="/images/Meta-Logo-trans.png" alt="Meta" width={48} height={48} className="h-12 mx-auto" />
-            <Image src="/images/Gates_Foundation_Logo.png" alt="Gates Foundation" width={48} height={48} className="h-12 mx-auto" />
+            <Image 
+              src="/website/public/images/WayWithWords.png" 
+              alt="Way With Words" 
+              width={64} 
+              height={64} 
+              className="h-16 mx-auto"
+              priority
+            />
+            <Image 
+              src="/website/public/images/Law_UP.png" 
+              alt="UP Law" 
+              width={48} 
+              height={48} 
+              className="h-12 mx-auto"
+              priority
+            />
+            <Image 
+              src="/website/public/images/Meta-Logo-trans.png" 
+              alt="Meta" 
+              width={48} 
+              height={48} 
+              className="h-12 mx-auto"
+              priority
+            />
+            <Image 
+              src="/website/public/images/Gates_Foundation_Logo.png" 
+              alt="Gates Foundation" 
+              width={48} 
+              height={48} 
+              className="h-12 mx-auto"
+              priority
+            />
           </div>
         </div>
       </GradientSection>
@@ -113,7 +141,14 @@ export default function App() {
         <p className="text-sm">Citation: TBC</p>
         <p className="text-xs mt-2">Acknowledgments: Lelapa AI, Agricultural Research Council, Karya, Lanfrica, SADiLaR</p>
         <div className="flex justify-center mt-6">
-          <Image src="/images/dsfsi_logo2.png" alt="DSFSI Logo" width={64} height={58} className="h-16 flex items-center justify-center mt-6 w-18 h-18 rounded-full bg-white shadow" />
+          <Image 
+            src="/website/public/images/dsfsi_logo2.png" 
+            alt="DSFSI Logo" 
+            width={64} 
+            height={58} 
+            className="h-16 flex items-center justify-center mt-6 w-18 h-18 rounded-full bg-white shadow"
+            priority
+          />
         </div>
       </GradientSection>
     </div>

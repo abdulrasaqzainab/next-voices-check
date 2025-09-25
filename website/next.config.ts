@@ -11,9 +11,12 @@ const nextConfig: NextConfig = {
   basePath: repo ? `/${repo}` : '',
   assetPrefix: repo ? `/${repo}/` : '',
 
-  // 3) Disable next/image optimization (requires server)
+  // 3) Configure images for static export
   images: {
     unoptimized: true,
+    remotePatterns: [],
+    loader: 'custom',
+    loaderFile: './image-loader.ts',
   },
 
   // optional, trailing slash in exported paths
