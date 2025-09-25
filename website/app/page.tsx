@@ -89,7 +89,7 @@ export default function App() {
           <h2 className="text-2xl font-bold text-center mb-8">Partners & Supporters</h2>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 items-center justify-center">
             <Image 
-              src="/website/public/images/WayWithWords.png" 
+              src="/static/images/WayWithWords.png" 
               alt="Way With Words" 
               width={64} 
               height={64} 
@@ -97,7 +97,7 @@ export default function App() {
               priority
             />
             <Image 
-              src="/website/public/images/Law_UP.png" 
+              src="/static/images/Law_UP.png" 
               alt="UP Law" 
               width={48} 
               height={48} 
@@ -105,7 +105,7 @@ export default function App() {
               priority
             />
             <Image 
-              src="/website/public/images/Meta-Logo-trans.png" 
+              src="/static/images/Meta-Logo-trans.png" 
               alt="Meta" 
               width={48} 
               height={48} 
@@ -113,7 +113,7 @@ export default function App() {
               priority
             />
             <Image 
-              src="/website/public/images/Gates_Foundation_Logo.png" 
+              src="/static/images/Gates_Foundation_Logo.png" 
               alt="Gates Foundation" 
               width={48} 
               height={48} 
@@ -142,7 +142,7 @@ export default function App() {
         <p className="text-xs mt-2">Acknowledgments: Lelapa AI, Agricultural Research Council, Karya, Lanfrica, SADiLaR</p>
         <div className="flex justify-center mt-6">
           <Image 
-            src="/website/public/images/dsfsi_logo2.png" 
+            src="/static/images/dsfsi_logo2.png" 
             alt="DSFSI Logo" 
             width={64} 
             height={58} 

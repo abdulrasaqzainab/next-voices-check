@@ -14,9 +14,9 @@ const nextConfig: NextConfig = {
   // 3) Configure images for static export
   images: {
     unoptimized: true,
-    remotePatterns: [],
     loader: 'custom',
     loaderFile: './image-loader.ts',
+    path: '/',
   },
 
   // optional, trailing slash in exported paths
