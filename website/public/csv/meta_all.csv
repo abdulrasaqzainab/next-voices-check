@@ -1,0 +1,664 @@
+recorder_uuid,age_range,country,province,city,postal_code,gender,occupation,mother_language,birth_country,birth_province,birth_city,grow_up_country,grow_up_province,grow_up_city,years_at_current_location,has_disability,has_speech_impediment,education
+d151406f-04be-11f0-8300-0242ac120004,18-29,ZA,Northern Cape,Danielskuil,8405,male,Unemployed,tsn,ZA,northern_cape,Kimberley,ZA,northern_cape,Kimberley,6,False,False,2
+33670b83-089d-11f0-ae3c-0242ac120003,30-39,ZA,Gauteng,Kempton Park,1618,female,Unemployed,tsn,ZA,north_west,Mahikeng,ZA,north_west,Mahikeng,3,False,False,2
+12497dbe-1389-11f0-b3c5-0242ac120004,18-29,ZA,Gauteng,Johannesburg,1779,male,Student,tsn,ZA,north_west,Brits,ZA,north_west,Brits,8,False,False,5
+57ffbbe8-0880-11f0-ae3c-0242ac120003,18-29,ZA,Limpopo,Polokwane,743,female,Self employed,tsn,ZA,north_west,Schweizer-Reneke,ZA,north_west,Potchefstroom,2,False,False,3
+4ee296a1-04c3-11f0-8300-0242ac120004,40-49,ZA,Gauteng,Johannesburg,18181,female,Market Researcher,tsn,ZA,gauteng,Johannesburg,ZA,north_west,Mafikeng,25,False,False,4
+3d810ffe-04c4-11f0-8300-0242ac120004,40-49,ZA,Gauteng,Johannesburg,1868,female,Unemployed,tsn,BW,,Gaborone,ZA,north_west,Mahikeng,5,False,False,9
+dcfcf04a-089e-11f0-ae3c-0242ac120003,30-39,ZA,Gauteng,Johannesburg,1863,female,Unemployed,tsn,ZA,gauteng,Mogale City,ZA,gauteng,Soweto,34,False,False,2
+32d347af-0881-11f0-ae3c-0242ac120003,18-29,ZA,North West,Mafikeng,2745,female,Student,tsn,ZA,north_west,Mafikeng,ZA,north_west,Mafikeng,24,False,False,2
+9abe4ab1-058c-11f0-ac56-0242ac120003,18-29,ZA,North West,Hammanskraal,407,female,Tutor,tsn,ZA,north_west,Hammanskraal,ZA,north_west,Hammanskraal,1,False,False,4
+433a8e31-0af0-11f0-b40b-0242ac120004,18-29,ZA,Gauteng,Soweto,1868,male,Unemployed,tsn,ZA,gauteng,Johannesburg,ZA,gauteng,Johannesburg,20,False,False,3
+b26661ad-058c-11f0-ac56-0242ac120003,30-39,ZA,Western Cape,Cape Town,7493,female,Unemployed,tsn,ZA,north_west,Taung,ZA,north_west,Kuruman,4,False,False,2
+229d5cfd-0891-11f0-ae3c-0242ac120003,30-39,ZA,Gauteng,Pretoria,82,female,Student,tsn,ZA,gauteng,Pretoria,ZA,gauteng,Pretoria,10,False,False,4
+4a168989-062f-11f0-8778-0242ac120002,30-39,ZA,North West,Mmabatho,2735,female,Unemployed,tsn,ZA,north_west,Mahikeng,ZA,north_west,Mahikeng,6,False,False,2
+ceb91d8c-04c2-11f0-8300-0242ac120004,30-39,ZA,Gauteng,Pretoria,208,female,Homemaker,tsn,ZA,gauteng,Pretoria,ZA,gauteng,Pretoria,32,False,False,3
+ba63d238-0648-11f0-9be4-0242ac120003,30-39,ZA,North West,Mahikeng,2745,female,Unemployed,tsn,ZA,north_west,Mafikeng,ZA,north_west,Mafikeng,39,False,False,2
+45e0e098-0632-11f0-981c-0242ac120002,40-49,ZA,North West,Vryburg,8601,female,Unemployed,tsn,ZA,freestate,Thaba Nchu,ZA,freestate,Mmabatho,10,False,False,2
+16028a40-0884-11f0-ae3c-0242ac120003,18-29,ZA,North West,Rustenburg,300,female,Unemployed,tsn,ZA,north_west,Zeerust,ZA,north_west,Zeerust,10,False,False,4
+d392d9dd-061e-11f0-8778-0242ac120002,18-29,ZA,Gauteng,MOGALE CITY,1739,female,Unemployed,tsn,ZA,gauteng,Mogale City,ZA,gauteng,Mogale City,2,False,False,2
+8d43778c-1537-11f0-bb20-0242ac120003,30-39,ZA,Gauteng,Krugersdorp,1754,male,Unemployed,tsn,ZA,north_west,Mahikeng,ZA,north_west,Mahikeng,3,False,False,5
+cfeb254b-0891-11f0-ae3c-0242ac120003,18-29,ZA,Gauteng,Krugersdorp,1739,female,Unemployed,tsn,ZA,gauteng,Krugersdorp,ZA,gauteng,Krugersdorp,26,False,False,2
+73f53fb9-061e-11f0-8778-0242ac120002,18-29,ZA,Gauteng,Johannesburg,1710,female,Online teacher,tsn,ZA,gauteng,Johannesburg,ZA,gauteng,Johannesburg,2,False,False,3
+48e37ca0-0e14-11f0-9047-0242ac120004,18-29,ZA,Gauteng,Pretoria,152,female,Self employed,tsn,ZA,gauteng,Soshanguve,ZA,gauteng,Soshanguve,25,False,False,4
+a9d41632-058b-11f0-ac56-0242ac120003,30-39,ZA,Gauteng,Carletonville,2499,female,Unemployed,tsn,ZA,gauteng,Johannesburg,ZA,gauteng,Carletonville,20,False,False,9
+b4b170a5-0aed-11f0-b40b-0242ac120004,18-29,ZA,North West,Brits,189,female,,tsn,ZA,north_west,Brits,ZA,north_west,BRITS,23,False,False,2
+2f0b0643-0899-11f0-ae3c-0242ac120003,30-39,ZA,Gauteng,Pretoria,1,female,Unemployed,tsn,ZA,gauteng,Hammanskraal,ZA,gauteng,Hammanskraal,3,False,False,2
+1a750efe-058b-11f0-ac56-0242ac120003,40-49,ZA,Gauteng,Johannesburg,1820,female,Unemployed,tsn,ZA,gauteng,Krugersdorp,ZA,gauteng,Krugersdorp,6,False,False,4
+0e35b5e8-15e0-11f0-bb20-0242ac120003,18-29,ZA,Gauteng,Johannesburg,1852,male,Laboratory Technician,tsn,ZA,gauteng,Pretoria,ZA,gauteng,Brits,27,True,False,3
+d7d825dd-15dc-11f0-bb20-0242ac120003,30-39,ZA,North West,Mahikeng,2745,male,,tsn,ZA,north_west,Mahikeng,ZA,north_west,Mahikeng,20,False,False,6
+dc710623-19c9-11f0-9933-0242ac120005,30-39,ZA,North West,Delareyville,2770,male,Unemployed,tsn,ZA,north_west,Delareyville,ZA,north_west,Delareyville,15,False,False,2
+8f6ddebb-0621-11f0-8778-0242ac120002,18-29,ZA,Gauteng,Soshanguve,152,female,Clerk,tsn,ZA,gauteng,Ga-rankuwa,ZA,gauteng,Soshanguve,29,False,False,3
+4a41b410-088d-11f0-ae3c-0242ac120003,30-39,ZA,Gauteng,Johannesburg,1863,male,,tsn,ZA,gauteng,Johannesburg,ZA,gauteng,Johannesburg,30,False,False,2
+7a987ea9-0e14-11f0-9047-0242ac120004,18-29,ZA,Gauteng,Hammanskraal,400,female,Hammanskraal,tsn,ZA,gauteng,Hammanskraal,ZA,gauteng,Hammanskraal,10,False,False,2
+6086d520-16a6-11f0-bb20-0242ac120003,18-29,ZA,Gauteng,Pretoria,152,female,unemployed,tsn,ZA,gauteng,Pretoria,ZA,gauteng,Pretoria,27,False,False,2
+8139dedc-1a97-11f0-ab2d-0242ac120005,18-29,ZA,North West,Mahikeng,2745,male,Student,tsn,ZA,north_west,Mahikeng,ZA,north_west,Mahikeng,19,False,False,2
+9a35d10b-063f-11f0-9be4-0242ac120003,30-39,ZA,North West,Rustenburg,2841,female,Beauty therapist,tsn,ZA,north_west,Rustenburg,ZA,north_west,Rustenburg,4,False,False,4
+b6c079c2-0898-11f0-ae3c-0242ac120003,30-39,ZA,Northern Cape,Kuruman,8460,female,Unemployed,tsn,ZA,northern_cape,Kuruman,ZA,northern_cape,Kuruman,32,False,False,2
+69da72ee-2013-11f0-8813-0242ac120003,18-29,ZA,North West,Klerksdorp,2574,male,Unemployed,tsn,ZA,north_west,Klerksdorp,ZA,north_west,Klerksdorp,29,False,False,2
+06db58f0-1f49-11f0-8813-0242ac120003,18-29,ZA,Gauteng,Johannesburg,1754,male,Self employed,tsn,ZA,gauteng,Krugersdorp,ZA,gauteng,Soweto,2,False,False,2
+34f99a71-1b5e-11f0-b335-0242ac120002,30-39,ZA,Gauteng,Pretoria,152,female,Unemployed,tsn,ZA,gauteng,Pretoria,ZA,gauteng,Pretoria,31,False,False,5
+ecf007b2-1f4f-11f0-8813-0242ac120003,18-29,ZA,Gauteng,Krugesdorp,1739,male,Solar Technician,tsn,ZA,north_west,Taung,ZA,north_west,Krugersdorp,10,False,False,2
+358b2c6a-2bdb-11f0-892d-0242ac120003,18-29,ZA,Gauteng,Mogale City,1753,male,Unemployed,tsn,ZA,north_west,Rustenburg,ZA,north_west,Rustenburg,5,False,False,2
+dec7d18a-0647-11f0-9be4-0242ac120003,18-29,ZA,Gauteng,Johannesburg,1863,female,Unemployed/University Student,tsn,ZA,gauteng,Johannesburg,ZA,gauteng,Johannesburg,20,False,False,9
+80d814eb-0622-11f0-8778-0242ac120002,40-49,ZA,Gauteng,Johannesburg,1861,female,Unemployed,tsn,ZA,gauteng,Johannesburg and Soweto,ZA,gauteng,Zeerust and Moshana,10,False,False,5
+e15a5221-20db-11f0-8813-0242ac120003,18-29,ZA,North West,Moeka,440,male,Unemployment,tsn,ZA,north_west,Moeka,ZA,north_west,Moeka,24,False,False,2
+116071b2-0642-11f0-9be4-0242ac120003,18-29,ZA,North West,Vryburg,8617,female,Student,tsn,ZA,north_west,Vryburg,ZA,north_west,Vryburg,25,True,False,5
+8750edd9-061d-11f0-8778-0242ac120002,30-39,ZA,Gauteng,Krugersdorp,1754,female,Unemployed,tsn,ZA,gauteng,Krugersdorp,ZA,gauteng,Krugersdorp,10,False,False,2
+fbc1025b-19c8-11f0-9933-0242ac120005,40-49,ZA,Gauteng,Pretoria,122,female,Receptionist,tsn,ZA,gauteng,Pretoria,ZA,gauteng,Pretoria,36,False,False,4
+b192814b-088a-11f0-ae3c-0242ac120003,30-39,ZA,North West,Rustenburg,308,female,Unemployed,tsn,ZA,north_west,Rustenburg,ZA,north_west,Rustenburg,30,False,False,3
+c05a2008-2118-11f0-9a50-0242ac120005,30-39,ZA,North West,Klerksdorp,2600,male,Unemployed,tsn,ZA,north_west,Klerksdorp,ZA,north_west,Klerksdorp,32,False,False,3
+b930fb04-0883-11f0-ae3c-0242ac120003,18-29,ZA,Gauteng,Pretoria,198,female,Student,tsn,ZA,gauteng,Pretoria,ZA,gauteng,Pretoria,6,False,False,2
+3102875d-19c9-11f0-9933-0242ac120005,18-29,ZA,North West,Klerksdorp,2574,male,Student,tsn,ZA,north_west,Klerksdorp,ZA,north_west,Klerksdorp,6,False,False,5
+c91aa59c-2012-11f0-8813-0242ac120003,18-29,ZA,North West,Rustenburg,351,male,Student,tsn,ZA,north_west,Rustenburg,ZA,north_west,Pretoria,2,False,False,2
+89492062-16a6-11f0-bb20-0242ac120003,30-39,ZA,Gauteng,Randfontein,1759,female,Data Capture,tsn,ZA,gauteng,Krugersdorp,ZA,gauteng,Krugersdorp,3,False,False,5
+06115a5f-2017-11f0-8813-0242ac120003,18-29,ZA,Gauteng,Johannesburg,2499,male,unemployed,tsn,ZA,gauteng,Johannesburg,ZA,gauteng,Johannesburg,21,False,False,2
+0743f8b1-cf30-11ef-ad90-0242ac120003,18-29,ZA,Free State,Bloemfontein,9300,male,Self Employed,sot,ZA,freestate,Qwa Qwa,ZA,freestate,Qwa Qwa,6,False,False,5
+72f893af-d199-11ef-88e6-0242ac120005,30-39,ZA,Gauteng,Westonaria,1779,female,Student,sot,ZA,gauteng,Westonaria,ZA,gauteng,Westonaria,15,False,False,2
+4b479339-d175-11ef-9170-0242ac120005,18-29,ZA,Free State,Phuthaditjhaba,9869,male,Virtual Assistant,sot,ZA,freestate,Phuthaditjhaba,ZA,freestate,Phuthaditjhaba,22,False,False,3
+f7da7901-d198-11ef-88e6-0242ac120005,18-29,ZA,Gauteng,Vereeniging,1983,female,Receptionist,sot,ZA,gauteng,Sebokeng,ZA,gauteng,Sebokeng,25,False,False,3
+60d95076-d313-11ef-9c52-0242ac120005,30-39,ZA,Gauteng,Rand West City,1779,male,Unemployed,sot,ZA,gauteng,Rand West City,ZA,gauteng,West Rand,15,False,False,1
+978217ca-d3d1-11ef-a4ef-0242ac120004,18-29,ZA,Free State,Bloemfontein,9781,female,Unemployed,sot,ZA,freestate,Botshabelo,ZA,freestate,Botshabelo,26,False,False,5
+62299230-d24c-11ef-a0f3-0242ac120002,18-29,ZA,Gauteng,Westonaria,1779,male,Unemployed,sot,ZA,gauteng,Westonaria,ZA,gauteng,Westonaria,25,False,False,3
+0fe4f82e-d6fc-11ef-8133-0242ac120004,30-39,ZA,Free State,Bloemfontein,9660,female,Unemployed,sot,ZA,freestate,Bloemfontein,ZA,freestate,Bloemfontein,30,False,False,2
+4ff7c35f-d49d-11ef-a4ef-0242ac120004,18-29,ZA,Free State,Phuthaditjhaba,9868,female,Unemployed,sot,ZA,freestate,Qwaqwa,ZA,freestate,Qwaqwa,24,False,False,5
+ea460382-d6fe-11ef-8133-0242ac120004,18-29,ZA,Gauteng,Pretoria,35,female,Auditor,sot,ZA,freestate,Qwa Qwa,ZA,freestate,Qwa Qwa,2,False,False,6
+9a509c69-d415-11ef-a4ef-0242ac120004,18-29,ZA,Free State,Motsethabong,9463,male,Security Officer,sot,ZA,freestate,Welkom,ZA,freestate,Welkom,24,False,False,2
+4c30707f-d6ff-11ef-8133-0242ac120004,18-29,ZA,Free State,Welkom,9463,female,Unemployed,sot,ZA,freestate,Welkom,ZA,freestate,Welkom,25,False,False,5
+b50f843d-d7c0-11ef-b5fc-0242ac120002,30-39,ZA,Free State,Bloemfontein,9300,female,Unemployed,sot,ZA,freestate,Bloemfontein,ZA,freestate,Bloemfontein,1,False,False,4
+a712ab44-cf25-11ef-ad90-0242ac120003,30-39,ZA,Free State,Rammolutsi,9520,female,Debt Collector,sot,ZA,freestate,Viljoenskroon,ZA,freestate,Viljoenskroon,38,False,False,2
+453780d9-d4ad-11ef-a4ef-0242ac120004,30-39,ZA,Free State,Bloemfontein,9301,female,Student,sot,ZA,freestate,Bloemfontein,ZA,freestate,Botshabelo,10,False,False,2
+72a70093-cf25-11ef-ad90-0242ac120003,18-29,ZA,Gauteng,Boksburg,1459,female,Unemployed,sot,ZA,freestate,Bloemfontein,ZA,freestate,Bloemfontein,2,False,False,6
+38e1765e-d7c0-11ef-b5fc-0242ac120002,18-29,ZA,Free State,Witsieshoek,9870,female,Unemployed,sot,ZA,freestate,Phuthaditjhaba,ZA,freestate,Phuthaditjhaba,21,False,False,2
+892d3c8b-d6fc-11ef-8133-0242ac120004,18-29,ZA,Gauteng,Johannesburg,1818,female,Electrician,sot,ZA,freestate,Bloemfontein,ZA,freestate,Bloemfontein,5,False,False,4
+56b4c8b4-d4d4-11ef-a4ef-0242ac120004,30-39,ZA,Gauteng,Rand West City,1779,male,Unemployed,sot,ZA,gauteng,Rand West City,ZA,gauteng,Rand West City,16,False,False,3
+c90f8af1-d49d-11ef-a4ef-0242ac120004,18-29,ZA,Gauteng,Pretoria,81,female,Sesotho Assistant teacher,sot,ZA,freestate,Ficksburg,ZA,freestate,Ficksburg,3,False,False,5
+3b51d7f7-e215-11ef-931f-0242ac120004,40-49,ZA,Gauteng,Johannesburg,1809,female,,sot,ZA,gauteng,Johannesburg,ZA,gauteng,Soweto,40,False,False,9
+f38c207f-e1fb-11ef-883e-0242ac120003,40-49,ZA,Gauteng,Evaton North,1984,female,CALL CENTER AGENT,sot,ZA,freestate,Qwaqwa,ZA,freestate,Qwaqwa,23,False,False,3
+c1ab1227-e1fb-11ef-883e-0242ac120003,30-39,ZA,Gauteng,Evaton North,1984,female,Data capturer,sot,ZA,freestate,QwaQwa,ZA,freestate,QwaQwa,15,False,False,4
+c408b24e-e1ff-11ef-883e-0242ac120003,30-39,ZA,Gauteng,Pretoria,152,female,Freelancer,sot,ZA,gauteng,Evaton,ZA,gauteng,Evaton,10,False,False,3
+b047d4d1-e22c-11ef-931f-0242ac120004,30-39,ZA,Free State,Bloemfontein,9323,male,Unemployed,sot,ZA,freestate,Bloemfontein,ZA,freestate,Bloemfontein,31,False,False,3
+a36e4d8f-e3bf-11ef-baa7-0242ac120004,18-29,ZA,Free State,Phuthaditjaba,9866,male,Artist,sot,ZA,freestate,Phuthaditjaba,ZA,freestate,Phuthaditjaba,24,False,False,3
+4d1d277f-e217-11ef-931f-0242ac120004,30-39,ZA,Free State,Bethlehem,9701,female,Unemployed,sot,ZA,freestate,Bethlehem,ZA,freestate,Bethlehem,20,False,False,5
+1fce9fbb-d887-11ef-b5fc-0242ac120002,30-39,ZA,Gauteng,Johannesburg,1779,female,Unemployed,sot,ZA,gauteng,Westonaria,ZA,gauteng,Westonaria,35,False,False,4
+187e279c-e214-11ef-931f-0242ac120004,30-39,ZA,Gauteng,Vereeniging,1983,female,Sales consultant,sot,ZA,gauteng,Vereeniging,ZA,freestate,Sasolburg,6,False,False,2
+80f46d6f-e20b-11ef-931f-0242ac120004,30-39,ZA,Gauteng,Soweto,1863,male,Self employed,sot,ZA,gauteng,Soweto,ZA,gauteng,Soweto,31,False,False,2
+6ed7c54d-e218-11ef-931f-0242ac120004,18-29,ZA,Free State,Phuthaditjhaba,9870,male,Unemployed,sot,ZA,gauteng,Pretoria,ZA,freestate,Phuthaditjhaba,23,False,False,3
+5fdcc13b-e1ff-11ef-883e-0242ac120003,18-29,ZA,Free State,Bohlokong,9701,male,Food preparation and serving,sot,ZA,freestate,Bethlehem,ZA,freestate,Bethlehem,25,False,False,2
+1be0b9e6-e218-11ef-931f-0242ac120004,18-29,ZA,Gauteng,Vereeniging,1928,male,Unemployed,sot,ZA,freestate,Welkom,ZA,freestate,Welkom,15,False,True,2
+9f4749ac-d7be-11ef-b5fc-0242ac120002,30-39,ZA,Free State,Bloemfontein,9323,female,Unemployed,sot,ZA,freestate,Botshabelo,ZA,freestate,Bloemfontein,8,False,False,4
+5ca25143-e1fc-11ef-883e-0242ac120003,30-39,ZA,Eastern Cape,East London,5201,female,unemployed,sot,ZA,eastern_cape,Lady Grey,ZA,eastern_cape,Aliwal North,16,False,False,2
+315781a8-d24c-11ef-a0f3-0242ac120002,18-29,ZA,Free State,Bloemfontein,9868,male,Student,sot,ZA,freestate,Qwa Qwa,ZA,freestate,Qwa Qwa,23,False,False,4
+521bac83-e218-11ef-931f-0242ac120004,30-39,ZA,Gauteng,Soweto,1852,female,Personal Assistant,sot,ZA,gauteng,Soweto,ZA,gauteng,Meadowlands,33,False,False,3
+947b7013-e531-11ef-b500-0242ac120002,40-49,ZA,Gauteng,Lenasia,1841,female,Home maker,sot,LS,,Teyateyaneng,ZA,gauteng,Johannesburg,15,False,False,2
+2715f3c7-e87e-11ef-9e0f-0242ac120002,30-39,ZA,Gauteng,Soweto,1852,female,Unemployed,sot,ZA,eastern_cape,Matatiele,ZA,eastern_cape,Matatiele,9,False,False,5
+4b636173-e532-11ef-b500-0242ac120002,18-29,ZA,Free State,Bloemfontein,9301,female,Unemployed,sot,ZA,freestate,Welkom,ZA,freestate,Welkom,8,False,False,4
+f9415260-ecf5-11ef-aaa8-0242ac120003,30-39,ZA,Gauteng,Boksburg,1459,female,Unemployment,sot,ZA,freestate,Senekal,ZA,freestate,Free State,5,False,False,2
+11155726-e532-11ef-b500-0242ac120002,30-39,ZA,Gauteng,Centurion,157,female,Business Intelligence Analyst,sot,ZA,gauteng,Carletonville,ZA,gauteng,Carletonville,3,False,False,6
+281972f9-d49e-11ef-a4ef-0242ac120004,30-39,ZA,Gauteng,Johannesburg,1809,female,Admin Clerk,sot,ZA,gauteng,Johannesburg,ZA,gauteng,Johannesburg,8,False,False,4
+42428fe3-ef68-11ef-84c3-0242ac120003,40-49,ZA,Gauteng,Johannesburg,1868,female,Self employed,sot,ZA,gauteng,Johannesburg,ZA,gauteng,Johannesburg,49,False,False,2
+76483708-e531-11ef-b500-0242ac120002,30-39,ZA,KwaZulu-Natal,Pietermaritzburg,3201,female,Unemployed,sot,LS,,Qachas Nek,LS,,Mafeteng,13,False,False,2
+5c1c1503-e85b-11ef-9e0f-0242ac120002,30-39,ZA,Gauteng,Johannesburg,1852,male,DJ,sot,ZA,gauteng,Soweto,ZA,gauteng,Johannesburg,30,False,False,9
+08623938-e237-11ef-931f-0242ac120004,30-39,ZA,Gauteng,Vereeniging,1939,male,Freelance writer,sot,ZA,gauteng,Lenasia,ZA,gauteng,Vereeniging,20,False,False,4
+8edae1cc-e7a9-11ef-9e0f-0242ac120002,30-39,ZA,Free State,Qwaqwa,9870,female,Unemployed,sot,ZA,freestate,Qwaqwa,ZA,freestate,Qwaqwa,6,False,False,2
+861badfa-d8ca-11ef-8d43-0242ac120004,30-39,ZA,Gauteng,Johannesburg,1829,female,Unemployed,sot,ZA,gauteng,Johannesburg,ZA,gauteng,Johannesburg,10,True,False,9
+a0c570d6-e2c2-11ef-931f-0242ac120004,30-39,ZA,Free State,Qwaqwa,9869,female,Unemployed,sot,ZA,freestate,Phuthaditjhaba,ZA,freestate,Phuthaditjhaba,35,False,False,2
+292c2af0-e2c1-11ef-931f-0242ac120004,18-29,ZA,Gauteng,Krugersdorp,1739,female,Customer service agent,sot,ZA,gauteng,Krugersdorp,ZA,gauteng,Johannesburg,27,False,False,2
+1ea42d53-f507-11ef-ac4e-0242ac120005,30-39,ZA,Free State,Welkom,9463,female,Lecturer,sot,ZA,freestate,Welkom,ZA,freestate,Welkom,31,False,False,7
+0c445ecd-ee89-11ef-9a96-0242ac120002,40-49,ZA,Gauteng,Boksburg,1459,female,Self employed,sot,ZA,eastern_cape,Sterkspruit,ZA,eastern_cape,Bloemfontein,5,False,False,1
+9ee6a870-f33e-11ef-b893-0242ac120002,18-29,ZA,Free State,Bloemfontein,9866,female,Marketing Specialist and Language reviewer,sot,ZA,freestate,Bloemfontein,ZA,freestate,Bloemfontein,28,False,False,4
+125f7df2-f278-11ef-bb32-0242ac120002,18-29,ZA,Gauteng,Johannesburg,1818,female,Chat operator,sot,ZA,gauteng,Johannesburg,ZA,gauteng,Johannesburg,29,False,False,2
+028f040f-ef68-11ef-84c3-0242ac120003,30-39,ZA,Gauteng,Johannesburg,1852,female,Administrator,sot,ZA,gauteng,Meadowlands,ZA,gauteng,Meadowlands,32,False,False,3
+3e7411d2-f59c-11ef-ac4e-0242ac120005,40-49,ZA,Gauteng,Centurion,157,female,Unemployed,sot,ZA,freestate,Ventersburg,ZA,freestate,Ventersburg,13,False,False,6
+6369cb39-f28a-11ef-bb32-0242ac120002,18-29,ZA,Gauteng,Johannesburg,1818,female,Unemployed,sot,ZA,gauteng,Johannesburg,ZA,gauteng,Johannesburg,26,False,False,1
+ea2232e2-f4d2-11ef-ac4e-0242ac120005,30-39,ZA,Gauteng,Johannesburg,1818,male,Sound engineer,sot,ZA,gauteng,Johannesburg,ZA,gauteng,Johannesburg,32,False,False,2
+e5b9c516-ee88-11ef-9a96-0242ac120002,18-29,ZA,Gauteng,Johannesburg,1868,female,Receptionist,sot,ZA,gauteng,Johannesburg,ZA,gauteng,Johannesburg,29,False,False,4
+7e5deb13-f59c-11ef-ac4e-0242ac120005,50-59,ZA,North West,Klerksdorp,2571,female,Admin,sot,ZA,north_west,Johannesburg,ZA,gauteng,Johannesburg,3,False,False,4
+93e19867-ef77-11ef-84c3-0242ac120003,30-39,ZA,Free State,Bloemfontein,9323,female,Stay home mother,sot,ZA,freestate,Bloemfontein,ZA,freestate,Bloemfontein,15,False,False,3
+cce872ad-f33d-11ef-b893-0242ac120002,18-29,ZA,Free State,Bethlehem,9701,female,unemployed,sot,ZA,freestate,Bethlehem,ZA,freestate,Bethlehem,25,False,False,3
+31cc38d4-eec7-11ef-9a96-0242ac120002,18-29,ZA,Gauteng,Johannesburg,1841,female,University Student,sot,ZA,gauteng,Johannesburg,ZA,gauteng,Johannesburg,19,False,False,2
+d9eff08a-d328-11ef-9c52-0242ac120005,30-39,ZA,Gauteng,Westonaria,1779,female,Self employed,sot,ZA,gauteng,Johannesburg,ZA,gauteng,Johannesburg,34,False,False,2
+29f42e00-f340-11ef-b893-0242ac120002,30-39,ZA,Gauteng,Randburg,2188,female,Daycare assistant,sot,ZA,gauteng,Johannesburg,ZA,gauteng,Johannesburg,17,False,False,9
+d4e9e886-df99-11ef-898e-0242ac120003,18-29,ZA,Free State,Bloemfontein,9781,female,self-employment,sot,ZA,freestate,Botshabelo,ZA,freestate,Botshabelo,26,False,False,2
+4ba6cfe9-d6fd-11ef-8133-0242ac120004,18-29,ZA,Free State,Phuthaditjhaba,9870,female,Unemployed,sot,ZA,freestate,Phuthaditjhaba,ZA,freestate,Phuthaditjhaba,25,False,False,2
+a0df37d1-e479-11ef-b971-0242ac120002,18-29,ZA,Gauteng,Soshanguve,152,female,Unemployed,nso,ZA,gauteng,Tembisa,ZA,gauteng,Soshanguve,22,False,False,2
+97edbf9e-fa61-11ef-a9a6-0242ac120003,18-29,ZA,Free State,Phuthaditjhaba,9869,female,Unemployed,sot,ZA,north_west,Klerksdorp,ZA,freestate,Phuthaditjhaba,3,False,False,5
+5e911dcf-f4d3-11ef-ac4e-0242ac120005,40-49,ZA,Free State,Kroonstad,9499,female,Self employed,sot,ZA,freestate,Kroonstad,ZA,freestate,Kroonstad,40,False,False,2
+834129f3-f276-11ef-bb32-0242ac120002,18-29,ZA,Free State,Sasolburg,1949,female,Fashion consultant,sot,ZA,freestate,Sasolburg,ZA,freestate,Sasolburg,27,False,False,3
+ee1fb2f8-f5b9-11ef-a286-0242ac120002,18-29,ZA,Free State,Welkom,9459,female,Student,sot,ZA,freestate,Wesselsbron,ZA,freestate,Wesselsbron,4,False,False,3
+e1e0b381-f276-11ef-bb32-0242ac120002,40-49,ZA,Gauteng,Westonaria,1779,female,Home maker,sot,ZA,gauteng,Soweto,ZA,gauteng,Soweto,15,False,False,2
+16175053-f7f7-11ef-bf9c-0242ac120002,18-29,ZA,North West,Rustenburg,299,female,Student,sot,ZA,north_west,Klerksdorp,ZA,north_west,Rustenburg,24,False,False,4
+e4409979-f7f7-11ef-bf9c-0242ac120002,30-39,ZA,Gauteng,Johannesburg,2094,female,Unemployed,sot,ZA,freestate,Qwaqwa,ZA,freestate,Qwaqwa,14,False,False,2
+2243e9e2-f9b1-11ef-a9a6-0242ac120003,50-59,ZA,Gauteng,Alberton,1458,male,Self employed,sot,ZA,gauteng,Soweto,ZA,gauteng,Bethlehem,8,False,False,4
+e69f9eb4-f7f6-11ef-bf9c-0242ac120002,40-49,ZA,Free State,Witsieshoek,9870,female,Unemployed,sot,ZA,freestate,Phuthaditjhaba,ZA,freestate,Phuthaditjhaba,40,False,False,2
+759f243a-fe41-11ef-a4e6-0242ac120005,30-39,ZA,Free State,Kroonstad,9499,female,Freelance Language Practitioner,sot,ZA,freestate,Welkom,ZA,freestate,Kroonstad,13,False,False,6
+c7350fbd-f7f5-11ef-bf9c-0242ac120002,50-59,ZA,Gauteng,Pretoria,182,female,Unemployed,sot,ZA,gauteng,Gauteng,LS,gauteng,Maseru,10,False,False,6
+a7153de4-f8dc-11ef-a9a6-0242ac120003,18-29,ZA,Free State,Welkom,9478,female,Unemployed,sot,ZA,freestate,Senekal,ZA,freestate,Senekal,4,False,False,2
+2cd1ad4e-f8be-11ef-a361-0242ac120003,18-29,ZA,Free State,Senekal,9600,male,Student,sot,ZA,freestate,Senekal,ZA,freestate,Senekal,25,False,False,9
+def3b1ca-fa61-11ef-a9a6-0242ac120003,18-29,ZA,Free State,Senekal,9600,female,Student,sot,ZA,freestate,Bethlehem,ZA,freestate,Senekal,19,False,False,4
+29712dfa-f278-11ef-bb32-0242ac120002,30-39,ZA,Gauteng,Johannesburg,1818,female,Entrepreneur,sot,ZA,gauteng,Johannesburg,ZA,gauteng,Johannesburg,33,True,False,2
+0fcc307c-f27b-11ef-bb32-0242ac120002,30-39,ZA,Free State,Reddersburg,9904,female,Unemployed,sot,ZA,freestate,Bloemfontein,ZA,freestate,Reddersburg,16,False,False,2
+aa6c932c-00a1-11f0-9dd7-0242ac120004,30-39,ZA,Free State,Sasolburg,1947,female,Financial Advisor,sot,ZA,freestate,Senekal,ZA,freestate,Senekal,2,False,False,3
+89922fe8-fe41-11ef-a4e6-0242ac120005,18-29,ZA,Free State,Bothaville,9660,female,Student,sot,ZA,freestate,Bothaville,ZA,freestate,Bothaville,4,False,False,2
+6909e06c-d71a-11ef-8133-0242ac120004,18-29,ZA,Free State,Phuthaditjhaba,9866,female,Unemployed,sot,ZA,freestate,Phuthaditjhaba,ZA,freestate,Phuthaditjhaba,25,False,False,2
+a77eb16e-00a9-11f0-9dd7-0242ac120004,18-29,ZA,Free State,Phuthaditjhaba,9866,female,Unemployed,sot,ZA,freestate,Phuthaditjhaba,ZA,freestate,Phuthaditjhaba,28,False,False,2
+658700ec-ff23-11ef-a4e6-0242ac120005,18-29,ZA,Free State,Phuthaditjhaba,9870,female,Unemployed,sot,ZA,freestate,Phuthaditjhaba,ZA,freestate,Phuthaditjhaba,5,False,False,2
+005b90ec-ffd0-11ef-a4e6-0242ac120005,18-29,ZA,Free State,Bloemfontein,9301,male,Student,sot,ZA,gauteng,Johannesburg,ZA,gauteng,Johannesburg,3,False,False,5
+33cf913c-02f8-11f0-8300-0242ac120004,18-29,ZA,Free State,Phuthaditjhaba,9867,male,Student,sot,ZA,freestate,Phuthaditjhaba,ZA,freestate,Phuthaditjhaba,20,False,False,2
+2a8914e8-00a9-11f0-9dd7-0242ac120004,18-29,ZA,Free State,Phuthaditjhaba,9866,female,Studying,sot,ZA,freestate,Senekal,ZA,freestate,Senekal,3,False,False,2
+7d457076-d7c0-11ef-b5fc-0242ac120002,18-29,ZA,Free State,Botshabelo,9781,female,Self Employed,sot,ZA,freestate,Botshabelo,ZA,freestate,Botshabelo,30,False,False,5
+28be450d-00a8-11f0-9dd7-0242ac120004,18-29,ZA,Free State,Phuthaditjhaba,9866,female,Unemployment,sot,ZA,freestate,Phuthaditjhaba,ZA,freestate,Phuthaditjhaba,24,False,False,2
+80e00bf3-f27a-11ef-bb32-0242ac120002,18-29,ZA,Free State,Phuthaditjhaba,9866,female,Freelancer,sot,ZA,eastern_cape,Matatiele,ZA,eastern_cape,Matatiele,8,False,False,2
+4f2d1c94-00cf-11f0-9dd7-0242ac120004,18-29,ZA,Free State,Phuthaditjhaba,9870,female,Unemployed,sot,ZA,freestate,Phuthaditjhaba,ZA,freestate,Phuthaditjhaba,26,False,False,4
+5a745149-ff08-11ef-a4e6-0242ac120005,18-29,ZA,Gauteng,Johannesburg,1818,female,Unemployed,sot,ZA,gauteng,Johannesburg,ZA,gauteng,Johannesburg,27,False,False,2
+ff483e73-0888-11f0-ae3c-0242ac120003,18-29,ZA,Gauteng,Johannesburg,2000,female,Unemployed,sot,ZA,gauteng,Johannesburg,ZA,gauteng,Johannesburg,23,False,False,3
+fab1d24c-0887-11f0-ae3c-0242ac120003,30-39,ZA,Gauteng,Johannesburg,1830,female,Social worker,sot,ZA,gauteng,Johannesburg,ZA,gauteng,Johannesburg,30,False,False,6
+d1b8df3a-ffd0-11ef-a4e6-0242ac120005,18-29,ZA,Free State,Phuthaditjhaba,9869,female,Student,sot,ZA,freestate,QwaQwa,ZA,freestate,QwaQwa,23,False,False,2
+6f3fbd0a-061a-11f0-8778-0242ac120002,18-29,ZA,Gauteng,Fochville,2515,female,Unemployed,sot,ZA,north_west,Potchefstroom,ZA,gauteng,Fochville,14,False,False,2
+9c03d2da-e7a8-11ef-9e0f-0242ac120002,30-39,ZA,Gauteng,Johannesburg,1800,female,unemployed,sot,ZA,gauteng,Johannesburg,ZA,gauteng,Johannesburg,33,False,False,2
+9a1b312d-03d0-11f0-8300-0242ac120004,18-29,ZA,Free State,Welkom,9463,male,Student,sot,ZA,freestate,Welkom,ZA,freestate,Welkom,5,False,False,2
+65bca715-eec7-11ef-9a96-0242ac120002,18-29,ZA,Free State,Botshabelo,9781,female,Full-time student,sot,ZA,freestate,Botshabelo,ZA,freestate,Botshabelo,24,False,False,2
+a8f51a1b-e216-11ef-931f-0242ac120004,18-29,ZA,Western Cape,Cape Town,7935,female,Student,sot,ZA,freestate,Parys,ZA,freestate,Parys,1,False,False,6
+ca1ba5cd-fe41-11ef-a4e6-0242ac120005,30-39,ZA,Free State,Bethlehem,9701,female,Student,sot,ZA,freestate,Bethlehem,ZA,freestate,Bethlehem,25,False,False,2
+3356311c-032a-11f0-8300-0242ac120004,30-39,ZA,Limpopo,Polokwane,700,male,Plumbing Apprenticeship Student,sot,ZA,eastern_cape,Matatiele,ZA,eastern_cape,Matatiele,2,False,False,2
+91adb745-088a-11f0-ae3c-0242ac120003,18-29,ZA,Gauteng,Vereeniging,1884,female,Unemployed,sot,ZA,gauteng,Johannesburg,ZA,gauteng,Johannesburg,7,False,False,2
+4d26c5e1-049b-11f0-8300-0242ac120004,18-29,ZA,Gauteng,Johannesburg,1818,female,Unemployed,eng,ZA,gauteng,Johannesburg,ZA,gauteng,Johannesburg,19,False,False,2
+458ce960-ff23-11ef-a4e6-0242ac120005,18-29,ZA,Free State,Petrus Steyn,9640,female,Student,sot,ZA,freestate,Reitz,ZA,freestate,Petrus Steyn,3,False,False,2
+e02c89fb-02f8-11f0-8300-0242ac120004,18-29,ZA,Gauteng,Johannesburg,1401,female,Unemployed,sot,ZA,gauteng,Johannesburg,ZA,gauteng,Johannesburg,6,False,False,2
+34b0a039-009c-11f0-9dd7-0242ac120004,18-29,ZA,Free State,Phuthaditjhaba,9640,female,Student,sot,ZA,kwazulu_natal,Durban,ZA,freestate,Petrus Steyn,3,False,False,2
+c1702a7a-00a7-11f0-9dd7-0242ac120004,18-29,ZA,Free State,Phuthaditjhaba,9870,female,Unemployed,sot,ZA,freestate,Phuthaditjhaba,ZA,freestate,Phuthaditjhaba,27,False,False,2
+2a45fdfb-ff23-11ef-a4e6-0242ac120005,18-29,ZA,Free State,Clocolan,9735,female,Student,sot,ZA,freestate,Clocolan,ZA,freestate,Clocolan,4,False,False,2
+aad20c6a-fa51-11ef-a9a6-0242ac120003,18-29,ZA,Free State,Qwaqwa,9870,female,Student,sot,ZA,freestate,Qwaqwa,ZA,freestate,Qwaqwa,20,False,False,2
+68feca5f-0593-11f0-8778-0242ac120002,18-29,ZA,Free State,Zastron,9950,female,Unemployed,sot,ZA,freestate,Zastron,ZA,freestate,Zastron,26,False,False,5
+17ab7310-061b-11f0-8778-0242ac120002,18-29,ZA,Gauteng,Midrand,1431,female,Unemployed,sot,ZA,gauteng,Katlehong,ZA,gauteng,Katlehong,7,False,False,2
+7911c498-03cf-11f0-8300-0242ac120004,18-29,ZA,Eastern Cape,Mthatha,5701,female,Unemployed,sot,ZA,freestate,Bloemfontein,ZA,freestate,Bloemfontein,1,False,False,2
+2c8accb2-0bb0-11f0-9047-0242ac120004,30-39,ZA,Free State,Phuthaditjhaba,9866,female,Student,sot,ZA,freestate,Phuthaditjhaba,ZA,freestate,Phuthaditjhaba,30,False,False,9
+5a7da6c6-e200-11ef-883e-0242ac120003,18-29,ZA,Free State,Welkom,9463,female,Unemployed,sot,ZA,freestate,Welkom,ZA,freestate,Welkom,27,False,False,9
+8709f8c1-00a5-11f0-9dd7-0242ac120004,30-39,ZA,Free State,Phuthaditjhaba,9870,female,Unemployed,sot,ZA,freestate,Phuthaditjhaba,ZA,freestate,Phuthaditjhaba,31,False,False,9
+e7aa8494-ff22-11ef-a4e6-0242ac120005,18-29,ZA,Free State,Phuthaditjhaba,9866,female,Student.,sot,ZA,freestate,Phuthaditjhaba,ZA,freestate,Phuthaditjhaba,18,False,False,2
+dac4f626-f27a-11ef-bb32-0242ac120002,30-39,ZA,Gauteng,Johannesburg,1928,female,Cleaner,sot,ZA,gauteng,Johannesburg,ZA,gauteng,Johannesburg,30,False,False,2
+a352c83e-d6fd-11ef-8133-0242ac120004,18-29,ZA,Gauteng,Johannesburg,1830,male,Student/Tutor,sot,ZA,gauteng,Johannesburg,ZA,gauteng,Johannesburg,3,False,False,2
+294d9996-00a7-11f0-9dd7-0242ac120004,18-29,ZA,Free State,Bloemfontein,9870,female,Unemployed,sot,ZA,freestate,Bloemfontein,ZA,freestate,Bloemfontein,25,False,False,2
+a77da2ec-f59b-11ef-ac4e-0242ac120005,18-29,ZA,Gauteng,Vereeniging,1984,female,,sot,ZA,gauteng,Sebokeng,ZA,gauteng,Evaton,25,False,False,2
+989a5be1-03cf-11f0-8300-0242ac120004,18-29,ZA,Free State,Bloemfontein,9323,female,Student,sot,ZA,freestate,Bloemfontein,ZA,freestate,Bloemfontein,18,False,False,2
+eed63ad5-f4d6-11ef-ac4e-0242ac120005,18-29,ZA,Free State,Welkom,9463,male,Unemployed,sot,ZA,freestate,Welkom,ZA,freestate,Welkom,2025,False,False,2
+dd5c2efe-f9cd-11ef-a9a6-0242ac120003,18-29,ZA,Free State,Welkom,9430,female,Student,sot,ZA,freestate,Virginia,ZA,freestate,Virginia,23,False,False,4
+611e2630-fe78-11ef-a4e6-0242ac120005,18-29,ZA,Free State,Phuthaditjhaba,9866,male,Student,sot,ZA,north_west,Rustenburg,ZA,north_west,Phuthaditjhaba,20,False,False,9
+1adf1710-0ae3-11f0-b40b-0242ac120004,18-29,ZA,Gauteng,Johannesburg,1818,male,Unemployed,sot,ZA,gauteng,Soweto,ZA,gauteng,Soweto,20,False,False,2
+85f76168-009b-11f0-9dd7-0242ac120004,18-29,ZA,Free State,Phuthaditjhaba,9866,female,Student,sot,ZA,freestate,Phuthaditjhaba,ZA,freestate,Phuthaditjhaba,29,False,False,9
+878e0967-049c-11f0-8300-0242ac120004,18-29,ZA,Gauteng,JOHANNESBURG,2092,female,Tag Talk Application,sot,ZA,eastern_cape,Matatiele,ZA,eastern_cape,Matatiele,7,False,False,2
+e289922b-009b-11f0-9dd7-0242ac120004,18-29,ZA,Free State,Welkom,9463,female,Student,sot,ZA,freestate,Welkom,ZA,freestate,Welkom,23,False,False,2
+36056999-00a2-11f0-9dd7-0242ac120004,18-29,ZA,Gauteng,Sebokeng,1983,female,Unemployed,sot,ZA,gauteng,Sebokeng,ZA,gauteng,Sebokeng,3,False,False,2
+dd085685-063d-11f0-9be4-0242ac120003,18-29,ZA,Free State,Bethlehem,9702,female,Assistant Teacher,sot,ZA,freestate,Bethlehem,ZA,freestate,Bethlehem,5,False,False,3
+6d880b96-15d4-11f0-bb20-0242ac120003,18-29,ZA,North West,Klerksdorp,2574,male,Admin assistant,sot,ZA,north_west,Klerksdorp,ZA,north_west,Klerksdorp,27,False,False,2
+95eab53a-e54c-11ef-b500-0242ac120002,18-29,ZA,Free State,Bloemfontein,9660,female,Unemployed,sot,ZA,freestate,Bloemfontein,ZA,freestate,Bloemfontein,3,False,False,5
+4c5d3b1b-1062-11f0-985a-0242ac120004,18-29,ZA,Gauteng,Johannesburg,1841,female,Freelancer,sot,ZA,freestate,Phuthaditjhaba,ZA,gauteng,Johannesburg,25,False,False,3
+4555714f-1390-11f0-b3c5-0242ac120004,18-29,ZA,Free State,Bloemfontein,9323,female,Student,sot,ZA,freestate,Bloemfontein,ZA,freestate,Bloemfontein,27,False,False,2
+1200bc5d-0553-11f0-8300-0242ac120004,40-49,ZA,Free State,Parys,9585,female,Baker,sot,ZA,gauteng,Soweto,ZA,north_west,Potchefstroom,9,False,False,9
+6ee45804-15ec-11f0-bb20-0242ac120003,40-49,ZA,Gauteng,Johannesburg,1827,male,Self Employed,sot,ZA,gauteng,Johannesburg,ZA,gauteng,Johannesburg,8,False,False,2
+6ca6b4c6-13ae-11f0-b3c5-0242ac120004,30-39,ZA,Gauteng,Pretoria,25,female,Prepper,sot,ZA,freestate,Qwaqwa,ZA,freestate,Qwaqwa,18,False,False,5
+0ff783c5-138f-11f0-b3c5-0242ac120004,30-39,ZA,Gauteng,Johannesburg,1841,female,Unemployed,sot,ZA,freestate,Ficksburg,ZA,gauteng,Johannesburg,10,False,False,2
+6bc4a993-1b62-11f0-b335-0242ac120002,40-49,ZA,Gauteng,Johannesburg,2194,female,Freelance Recruitment Coordinator,sot,ZA,gauteng,Johannesburg,ZA,gauteng,Johannesburg,5,False,False,2
+c121c3be-203f-11f0-8813-0242ac120003,18-29,ZA,Gauteng,Vosloorus,1451,male,Unemployed,sot,ZA,freestate,Phuthaditjhaba,ZA,freestate,Phuthaditjhaba,8,False,False,2
+7235abcc-0401-11f0-8300-0242ac120004,18-29,ZA,Free State,Wesselsbron,9680,female,Student,sot,ZA,freestate,Odendaarlsrus,ZA,freestate,Wesselsbron,4,False,False,2
+c5e6f626-1ab3-11f0-ab2d-0242ac120005,40-49,ZA,Gauteng,Johannesburg,1818,female,teacher,sot,ZA,gauteng,Johannesburg,ZA,gauteng,Johannesburg,11,False,False,5
+9223bbc5-e38c-11ef-baa7-0242ac120004,30-39,ZA,Eastern Cape,Lusikisiki,4820,female,Unemployed,xho,ZA,eastern_cape,Lusikisiki,ZA,eastern_cape,Lusikisiki,29,False,False,2
+6476999b-e2dc-11ef-931f-0242ac120004,30-39,ZA,Gauteng,Boksburg,1549,female,Teacher,xho,ZA,eastern_cape,Mount Frere,ZA,eastern_cape,Eastern Cape,10,False,False,4
+1c8f0255-e2dc-11ef-931f-0242ac120004,18-29,ZA,Eastern Cape,East London,5247,female,Unemployed,xho,ZA,eastern_cape,East London,ZA,eastern_cape,East London,20,False,False,2
+5a5ba133-e233-11ef-931f-0242ac120004,40-49,ZA,Western Cape,Cape Town,7450,male,Radio Dj,xho,ZA,western_cape,Cape Town,ZA,western_cape,Cape Town,2,False,False,9
+bae2aa53-e238-11ef-931f-0242ac120004,30-39,ZA,Western Cape,Cape Town,7750,female,Unemployed,xho,ZA,eastern_cape,Queenstown,ZA,eastern_cape,Cape Town,24,False,False,2
+9b68c297-e22b-11ef-931f-0242ac120004,18-29,ZA,Eastern Cape,Lusikisiki,4820,female,Unemployed,xho,ZA,eastern_cape,Lusikisiki,ZA,eastern_cape,Lusikisiki,28,False,False,5
+998c6d9a-e238-11ef-931f-0242ac120004,18-29,ZA,Gauteng,Soweto,1863,female,Student,xho,ZA,gauteng,Johannesburg,ZA,gauteng,Johannesburg,2,False,False,9
+aba39071-e551-11ef-b500-0242ac120002,30-39,ZA,Eastern Cape,Gqeberha,6211,female,Fault Resolutions Agent,xho,ZA,eastern_cape,Gqeberha,ZA,eastern_cape,Gqeberha,2,False,False,3
+7809de64-e854-11ef-9e0f-0242ac120002,30-39,ZA,Western Cape,Cape Town,7560,female,Counsellor,xho,ZW,,Botswana,ZA,western_cape,Cape Town,33,False,False,5
+dd6e883a-e390-11ef-baa7-0242ac120004,30-39,ZA,Eastern Cape,East London,5201,female,Self employed,xho,ZA,eastern_cape,Grahamstown / Makhanda,ZA,eastern_cape,Grahamstown / Makhanda,1,False,False,6
+382432d0-e7b5-11ef-9e0f-0242ac120002,18-29,ZA,Eastern Cape,Mthatha,5160,female,Student,xho,ZA,eastern_cape,Libode,ZA,eastern_cape,Libode,4,False,False,2
+c9bb4b68-e77b-11ef-9e0f-0242ac120002,40-49,ZA,Eastern Cape,Mount Ayliff,4735,male,Freelancer,xho,ZA,eastern_cape,Mount Ayliff,ZA,eastern_cape,Mount Ayliff,46,False,False,4
+90806bd2-e4a1-11ef-b971-0242ac120002,18-29,ZA,Western Cape,Cape Town,7380,female,Student,xho,ZA,eastern_cape,Butterworth,ZA,eastern_cape,Butterworth,9,False,False,2
+d176a34a-e90c-11ef-a55d-0242ac120005,30-39,ZA,Eastern Cape,Mthatha,5099,male,Admin clerk,xho,ZA,eastern_cape,Mthatha,ZA,eastern_cape,Mthatha,36,False,False,4
+7c979ad7-e7b7-11ef-9e0f-0242ac120002,18-29,ZA,Eastern Cape,Ngqeleni,5099,male,Admin assistant,xho,ZA,eastern_cape,Ngqeleni,ZA,eastern_cape,Mthatha,2,False,False,5
+0406505a-e4a3-11ef-b971-0242ac120002,40-49,ZA,Western Cape,Vredenburg,7380,female,House worker,xho,ZA,eastern_cape,Butterworth,ZA,eastern_cape,Butterworth,7,False,False,2
+1f1f2f58-eea9-11ef-9a96-0242ac120002,30-39,ZA,Eastern Cape,East London,5247,female,Unemployed,xho,ZA,eastern_cape,Mdantsane,ZA,eastern_cape,East London,20,False,False,2
+53a62c71-f288-11ef-bb32-0242ac120002,18-29,ZA,Eastern Cape,Mthatha,5105,female,Unemployed,xho,ZA,eastern_cape,Mthatha,ZA,eastern_cape,Mthatha,25,False,False,3
+024db879-e38c-11ef-baa7-0242ac120004,40-49,ZA,Western Cape,Cape Town,7600,female,Unemployed,xho,ZA,western_cape,Cape Town,ZA,western_cape,Cape Town,15,True,False,4
+7749e2ec-ef59-11ef-a867-0242ac120003,18-29,ZA,Eastern Cape,Port Elizabeth,6205,female,Unemployed,xho,ZA,eastern_cape,Port Elizabeth,ZA,eastern_cape,Port Elizabeth,5,False,False,2
+3336946f-e4b1-11ef-b971-0242ac120002,30-39,ZA,Eastern Cape,Flagstaff,4810,female,Unemployed,xho,ZA,eastern_cape,Flagstaff,ZA,eastern_cape,Flagstaff,38,False,False,2
+bbac3f4e-e534-11ef-b500-0242ac120002,18-29,ZA,Eastern Cape,East London,5209,male,Driver assistant,xho,ZA,eastern_cape,Butterworth,ZA,eastern_cape,Butterworth,1,False,False,9
+b15957f1-f28a-11ef-bb32-0242ac120002,30-39,ZA,Eastern Cape,Motherwell,6001,male,Unemployed,xho,ZA,eastern_cape,Keiskammahoek,ZA,eastern_cape,King William's Town,2,False,False,3
+30e3239b-f346-11ef-b893-0242ac120002,30-39,ZA,Gauteng,Johannesburg,2090,male,IT Trainer,xho,ZA,gauteng,Tembisa,ZA,gauteng,Tsomo,10,False,False,5
+a979b038-ef59-11ef-a867-0242ac120003,18-29,ZA,Gauteng,Johannesburg,2188,female,Till operator,xho,ZA,eastern_cape,Mount Fletcher,ZA,eastern_cape,Cape Town,4,False,False,4
+bd53bac2-ef57-11ef-a867-0242ac120003,30-39,ZA,Gauteng,Johannesburg,1818,female,Unemployed,xho,ZA,gauteng,Johannesburg,ZA,gauteng,Johannesburg,17,False,False,9
+b0310b46-f057-11ef-84c3-0242ac120003,30-39,ZA,Eastern Cape,Buffalo City,5601,female,Cashier,xho,ZA,eastern_cape,Bhisho,ZA,eastern_cape,King William's Town,31,False,False,2
+a2bcaf3f-eea9-11ef-9a96-0242ac120002,30-39,ZA,Gauteng,Johannesburg,1449,female,Freelance Transcriber,xho,ZA,eastern_cape,Gqeberha,ZA,eastern_cape,Gqeberha,5,False,False,2
+2d6fcb40-f2cf-11ef-b6ee-0242ac120003,40-49,ZA,Western Cape,Cape Town,7750,female,,xho,ZA,eastern_cape,Cala,ZA,western_cape,Cape Town,10,False,False,2
+14edac2c-f058-11ef-84c3-0242ac120003,18-29,ZA,Eastern Cape,Keiskammahoek,5670,female,Unemployed,xho,ZA,eastern_cape,Keiskammahoek,ZA,eastern_cape,Keiskammahoek,22,False,False,2
+59da558a-f4f3-11ef-ac4e-0242ac120005,30-39,ZA,Eastern Cape,East London,5247,female,student,xho,ZA,eastern_cape,Mdantsane,ZA,eastern_cape,King William's Town,7,False,False,6
+ce7bab5b-f286-11ef-bb32-0242ac120002,18-29,ZA,Western Cape,Cape town,7784,female,Student,xho,ZA,western_cape,Cape Town,ZA,western_cape,Cape Town,27,False,False,2
+5c5b15a0-e7b7-11ef-9e0f-0242ac120002,18-29,ZA,Western Cape,Paarl,7626,female,Merchandiser,xho,ZA,eastern_cape,Lady Frere,ZA,eastern_cape,Lady Frere,8,False,False,3
+ca6eb9b4-f2ce-11ef-b6ee-0242ac120003,18-29,ZA,Gauteng,Vereeniging,1969,female,Apprenticeship,xho,ZA,eastern_cape,Mthatha,ZA,eastern_cape,Mthatha,2,False,False,3
+b0017f2a-ef6f-11ef-84c3-0242ac120003,18-29,ZA,Eastern Cape,Port Elizabeth,6200,female,Unemployed,xho,ZA,eastern_cape,Indwe,ZA,eastern_cape,Indwe,8,False,False,3
+d370ace5-0879-11f0-ae3c-0242ac120003,18-29,ZA,Gauteng,Johannesburg,1520,female,Freelancing,xho,ZA,eastern_cape,Matatiele,ZA,eastern_cape,Johannesburg,11,False,False,4
+f113dbdc-f508-11ef-ac4e-0242ac120005,30-39,ZA,Eastern Cape,East London,5209,male,Salesperson,xho,ZA,eastern_cape,Umtata,ZA,eastern_cape,East London,3,False,False,2
+1f6cc0eb-f341-11ef-b893-0242ac120002,30-39,ZA,Eastern Cape,Kidds Beach,5265,male,Proofreading and Transcribing,xho,ZA,kwazulu_natal,Lady Smith,ZA,kwazulu_natal,Queenstown,2,False,False,2
+1fc9720a-1463-11f0-b3c5-0242ac120004,18-29,ZA,Eastern Cape,Butterworth,4960,male,Freelancer,xho,ZA,eastern_cape,Butterworth,ZA,eastern_cape,Butterworth,7,False,False,3
+babfa2f6-f288-11ef-bb32-0242ac120002,30-39,ZA,Gauteng,Johannesburg,1818,female,Unemployed,xho,ZA,eastern_cape,Lusikisiki,ZA,eastern_cape,Lusikisiki,5,False,False,2
+76c64327-1512-11f0-b3c5-0242ac120004,18-29,ZA,Eastern Cape,Bizana,4800,female,Student,xho,ZA,eastern_cape,Bizana,ZA,eastern_cape,Bizana,21,False,False,9
+528b314a-f4d2-11ef-ac4e-0242ac120005,40-49,ZA,Gauteng,Johannesburg,2094,female,Artist,xho,ZA,eastern_cape,Willowvale,ZA,eastern_cape,Willowvale,5,False,False,5
+9c8f83a9-fd75-11ef-a9a6-0242ac120003,40-49,ZA,Western Cape,Cape Town,7750,female,Baker,xho,ZA,eastern_cape,Queenstown,ZA,western_cape,Cape Town,35,True,False,4
+a52e91cd-111c-11f0-9fdc-0242ac120004,40-49,ZA,Eastern Cape,Bizana,4800,female,Unemployed,xho,ZA,eastern_cape,Bizana,ZA,eastern_cape,Bizana,30,False,False,2
+f8e378a7-f4d2-11ef-ac4e-0242ac120005,50-59,ZA,Western Cape,Cape Town,7354,male,unemployed,xho,ZA,eastern_cape,King Williams Town,ZA,eastern_cape,King Williams Town,5,False,False,7
+ed53b0e5-fb1a-11ef-a9a6-0242ac120003,18-29,ZA,Eastern Cape,East London,5219,female,Unemployed,xho,ZA,eastern_cape,East London,ZA,eastern_cape,East London,7,False,False,2
+85198c2e-f375-11ef-b429-0242ac120003,30-39,ZA,Eastern Cape,LadyFrere,5410,female,Self employed,xho,ZA,eastern_cape,LadyFrere,ZA,eastern_cape,LadyFrere,37,False,False,5
+fd7d1fcd-0a06-11f0-a8a9-0242ac120003,30-39,ZA,Eastern Cape,Port Elizabeth,6211,female,,xho,ZA,eastern_cape,Port Elizabeth,ZA,eastern_cape,Port Elizabeth,37,False,False,2
+8964dfe3-f34d-11ef-b893-0242ac120002,18-29,ZA,Eastern Cape,LadyFrere,5410,female,Unemployed,xho,ZA,eastern_cape,LadyFrere,ZA,eastern_cape,LadyFrere,29,False,False,2
+450c06ec-0b11-11f0-9047-0242ac120004,40-49,ZA,Eastern Cape,Mdantsane,5219,female,Unemployed,xho,ZA,eastern_cape,East London,ZA,eastern_cape,East London,8,False,False,2
+9287e006-e7b7-11ef-9e0f-0242ac120002,18-29,ZA,Eastern Cape,Queenstown,5320,female,Unemployed,xho,ZA,eastern_cape,Queenstown,ZA,eastern_cape,Queenstown,20,False,False,6
+c4b42acd-0dfb-11f0-9047-0242ac120004,30-39,ZA,Eastern Cape,Port Alfred,6166,female,Stay at home mom,xho,ZA,western_cape,Cape Town,ZA,western_cape,Cape Town,5,False,False,4
+980ffd0d-f4f2-11ef-ac4e-0242ac120005,18-29,ZA,Eastern Cape,Gqeberha,6001,female,Unemployed,xho,ZA,eastern_cape,Flagstaff,ZA,eastern_cape,Harding,7,False,False,2
+d2ed64c7-137e-11f0-b3c5-0242ac120004,30-39,ZA,Eastern Cape,Mthatha,5099,male,Farmer,xho,ZA,eastern_cape,Mthatha,ZA,eastern_cape,Mthatha,15,False,False,5
+cde33783-13b9-11f0-b3c5-0242ac120004,40-49,ZA,Eastern Cape,Port Elizabeth,6230,female,Unemployment,xho,ZA,eastern_cape,Uitenhage,ZA,eastern_cape,Uitenhage,35,False,False,4
+ae02ef01-f802-11ef-80da-0242ac120003,30-39,ZA,Western Cape,Worcester,6850,female,Nurse,xho,ZA,western_cape,Worcester,ZA,western_cape,Worcester,36,False,False,3
+119ac14f-eed2-11ef-9a96-0242ac120002,30-39,ZA,Eastern Cape,Mthatha,5099,female,General worker,xho,ZA,eastern_cape,Ngcobo,ZA,eastern_cape,Ngcobo,10,False,False,2
+8a4308dc-0dfc-11f0-9047-0242ac120004,18-29,ZA,Eastern Cape,Mthatha,5099,female,,xho,ZA,eastern_cape,Mount Fletcher,ZA,eastern_cape,Matatiele,5,False,False,5
+a2e9d4a3-f800-11ef-bf9c-0242ac120002,30-39,ZA,Gauteng,Johannesburg,1520,female,Freelancer,xho,ZA,eastern_cape,Matatiele,ZA,gauteng,Johannesburg,25,False,False,3
+1fed42cd-f4d3-11ef-ac4e-0242ac120005,30-39,ZA,Eastern Cape,Whittlesea,5360,female,Self employed,xho,ZA,eastern_cape,Queenstown,ZA,eastern_cape,Whittlesea,10,False,False,3
+b522055d-13b9-11f0-b3c5-0242ac120004,60+,ZA,Eastern Cape,East London,5247,female,Retired Teacher,xho,ZA,eastern_cape,Mdantsane,ZA,eastern_cape,East London,22,False,False,4
+9c1b9630-f59f-11ef-ac4e-0242ac120005,18-29,ZA,Gauteng,Brakpan,1546,female,Unemployed,xho,ZA,eastern_cape,Elliot,ZA,eastern_cape,Elliot,6,False,False,2
+9dbe3240-151c-11f0-b3c5-0242ac120004,30-39,ZA,Eastern Cape,"Sidwell, Port Elizabeth",6001,female,Consultant,xho,ZA,eastern_cape,Port Elizabeth,ZA,eastern_cape,Port Elizabeth,3,False,False,2
+f879300d-087c-11f0-ae3c-0242ac120003,,ZA,Eastern Cape,King Williams Town,5608,female,Unemployed,xho,ZA,eastern_cape,King William's Town,ZA,eastern_cape,King William's Town,21,False,False,2
+c70588e4-19d6-11f0-9933-0242ac120005,40-49,ZA,Eastern Cape,Port Elizabeth,6000,male,Controller,xho,ZA,eastern_cape,Umtata,ZA,eastern_cape,Umtata,2,False,False,2
+f1c71c53-f5df-11ef-bf9c-0242ac120002,18-29,ZA,Gauteng,Pretoria,2,female,Unemployed,xho,ZA,eastern_cape,Mthatha,ZA,eastern_cape,Mthatha,2,False,False,5
+3a27cdaf-f43e-11ef-ac4e-0242ac120005,18-29,ZA,Gauteng,Johannesburg,2001,female,Unemployed,xho,ZA,eastern_cape,Mthatha,ZA,eastern_cape,Mthatha,5,False,False,2
+180ea73f-f59f-11ef-ac4e-0242ac120005,40-49,ZA,Gauteng,Johannesburg,1830,female,Unemployed,xho,ZA,eastern_cape,Libode,ZA,eastern_cape,Libode,1,False,False,2
+78f76f05-18fc-11f0-8bbc-0242ac120005,18-29,ZA,Gauteng,Johannesburg,1732,male,Grass cutter,xho,ZA,gauteng,Johannesburg,ZA,gauteng,Libode,10,False,False,2
+32c2dbd9-137e-11f0-b3c5-0242ac120004,40-49,ZA,Gauteng,Tshwane,175,female,Accounts payable clerk,xho,ZA,gauteng,Johannesburg,ZA,eastern_cape,Queenstown,20,False,False,4
+0736390b-e3c4-11ef-baa7-0242ac120004,30-39,ZA,Eastern Cape,NQAMAKWE,4990,female,Unemployed,xho,ZA,eastern_cape,Cofimvaba,ZA,eastern_cape,Tsomo,11,False,False,2
+863c9105-e2d8-11ef-931f-0242ac120004,18-29,ZA,Western Cape,Cape Town,7784,male,Student,xho,ZA,western_cape,Cape Town,ZA,western_cape,Cape Town,19,False,False,2
+05c99f8a-f284-11ef-bb32-0242ac120002,30-39,ZA,Eastern Cape,King William's Town,5601,female,Unemployed,xho,ZA,eastern_cape,East London,ZA,eastern_cape,King William's Town,5,False,False,4
+a92465d9-f289-11ef-bb32-0242ac120002,18-29,ZA,Free State,Odendaalsrus,9480,female,Student,xho,ZA,freestate,Welkom,ZA,freestate,Odendaalsrus,21,False,False,2
+aee43084-f341-11ef-b893-0242ac120002,30-39,ZA,Eastern Cape,Qumbu,5180,female,Self Employed,xho,ZA,eastern_cape,Umthatha,ZA,eastern_cape,Umthatha,6,False,False,3
+edc93a6e-f7f5-11ef-bf9c-0242ac120002,18-29,ZA,Gauteng,Johannesburg,2198,female,Contact Centre Guide,xho,ZA,gauteng,Johannesburg,ZA,gauteng,Johannesburg,26,False,False,5
+cb8a94cd-ffce-11ef-a4e6-0242ac120005,30-39,ZA,Eastern Cape,East London,5219,female,Marketing,xho,ZA,eastern_cape,East London,ZA,eastern_cape,East London,30,False,False,2
+af9cf32a-0300-11f0-8300-0242ac120004,30-39,ZA,Eastern Cape,Alice,5700,male,Unemployed,xho,ZA,eastern_cape,Fort Beaufort,ZA,eastern_cape,Alice,25,False,False,2
+7fbbac83-fa94-11ef-a9a6-0242ac120003,18-29,ZA,Eastern Cape,East London,5219,female,Unemployed,xho,ZA,eastern_cape,East London,ZA,eastern_cape,Peddie,8,False,False,2
+abba9b2c-ef57-11ef-a867-0242ac120003,18-29,ZA,Eastern Cape,East London,5247,female,SHEQ Officer,xho,ZA,eastern_cape,Port Elizabeth,ZA,eastern_cape,Port Elizabeth,1,False,False,5
+890a7aee-f81d-11ef-a361-0242ac120003,30-39,ZA,Western Cape,Cape Town,7784,female,Unemployed,xho,ZA,eastern_cape,Engcobo,ZA,eastern_cape,Engcobo,10,False,False,2
+e55f9931-0583-11f0-ac56-0242ac120003,30-39,ZA,Western Cape,Cape Town,7580,female,Admin Clerk,xho,ZA,western_cape,Cape Town,ZA,western_cape,Cape Town,13,False,False,4
+e8eeec49-009f-11f0-9dd7-0242ac120004,18-29,ZA,Gauteng,Benoni,1501,female,Unemployed,xho,ZA,gauteng,Johannesburg,ZA,gauteng,Johannesburg,12,False,False,2
+22fd0eee-ff22-11ef-a4e6-0242ac120005,18-29,ZA,Eastern Cape,Queenstown,5320,female,Speech collection project,xho,ZA,eastern_cape,Queenstown,ZA,eastern_cape,Queenstown,29,False,False,2
+2cbd06a5-03ca-11f0-8300-0242ac120004,30-39,ZA,Eastern Cape,Mthatha,5099,female,Pepsico,xho,ZA,eastern_cape,Mthatha,ZA,eastern_cape,Mthatha,3,False,False,2
+a4545b1c-e91f-11ef-a55d-0242ac120005,40-49,ZA,Gauteng,Pretoria,187,female,Scholar transport driver,xho,ZA,gauteng,Germiston hospital,ZA,eastern_cape,Eastern Cape,24,False,False,5
+a727f1d7-02fc-11f0-8300-0242ac120004,18-29,ZA,Gauteng,Benoni,1520,female,,xho,ZA,eastern_cape,Matatiele,ZA,eastern_cape,Matatiele,9,False,False,2
+4bf97aaa-f287-11ef-bb32-0242ac120002,30-39,ZA,Eastern Cape,King William's Town,4930,female,Brand ambassador,xho,ZA,eastern_cape,Mount Frere,ZA,eastern_cape,King William's Town,1,False,False,4
+b74a4bbe-f59f-11ef-ac4e-0242ac120005,30-39,ZA,Eastern Cape,East London,5219,female,Unemployed,xho,ZA,eastern_cape,Mbizana,ZA,eastern_cape,Mbizana,10,False,False,5
+868f09d9-00e0-11f0-9dd7-0242ac120004,30-39,ZA,Western Cape,Capetown,7493,female,,xho,ZA,eastern_cape,Eastern Cape,ZA,eastern_cape,Cape Town,20,False,False,2
+5a20ce4b-02fd-11f0-8300-0242ac120004,30-39,ZA,Eastern Cape,King Williams Town,5620,female,Finance,xho,ZA,eastern_cape,King William's Town,ZA,eastern_cape,King William's Town,31,False,False,2
+4a799c18-f289-11ef-bb32-0242ac120002,30-39,ZA,Eastern Cape,East London,5219,male,Unemployed,xho,ZA,eastern_cape,Grahamstown,ZA,eastern_cape,East London,20,False,False,3
+d2462f7f-f508-11ef-ac4e-0242ac120005,18-29,ZA,Eastern Cape,Bizana,4800,female,,xho,ZA,eastern_cape,Bizana,ZA,eastern_cape,Bizana,29,False,False,5
+a6d071f0-e225-11ef-931f-0242ac120004,18-29,ZA,Eastern Cape,Bizana,4800,female,IT specialist,xho,ZA,eastern_cape,Bizana,ZA,eastern_cape,Bizana,28,False,False,3
+dbd5d546-ff07-11ef-a4e6-0242ac120005,30-39,ZA,Eastern Cape,King William's Town,5601,female,Security,xho,ZA,eastern_cape,King William's Town,ZA,eastern_cape,East London,29,False,False,2
+8b5cfe62-0574-11f0-ac56-0242ac120003,30-39,ZA,Gauteng,Johannesburg,1818,male,Unemployed,xho,ZA,gauteng,Johannesburg,ZA,gauteng,Johannesburg,5,False,False,2
+d1363d47-f406-11ef-ac4e-0242ac120005,30-39,ZA,Western Cape,Cape Town,7784,male,Unemployed,xho,ZA,western_cape,Cape Town,ZA,western_cape,Cape Town,32,False,False,2
+179b9b96-001a-11f0-b43a-0242ac120003,18-29,ZA,Eastern Cape,Gqeberha,6201,male,Freelancer,xho,ZA,freestate,Virginia,ZA,freestate,Port Elizabeth,15,False,False,4
+52828b09-02f5-11f0-8300-0242ac120004,30-39,ZA,Eastern Cape,Port Elizabeth,6200,female,Self employed,xho,ZA,eastern_cape,Port Elizabeth,ZA,eastern_cape,Port Elizabeth,20,False,False,4
+85fb67a3-02fe-11f0-8300-0242ac120004,30-39,ZA,Eastern Cape,Mthatha,5099,female,Freelancer,xho,ZA,eastern_cape,Tsolo,ZA,eastern_cape,Tsolo,32,False,False,2
+d1c2481c-f4d3-11ef-ac4e-0242ac120005,40-49,ZA,Western Cape,Cape town,7100,female,Unemployed,xho,ZA,eastern_cape,Lady Frere,ZA,eastern_cape,Lady Frere,2,False,False,2
+8d9f0bac-f4d3-11ef-ac4e-0242ac120005,40-49,ZA,Gauteng,Pretoria,182,female,Self employed,xho,ZA,eastern_cape,King William's Town,ZA,eastern_cape,King William's Town,5,False,False,4
+dd130b86-031e-11f0-8300-0242ac120004,40-49,ZA,Gauteng,Johannesburg,1809,female,Self-employed,xho,ZA,gauteng,Johannesburg,ZA,western_cape,Queens Town,20,False,False,9
+a21e56fe-0574-11f0-ac56-0242ac120003,18-29,ZA,Eastern Cape,Cala,5455,female,Unemployed,xho,ZA,eastern_cape,Lady Frere,ZA,eastern_cape,Cala,3,True,False,2
+a13b2f60-0620-11f0-8778-0242ac120002,40-49,ZA,Eastern Cape,King William's Town,5608,male,Communications Officer,xho,ZA,eastern_cape,King William's Town,ZA,eastern_cape,King William's Town,45,False,False,5
+5f6ef726-0633-11f0-981c-0242ac120002,18-29,ZA,Western Cape,Cape Town,7700,female,Student,xho,ZA,western_cape,Cape Town,ZA,western_cape,Cape Town,2,False,False,2
+86657798-00a0-11f0-9dd7-0242ac120004,40-49,ZA,Eastern Cape,Port Elizabeth,6211,male,Driver,xho,ZA,eastern_cape,Port Elizabeth,ZA,eastern_cape,Port Elizabeth,41,False,False,2
+4d6773aa-e38e-11ef-baa7-0242ac120004,30-39,ZA,Gauteng,Johannesburg,1864,female,Part-time job,xho,ZA,gauteng,Johannesburg,ZA,gauteng,Johannesburg,6,False,False,2
+9e7c6536-e4a1-11ef-b971-0242ac120002,30-39,ZA,Eastern Cape,Molteno,5500,female,Unemployed,xho,ZA,eastern_cape,Peddie,ZA,eastern_cape,Peddie,7,False,False,3
+87c8e963-f393-11ef-ac4e-0242ac120005,30-39,ZA,Western Cape,Cape Town,7550,female,Intern Admin Clerk,xho,ZA,western_cape,Cape Town,ZA,eastern_cape,Lady Frere,5,False,False,3
+401a2f7d-0b11-11f0-9047-0242ac120004,18-29,ZA,Gauteng,Johannesburg,2001,female,Teacher,xho,ZA,eastern_cape,Mthatha,ZA,eastern_cape,Mthatha,8,False,False,3
+dc5da701-f4d2-11ef-ac4e-0242ac120005,40-49,ZA,Gauteng,Pretoria,81,female,Executive Personal Assistant,xho,ZA,gauteng,Carletonville,ZA,gauteng,Carletonville,2009,False,False,4
+31173823-0426-11f0-8300-0242ac120004,18-29,ZA,Eastern Cape,Sterkspruit,9762,female,Student,xho,ZA,eastern_cape,Sterkspruit,ZA,eastern_cape,Sterkspruit,3,False,False,2
+bdc43cc2-08cb-11f0-ae3c-0242ac120003,30-39,ZA,Eastern Cape,Port Elizabeth,6205,female,Unemployed,xho,ZA,eastern_cape,Port Elizabeth,ZA,eastern_cape,Port Elizabeth,6,False,False,2
+12dac5ad-1f46-11f0-8813-0242ac120003,30-39,ZA,Eastern Cape,Umthatha,5099,male,,xho,ZA,eastern_cape,Umthatha,ZA,eastern_cape,Umthatha,25,False,False,4
+fd5bf515-1605-11f0-bb20-0242ac120003,30-39,ZA,Eastern Cape,Port Elizabeth,6001,male,Digital Marketer,xho,ZA,eastern_cape,Port Elizabeth,ZA,eastern_cape,Port Elizabeth,32,False,False,4
+7384a0e0-e3c4-11ef-baa7-0242ac120004,30-39,ZA,Western Cape,Cape Town,7784,female,Unemployed,xho,ZA,eastern_cape,Libode,ZA,eastern_cape,Libode,9,False,False,2
+86071e79-0e31-11f0-9047-0242ac120004,18-29,ZA,Eastern Cape,Flagstaff,4810,female,,xho,ZA,kwazulu_natal,Durban,ZA,kwazulu_natal,Durban,12,False,False,2
+5fed27a6-16df-11f0-bb20-0242ac120003,18-29,ZA,Gauteng,Johannesburg,2017,male,Unemployed,xho,ZA,western_cape,Cape Town,ZA,western_cape,Cape Town,4,False,False,2
+cbad6c20-16e1-11f0-bb20-0242ac120003,18-29,ZA,Gauteng,Roodepoort,1724,male,Unemployed,xho,ZA,gauteng,Johannesburg,ZA,gauteng,Johannesburg,6,False,False,5
+4445245b-0633-11f0-981c-0242ac120002,18-29,ZA,Eastern Cape,King William’s Town,5600,female,Student,xho,ZA,eastern_cape,King William’s Town,ZA,eastern_cape,King William’s Town,21,False,False,2
+777bea50-f508-11ef-ac4e-0242ac120005,40-49,ZA,North West,Klerksdorp,2619,male,Professional Recording Artist and Voice over Artist Songwriter,xho,ZA,north_west,Klerksdorp,ZA,north_west,Klerksdorp,12,False,False,3
+04e69f4c-1606-11f0-bb20-0242ac120003,18-29,ZA,Western Cape,Cape Town,7100,male,unemployed,xho,ZA,western_cape,Cape Town,ZA,western_cape,Cape Town,22,False,False,4
+1bcc36b7-1b87-11f0-9711-0242ac120002,18-29,ZA,KwaZulu-Natal,Durban,4000,male,Student,xho,ZA,eastern_cape,Bizana,ZA,eastern_cape,Bizana,3,False,False,5
+57dc8e33-15d8-11f0-bb20-0242ac120003,40-49,ZA,Eastern Cape,Queenstown,5319,female,Sales Associate,xho,ZA,eastern_cape,Queenstown,ZA,eastern_cape,Queenstown,4,False,False,5
+359e2ff3-1f48-11f0-8813-0242ac120003,18-29,ZA,Eastern Cape,King William's Town,5608,male,Student,xho,ZA,gauteng,Johannesburg,ZA,gauteng,King William's Town,4,False,False,2
+81ea17c3-0621-11f0-8778-0242ac120002,18-29,ZA,Western Cape,Cape Town,7100,male,Unemployed,xho,ZA,gauteng,Soweto,ZA,gauteng,Johannesburg,7,False,False,2
+c739a712-1f45-11f0-8813-0242ac120003,18-29,ZA,Eastern Cape,Whittlesea,5360,male,Unemployed,xho,ZA,western_cape,Cape Town,ZA,eastern_cape,Whittlesea,5,False,False,2
+5a6e47eb-153d-11f0-bb20-0242ac120003,18-29,ZA,Western Cape,Cape Town,7700,male,Student,xho,ZA,gauteng,Carletonville,ZA,gauteng,Carletonville,2,False,False,2
+08fbefd5-0dfd-11f0-9047-0242ac120004,18-29,ZA,Gauteng,Johannesburg,1809,female,,xho,ZA,western_cape,Cape Town,ZA,western_cape,Johannesburg,3,False,False,2
+1f6e265d-087a-11f0-ae3c-0242ac120003,18-29,ZA,Eastern Cape,King William’s Town,5600,male,Unemployed,xho,ZA,eastern_cape,King William's Town,ZA,eastern_cape,King William's Town,26,False,False,5
+c132f82a-1511-11f0-b3c5-0242ac120004,30-39,ZA,Gauteng,Johannesburg,1501,female,,xho,ZA,eastern_cape,East London,ZA,gauteng,Johannesburg,5,False,False,9
+3003db3f-150a-11f0-b3c5-0242ac120004,30-39,ZA,Gauteng,Pretoria,7,female,Psychology Consultant,xho,ZA,eastern_cape,Elliotdale,ZA,eastern_cape,Mthatha,6,False,False,6
+69a6f00d-e2da-11ef-931f-0242ac120004,18-29,ZA,Eastern Cape,East London,5247,female,Unemployed,xho,ZA,eastern_cape,Welkom,ZA,freestate,Tsomo,2021,False,False,2
+fb8ca177-0dfc-11f0-9047-0242ac120004,60+,ZA,Gauteng,Randburg,2188,female,Retired,xho,ZA,gauteng,Johannesburg,ZA,gauteng,Cofimvaba,14,False,False,2
+c791568d-1053-11f0-945d-0242ac120004,40-49,ZA,Eastern Cape,East London,5247,female,Receptionist,xho,ZA,eastern_cape,East London,ZA,eastern_cape,Port Elizabeth,5,False,False,4
+fb546d73-fa50-11ef-a9a6-0242ac120003,30-39,ZA,Eastern Cape,East London,5201,female,Unemployed,xho,ZA,eastern_cape,East London,ZA,eastern_cape,East London,29,False,False,3
+f28fe4e6-0f87-11f0-89c7-0242ac120004,40-49,ZA,Eastern Cape,Mthatha,5099,female,Teacher,xho,ZA,eastern_cape,Mthatha,ZA,eastern_cape,Mthatha,41,False,False,5
+e61decf3-02ff-11f0-8300-0242ac120004,30-39,ZA,Western Cape,Cape Town,7441,female,Teacher,xho,ZA,eastern_cape,Mount Fletcher,ZA,western_cape,Cape Town,30,False,False,5
+705a34e6-15d9-11f0-bb20-0242ac120003,40-49,ZA,Gauteng,Johannesburg,1709,female,Freelancer,xho,ZA,eastern_cape,East London,ZA,eastern_cape,East London,5,False,False,4
+73c1bbfe-0e18-11f0-9047-0242ac120004,18-29,ZA,Eastern Cape,Maclear,5480,female,Not Employed,xho,ZA,eastern_cape,Mtata,ZA,eastern_cape,Maclear,26,False,False,2
+fb1357c7-f7f5-11ef-bf9c-0242ac120002,30-39,ZA,Gauteng,Pretoria,83,male,Researcher,xho,ZA,eastern_cape,Engcobo,ZA,eastern_cape,Engcobo,3,False,False,5
+3668d0a9-1606-11f0-bb20-0242ac120003,18-29,ZA,Western Cape,Cape Town,7784,male,Student,xho,ZA,western_cape,Cape Town,ZA,western_cape,Cape Town,20,False,False,2
+6201fa6e-1608-11f0-bb20-0242ac120003,40-49,ZA,Gauteng,Johannesburg,2188,female,Unemployed,xho,ZA,eastern_cape,Queenstown,ZA,eastern_cape,Alice,5,False,False,5
+c16befd7-111c-11f0-9fdc-0242ac120004,30-39,ZA,Western Cape,Cape Town,7784,male,Unemployed,xho,ZA,eastern_cape,Umtata,ZA,eastern_cape,Umtata,8,False,False,2
+7dd2ffa4-fe7b-11ef-a4e6-0242ac120005,18-29,ZA,Limpopo,Tzaneen,885,female,Student,tso,ZA,limpopo,Tzaneen,ZA,limpopo,Tzaneen,26,False,False,2
+af2b1296-fe7a-11ef-a4e6-0242ac120005,18-29,ZA,Limpopo,Tzaneen,850,male,Unemployed,tso,ZA,limpopo,Tzaneen,ZA,limpopo,Tzaneen,23,False,False,2
+35d10d51-fe7e-11ef-a4e6-0242ac120005,18-29,ZA,Limpopo,Malamulele,982,female,Unemployed,tso,ZA,limpopo,Thohoyandou,ZA,limpopo,Malamulele,28,False,False,9
+2b99bf4c-ffed-11ef-b43a-0242ac120003,18-29,ZA,Gauteng,Johannesburg,1819,female,Student,tso,ZA,gauteng,Soweto,ZA,gauteng,Soweto,21,False,False,2
+c0b7fdd2-fe7a-11ef-a4e6-0242ac120005,18-29,ZA,Gauteng,Boksburg,1459,female,Unemployed,tso,ZA,gauteng,Boksburg,ZA,gauteng,Boksburg,27,False,False,3
+823ba436-02f7-11f0-8300-0242ac120004,18-29,ZA,Mpumalanga,EMalahleni,2233,female,Unemployed,tso,ZA,mpumalanga,Bushbuckridge,ZA,mpumalanga,EMalahleni,5,False,False,5
+2f9ddfc1-fe7a-11ef-a4e6-0242ac120005,30-39,ZA,Limpopo,Polokwane,700,male,Language Lecturer,tso,ZA,limpopo,Giyani,ZA,limpopo,Giyani,1,False,False,6
+bf3825bf-fe7b-11ef-a4e6-0242ac120005,18-29,ZA,Limpopo,Phalaborwa,1391,female,Unemployed,tso,ZA,limpopo,Phalaborwa,ZA,limpopo,Phalaborwa,20,False,False,1
+670e34e3-fe76-11ef-a4e6-0242ac120005,18-29,ZA,Limpopo,Malamulele,982,female,Unemployed,tso,ZA,limpopo,Malamulele,ZA,limpopo,Malamulele,10,False,False,2
+e2f7bd39-0623-11f0-8778-0242ac120002,18-29,ZA,Gauteng,Johannesburg,2000,female,Registered Nurse,tso,ZA,limpopo,Giyani,ZA,limpopo,Giyani,1,False,False,4
+8e79c82b-087d-11f0-ae3c-0242ac120003,18-29,ZA,Limpopo,Giyani,960,female,Student,tso,ZA,limpopo,Giyani,ZA,limpopo,Giyani,19,False,False,2
+361736e8-fe75-11ef-a4e6-0242ac120005,18-29,ZA,Mpumalanga,Bushbuckridge,1281,female,Student,tso,ZA,mpumalanga,Bushbuckridge,ZA,mpumalanga,Bushbuckridge,22,False,False,2
+8eb7bd03-fe78-11ef-a4e6-0242ac120005,40-49,ZA,Mpumalanga,Nelspruit,1363,female,Unemployed,tso,ZA,mpumalanga,Nelspruit,ZA,mpumalanga,Nelspruit,45,False,False,2
+5555eed3-fe7a-11ef-a4e6-0242ac120005,30-39,ZA,Gauteng,Pretoria,6,female,Teacher,tso,ZA,limpopo,Makhado,ZA,limpopo,Makhado,5,False,False,4
+17466eb6-114d-11f0-9fdc-0242ac120004,18-29,ZA,Gauteng,Ekurhuleni,1632,female,,tso,ZA,limpopo,Tzaneen,ZA,limpopo,Tzaneen,4,False,False,5
+6558cba1-fe7b-11ef-a4e6-0242ac120005,30-39,ZA,Gauteng,Johannesburg,2192,female,Sales Consultant,tso,ZA,limpopo,Thohoyandou,ZA,gauteng,Johannesburg,32,False,False,3
+7e794ee5-0003-11f0-b43a-0242ac120003,18-29,ZA,Limpopo,Tzaneen,850,female,Unemployed,tso,ZA,limpopo,Tzaneen,ZA,limpopo,Tzaneen,24,False,False,3
+bd8ac37b-1379-11f0-b3c5-0242ac120004,18-29,ZA,Limpopo,Tzaneen,850,female,Student,tso,ZA,limpopo,Tzaneen,ZA,limpopo,Tzaneen,2,False,False,5
+6508d930-02f7-11f0-8300-0242ac120004,18-29,ZA,Mpumalanga,Mbombela,1280,male,Student,tso,ZA,mpumalanga,Nkomazi Kamhlushwa,ZA,mpumalanga,Bushbuckridge,2,False,False,2
+89091ce0-fe73-11ef-a4e6-0242ac120005,18-29,ZA,Gauteng,Johannesburg,1818,female,Cashier,tso,ZA,gauteng,Tembisa,ZA,mpumalanga,Thulamahashe,3,False,False,2
+57e3a0a5-0553-11f0-8300-0242ac120004,30-39,ZA,Gauteng,Johannesburg,1685,female,Student,tso,ZA,mpumalanga,Hammanskraal,ZA,mpumalanga,Hammanskraal,4,False,False,2
+2806f008-106d-11f0-9fdc-0242ac120004,18-29,ZA,Limpopo,Polokwane,700,female,Student,tso,ZA,limpopo,Malamulele,ZA,limpopo,Malamulele,3,False,False,2
+a6a5c426-fe74-11ef-a4e6-0242ac120005,18-29,ZA,Mpumalanga,Hazyview,1375,female,unemployed,tso,ZA,mpumalanga,Hazyview,ZA,mpumalanga,Hazyview,20,False,False,2
+b2a1a16e-1524-11f0-92e5-0242ac120004,30-39,ZA,Limpopo,Malamulele,982,male,Technical Support Re,tso,ZA,limpopo,Malamulele,ZA,limpopo,Malamulele,20,False,False,5
+fd6200cf-0e1c-11f0-9047-0242ac120004,30-39,ZA,Mpumalanga,Mbombela,1365,female,Unemployed,tso,ZA,mpumalanga,Thulamahashe,ZA,mpumalanga,Thulamahashe,34,False,False,2
+9e3e7432-0553-11f0-8300-0242ac120004,18-29,ZA,Gauteng,Roodepoort,1724,male,Security officer,tso,ZA,limpopo,Giyani,ZA,limpopo,Johannesburg,6,False,False,2
+2abf8ee2-15fa-11f0-bb20-0242ac120003,18-29,ZA,Gauteng,Johannesburg,2001,male,Sales representative,tso,ZA,limpopo,Phalaborwa,ZA,limpopo,Phalaborwa,6,False,False,3
+b0092933-154f-11f0-bb20-0242ac120003,30-39,ZA,Mpumalanga,Whiteriver,1214,female,Unemployed,tso,ZA,limpopo,Giyani,ZA,limpopo,Giyani,5,False,False,4
+8d8abd0e-154f-11f0-bb20-0242ac120003,30-39,ZA,Gauteng,Pretoria,25,female,Chat moderator,tso,ZA,limpopo,Elim,ZA,limpopo,Tiyani Magoro,6,False,False,2
+2c5f896e-1aca-11f0-b4a5-0242ac120002,18-29,ZA,Limpopo,Phalaborwa,1390,male,I'm willing to be part of the project,tso,ZA,limpopo,Phalaborwa,ZA,limpopo,Phalaborwa,2005,False,False,5
+5438af61-15e9-11f0-bb20-0242ac120003,18-29,ZA,Mpumalanga,Thulamahashe,1365,female,Unemployed,tso,ZA,mpumalanga,Thulamahashe,ZA,mpumalanga,Allandale,23,False,False,2
+2a27977d-151c-11f0-b3c5-0242ac120004,18-29,ZA,Gauteng,Johannesburg,1818,female,Student,tso,ZA,limpopo,Tzaneen,ZA,limpopo,Johannesburg,15,False,False,2
+5719debb-151f-11f0-b3c5-0242ac120004,30-39,ZA,Gauteng,Pretoria,1,female,Supervisor,tso,ZA,limpopo,Elim,ZA,limpopo,Elim,10,False,False,3
+8512412b-154f-11f0-bb20-0242ac120003,18-29,ZA,Mpumalanga,Nelspruit,1246,female,Student,tso,ZA,mpumalanga,Nelspruit,ZA,mpumalanga,Nelspruit,24,False,False,5
+d06cd0c8-fe7c-11ef-a4e6-0242ac120005,30-39,ZA,Limpopo,Malamulele,982,male,Freelancer,tso,ZA,limpopo,Polokwane,ZA,limpopo,Polokwane,4,False,False,3
+9cd8c408-1f4a-11f0-8813-0242ac120003,18-29,ZA,Limpopo,Phalaborwa,1890,male,,tso,ZA,limpopo,Phalaborwa,ZA,limpopo,Phalaborwa,24,False,False,5
+212dfd3b-150e-11f0-b3c5-0242ac120004,18-29,ZA,Limpopo,Thohoyandou,950,female,Student,tso,ZA,limpopo,Malamulele,ZA,limpopo,Thohoyandou,5,False,False,3
+ef7757ff-1aa9-11f0-ab2d-0242ac120005,18-29,ZA,Limpopo,Malamulele,982,male,,tso,ZA,limpopo,Malamulele,ZA,limpopo,Mhinga,27,False,False,4
+6144d467-1f7f-11f0-8813-0242ac120003,18-29,ZA,Gauteng,Johannesburg,2090,male,Alexandra,tso,ZA,limpopo,Malamulele,ZA,limpopo,Malamulele,5,False,False,2
+a68c65ba-e21b-11ef-931f-0242ac120004,30-39,ZA,KwaZulu-Natal,Durban,4066,female,Small business owner,zul,ZA,kwazulu_natal,Durban,ZA,kwazulu_natal,Durban,33,False,False,5
+00889200-e241-11ef-931f-0242ac120004,40-49,ZA,Gauteng,Germiston,1401,female,Sales Manager,zul,ZA,gauteng,Germiston,ZA,gauteng,Germiston,19,False,False,3
+e1bd410a-e230-11ef-931f-0242ac120004,18-29,ZA,KwaZulu-Natal,Durban,4339,female,Freelance,zul,ZA,kwazulu_natal,Newcastle,ZA,kwazulu_natal,Newcastle,28,False,False,3
+89eaca90-e21b-11ef-931f-0242ac120004,30-39,ZA,Gauteng,Brakpan,1550,male,Security,zul,ZA,gauteng,Brakpan,ZA,gauteng,Brakpan,10,False,False,2
+0496ae5d-e240-11ef-931f-0242ac120004,18-29,ZA,Gauteng,Germiston,1428,female,Unemployed,zul,ZA,kwazulu_natal,New Castle,ZA,kwazulu_natal,Nqutu,3,False,False,5
+55b3af53-e236-11ef-931f-0242ac120004,40-49,ZA,KwaZulu-Natal,Kwamashu,4360,female,Social worker,zul,ZA,kwazulu_natal,Nongoma,ZA,kwazulu_natal,Mandeni,3,False,False,5
+da41e612-e52f-11ef-b500-0242ac120002,18-29,ZA,Gauteng,Soweto,1868,female,Unemployed,zul,ZA,gauteng,Soweto,ZA,gauteng,Ladysmith,10,False,False,3
+0c342dc7-e2d0-11ef-931f-0242ac120004,30-39,ZA,KwaZulu-Natal,Eshowe,3815,female,Agricultural Facilitator,zul,ZA,kwazulu_natal,Eshowe,ZA,kwazulu_natal,Eshowe,6,False,False,5
+c8877416-e21b-11ef-931f-0242ac120004,30-39,ZA,Gauteng,Soweto,1804,male,Sales assistant,zul,ZA,kwazulu_natal,Newcastle,ZA,kwazulu_natal,Newcastle,20,False,False,3
+ef4cbbce-e2cf-11ef-931f-0242ac120004,18-29,ZA,Gauteng,Benoni,1507,female,Technical specialist,zul,ZA,gauteng,Benoni,ZA,gauteng,Benoni,25,False,False,9
+9cd26bdc-e23a-11ef-931f-0242ac120004,30-39,ZA,Gauteng,Johannesburg,2107,female,Candidate Attorney,zul,ZA,kwazulu_natal,Durban,ZA,kwazulu_natal,Durban,1,False,False,6
+72ecc4fd-e2e4-11ef-931f-0242ac120004,30-39,ZA,Gauteng,Johannesburg,2157,female,Currently unemployed,zul,ZA,kwazulu_natal,Ladysmith,ZA,kwazulu_natal,Durban,1,False,False,4
+1be65e4a-e21e-11ef-931f-0242ac120004,18-29,ZA,KwaZulu-Natal,Durban,3976,female,Cashier,zul,ZA,kwazulu_natal,Mbazwana,ZA,kwazulu_natal,Mbazwana,5,False,False,5
+e0256112-e21b-11ef-931f-0242ac120004,30-39,ZA,KwaZulu-Natal,Durban,3610,female,Office Administrator,zul,ZA,kwazulu_natal,Mtubatuba,ZA,kwazulu_natal,Mtubatuba,11,False,False,5
+2d99254f-e557-11ef-b500-0242ac120002,18-29,ZA,Gauteng,Johannesburg,1818,female,Teacher,zul,ZA,gauteng,Johannesburg,ZA,gauteng,Johannesburg,22,False,False,5
+c5da8497-e7c0-11ef-9e0f-0242ac120002,50-59,ZA,Gauteng,Alberton,1434,female,ESL Teacher,zul,ZA,gauteng,Alberton,ZA,gauteng,Alberton,39,False,False,7
+ec74a701-e489-11ef-b971-0242ac120002,18-29,ZA,KwaZulu-Natal,Kloof,3610,male,,zul,ZA,kwazulu_natal,Durban,ZA,kwazulu_natal,Durban,9,False,False,2
+b142fefe-e39f-11ef-baa7-0242ac120004,30-39,ZA,KwaZulu-Natal,Newcastle,2952,female,Unemployed,zul,ZA,kwazulu_natal,Newcastle,ZA,kwazulu_natal,Newcastle,30,False,False,4
+1ce89753-e239-11ef-931f-0242ac120004,30-39,ZA,Gauteng,Johannesburg,1685,female,Unemployed,zul,ZA,gauteng,Johannesburgg,ZA,gauteng,Johannesburg,20,False,False,3
+b7e6d850-e212-11ef-931f-0242ac120004,18-29,ZA,Gauteng,Johannesburg,2001,female,Safety Officer,zul,ZA,gauteng,Johannesburg,ZA,gauteng,Johannesburg,5,False,False,4
+eb2aa0ed-e21c-11ef-931f-0242ac120004,30-39,ZA,Gauteng,Benoni,1520,male,Machine operator,zul,ZA,gauteng,Benoni,ZA,gauteng,Benoni,33,False,False,5
+310f065b-e216-11ef-931f-0242ac120004,30-39,ZA,KwaZulu-Natal,Vryheid,3107,male,Unemployed,zul,ZA,kwazulu_natal,Vryheid,ZA,kwazulu_natal,Vryheid,10,False,False,5
+9c3dc345-e216-11ef-931f-0242ac120004,30-39,ZA,KwaZulu-Natal,Ladysmith,3370,female,Unemployed,zul,ZA,kwazulu_natal,Ladysmith,ZA,kwazulu_natal,Ladysmith,30,False,False,5
+dce6640c-e216-11ef-931f-0242ac120004,18-29,ZA,KwaZulu-Natal,Empangeni,3880,female,Quality Document Controller,zul,ZA,gauteng,Soweto,ZA,gauteng,Empangeni,2,False,False,5
+8bcce8ce-e217-11ef-931f-0242ac120004,18-29,ZA,Gauteng,Vanderbijlpark,1939,female,Nurse,zul,ZA,kwazulu_natal,Vryheid,ZA,kwazulu_natal,Vryheid,1,False,False,2
+71dd99e1-e234-11ef-931f-0242ac120004,18-29,ZA,KwaZulu-Natal,Harding,4680,male,Unemployed,zul,ZA,kwazulu_natal,Harding,ZA,kwazulu_natal,Harding,24,False,False,5
+80158c34-e39f-11ef-baa7-0242ac120004,30-39,ZA,Gauteng,Johannesburg,1841,female,Unemployed,zul,ZA,gauteng,Soweto,ZA,gauteng,Emdeni South,21,False,False,9
+3bf1c35e-e217-11ef-931f-0242ac120004,40-49,ZA,Mpumalanga,Piet Retief,2380,female,Teacher,zul,ZA,mpumalanga,Piet Retief,ZA,mpumalanga,Piet Retief,10,False,False,5
+2e97c08a-ee8c-11ef-9a96-0242ac120002,30-39,ZA,KwaZulu-Natal,Durban,4001,male,Unemployed,zul,ZA,kwazulu_natal,Eshowe,ZA,kwazulu_natal,Eshowe,20,False,False,5
+04325752-e557-11ef-b500-0242ac120002,30-39,ZA,Gauteng,Germiston,1401,female,"Freelancer, AI trainer",zul,ZA,kwazulu_natal,Nongoma,ZA,kwazulu_natal,Nongoma,1,False,False,3
+6352e110-e23a-11ef-931f-0242ac120004,18-29,ZA,KwaZulu-Natal,Pietermaritzburg,2944,female,Unemployed,zul,ZA,kwazulu_natal,Newcastle,ZA,kwazulu_natal,Newcastle,10,False,False,3
+4f9fa701-e21d-11ef-931f-0242ac120004,18-29,ZA,KwaZulu-Natal,Durban,4319,female,Health care worker,zul,ZA,kwazulu_natal,Durban,ZA,kwazulu_natal,Durban,8,False,False,2
+0f257a67-e39e-11ef-baa7-0242ac120004,50-59,ZA,Gauteng,Johannesburg,1809,female,Self Employed,zul,ZA,gauteng,Johannesburg,ZA,gauteng,Johannesburg,10,False,False,4
+388c6527-ee8d-11ef-9a96-0242ac120002,30-39,ZA,KwaZulu-Natal,Pietermaritzburg,3201,female,,zul,ZA,kwazulu_natal,Pietermaritzburg,ZA,kwazulu_natal,Pietermaritzburg,20,False,False,3
+df01d1f1-eed0-11ef-9a96-0242ac120002,30-39,ZA,KwaZulu-Natal,Pietermaritzburg,3201,female,Receptionist,zul,ZA,kwazulu_natal,Pietermaritzburg,ZA,kwazulu_natal,Pietermaritzburg,36,False,False,2
+30c90ce4-eac4-11ef-b41a-0242ac120002,18-29,ZA,KwaZulu-Natal,Empangeni,3880,female,Sales Assistant,zul,ZA,kwazulu_natal,Ulundi,ZA,kwazulu_natal,Ulundi,3,False,False,5
+fa63ecfa-f280-11ef-bb32-0242ac120002,30-39,ZA,Gauteng,Johannesburg,1841,female,Student,zul,ZA,gauteng,Johannesburg,ZA,gauteng,Johannesburg,5,False,False,3
+d64829a0-e21d-11ef-931f-0242ac120004,30-39,ZA,KwaZulu-Natal,Ladysmith,3370,female,Teacher,zul,ZA,kwazulu_natal,Ladysmith,ZA,kwazulu_natal,Ladysmith,10,False,False,4
+6411b108-f01c-11ef-84c3-0242ac120003,30-39,ZA,Gauteng,Pretoria,183,male,Wellness Coach,zul,ZA,gauteng,Johannesburg,ZA,gauteng,Johannesburg,3,False,False,4
+6cab0d6d-e792-11ef-9e0f-0242ac120002,18-29,ZA,KwaZulu-Natal,Pietermaritzburg,3201,female,Unemployed,zul,ZA,kwazulu_natal,Durban,ZA,kwazulu_natal,Durban,15,False,False,3
+33ada2af-f27b-11ef-bb32-0242ac120002,30-39,ZA,KwaZulu-Natal,Durban,4066,female,Customer service consultant,zul,ZA,kwazulu_natal,Durban,ZA,kwazulu_natal,Durban,20,False,False,4
+fad5de54-e39d-11ef-baa7-0242ac120004,18-29,ZA,Gauteng,Roodepoort,1709,female,Freelance writer,zul,ZA,gauteng,Vereeniging,ZA,gauteng,Soweto,8,False,False,5
+7b65c944-e39e-11ef-baa7-0242ac120004,30-39,ZA,Gauteng,Soweto,1804,female,Self employed,zul,ZA,gauteng,Tembisa,ZA,gauteng,Tembisa,10,False,False,2
+d75cb3ad-f01d-11ef-84c3-0242ac120003,30-39,ZA,KwaZulu-Natal,Durban,4359,female,Online Teacher,zul,ZA,kwazulu_natal,Durban,ZA,kwazulu_natal,Durban,30,False,False,5
+31b31ada-e21e-11ef-931f-0242ac120004,18-29,ZA,Eastern Cape,Port Elizabeth,6201,female,Self employed,zul,ZA,kwazulu_natal,Hluhluwe,ZA,kwazulu_natal,Hluhluwe,5,False,False,2
+d43b5f94-e796-11ef-9e0f-0242ac120002,30-39,ZA,Gauteng,Pretoria,25,male,Student,zul,ZA,gauteng,Pretoria,ZA,gauteng,Pretoria,23,False,False,2
+69af1d38-ed11-11ef-aaa8-0242ac120003,18-29,ZA,Gauteng,Johannesburg,1724,male,Unemployed,zul,ZA,kwazulu_natal,Margate,ZA,kwazulu_natal,Izingolweni,3,False,False,6
+a86877eb-eed1-11ef-9a96-0242ac120002,30-39,ZA,Gauteng,Johannesburg,1818,male,Unemployed,zul,ZA,gauteng,Johannesburg,ZA,gauteng,Johannesburg,15,False,False,2
+b3bb721d-f01c-11ef-84c3-0242ac120003,18-29,ZA,Mpumalanga,Siyabuswa,472,male,Pedagogical practitioner,zul,ZA,mpumalanga,Siyabuswa,ZA,northern_cape,Siyabuswa,24,False,False,5
+9c01492c-e52f-11ef-b500-0242ac120002,40-49,ZA,KwaZulu-Natal,Port Shepstone,4240,male,Security Officer,zul,ZA,kwazulu_natal,Port Shepstone,ZA,kwazulu_natal,Port Shepstone,41,False,False,4
+cd503050-fd94-11ef-a9a6-0242ac120003,18-29,ZA,Free State,Bloemfontein,9301,female,Self employed,zul,ZA,gauteng,Tsakane,ZA,gauteng,Tsakane,7,False,False,4
+117bae89-e21d-11ef-931f-0242ac120004,18-29,ZA,KwaZulu-Natal,Durban,4200,female,Unemployed,zul,ZA,kwazulu_natal,Durban,ZA,kwazulu_natal,Durban,22,False,False,5
+b1a94f9d-e233-11ef-931f-0242ac120004,18-29,ZA,KwaZulu-Natal,Durban,3610,female,Entrepreneur,zul,ZA,kwazulu_natal,Jozini,ZA,kwazulu_natal,Durban,10,False,False,5
+286f4b8f-f35d-11ef-b893-0242ac120002,18-29,ZA,KwaZulu-Natal,Durban,4126,female,Unemployed,zul,ZA,kwazulu_natal,Durban,ZA,kwazulu_natal,Durban,26,False,False,3
+d5adcd26-e886-11ef-9e0f-0242ac120002,18-29,ZA,KwaZulu-Natal,Pietermaritzburg,3201,female,HRO,zul,ZA,kwazulu_natal,Pietermaritzburg,ZA,kwazulu_natal,Pietermaritzburg,29,False,False,4
+06ea272a-f01d-11ef-84c3-0242ac120003,30-39,ZA,KwaZulu-Natal,Pietermaritzburg,3201,female,Self Employed,zul,ZA,kwazulu_natal,Pietermaritzburg,ZA,kwazulu_natal,Pretoria,8,False,False,4
+5a854364-f27c-11ef-bb32-0242ac120002,18-29,ZA,Gauteng,Brakpan,1550,male,Unemployed,zul,ZA,limpopo,Groblersdal,ZA,limpopo,Brakpan,17,False,False,2
+647a16d8-f297-11ef-bb32-0242ac120002,18-29,ZA,KwaZulu-Natal,Durban,4059,male,,zul,ZA,kwazulu_natal,Manguzi,ZA,kwazulu_natal,Durban,28,False,False,4
+1b2f65aa-f283-11ef-bb32-0242ac120002,18-29,ZA,Mpumalanga,Middelburg,1053,female,Receptionist,zul,ZA,mpumalanga,Middelburg,ZA,mpumalanga,Middelburg,26,False,False,3
+2b2a6901-f035-11ef-84c3-0242ac120003,30-39,ZA,Gauteng,Sandton,2125,male,Customer service agent,zul,ZA,kwazulu_natal,Durban,ZA,kwazulu_natal,Durban,3,False,False,2
+8a0c9a56-f345-11ef-b893-0242ac120002,18-29,ZA,KwaZulu-Natal,Port Shepstone,4240,female,Legal aid worker,zul,ZA,kwazulu_natal,Port Shepstone,ZA,kwazulu_natal,Port Shepstone,28,False,False,5
+226d0b65-f283-11ef-bb32-0242ac120002,18-29,ZA,KwaZulu-Natal,Durban,114,female,Office Administrator,zul,ZA,kwazulu_natal,Durban,ZA,kwazulu_natal,Amanzimtoti,8,False,False,6
+0df033a2-f434-11ef-ac4e-0242ac120005,18-29,ZA,KwaZulu-Natal,Ladysmith,3370,female,Unemployed,zul,ZA,kwazulu_natal,Ladysmith,ZA,kwazulu_natal,Ladysmith,25,False,False,2
+c3f0f773-e21c-11ef-931f-0242ac120004,30-39,ZA,KwaZulu-Natal,Estcourt,3310,female,Teacher assistant,zul,ZA,kwazulu_natal,Estcourt,ZA,kwazulu_natal,Estcourt,31,False,False,5
+7dc19992-fb42-11ef-a9a6-0242ac120003,40-49,ZA,KwaZulu-Natal,Mbazwana,3967,female,Self employed,zul,ZA,kwazulu_natal,Mbazwana,ZA,kwazulu_natal,Mbazwana,41,False,False,7
+2cf41f47-e79a-11ef-9e0f-0242ac120002,50-59,ZA,KwaZulu-Natal,Pietermaritzburg,3201,female,Supervisor,zul,ZA,kwazulu_natal,EThekwini,ZA,kwazulu_natal,EThekwini,6,False,False,9
+ada6e264-f019-11ef-84c3-0242ac120003,30-39,ZA,Gauteng,Pretoria,152,female,Tender Administrator,zul,ZA,gauteng,Pretoria,ZA,gauteng,Pretoria,34,False,False,5
+615b0956-f9ad-11ef-a9a6-0242ac120003,30-39,ZA,KwaZulu-Natal,Durban,4031,female,Unemployed,zul,ZA,kwazulu_natal,Durban,ZA,kwazulu_natal,Port Shepstone,20,False,False,3
+e856d12a-f7fe-11ef-bf9c-0242ac120002,18-29,ZA,KwaZulu-Natal,Pietermaritzburg,3219,female,Student,zul,ZA,kwazulu_natal,Pietermaritzburg,ZA,kwazulu_natal,Pietermaritzburg,24,False,False,6
+ef558b72-f42d-11ef-ac4e-0242ac120005,40-49,ZA,KwaZulu-Natal,Durban,4066,female,Unemployed,zul,ZA,kwazulu_natal,Durban,ZA,kwazulu_natal,uMzinto,35,False,False,2
+425aa31a-f7fb-11ef-bf9c-0242ac120002,30-39,ZA,KwaZulu-Natal,Empangeni,3880,female,Unemployed,zul,ZA,kwazulu_natal,Nongoma,ZA,kwazulu_natal,Nongoma,3,False,False,2
+6b161231-f280-11ef-bb32-0242ac120002,30-39,ZA,KwaZulu-Natal,Eshowe,3815,female,Nurse,zul,ZA,kwazulu_natal,Stanger,ZA,kwazulu_natal,Mandini,18,False,False,6
+e246c9dc-f99c-11ef-a9a6-0242ac120003,18-29,ZA,KwaZulu-Natal,Durban,4240,female,Student,zul,ZA,kwazulu_natal,Durban,ZA,kwazulu_natal,Durban,20,False,False,2
+b75f4c52-048c-11f0-8300-0242ac120004,30-39,ZA,KwaZulu-Natal,Durban,4066,female,Student,zul,ZA,kwazulu_natal,Durban,ZA,kwazulu_natal,Durban,30,False,False,5
+28c16c57-15d2-11f0-bb20-0242ac120003,18-29,ZA,Gauteng,Johannesburg,1779,male,Marketing assistant,zul,ZA,kwazulu_natal,Durban,ZA,kwazulu_natal,Durban,5,False,False,4
+7b50a54d-15d2-11f0-bb20-0242ac120003,40-49,ZA,Eastern Cape,Port Elizabeth,6070,female,Admin,zul,ZA,kwazulu_natal,Durban,ZA,kwazulu_natal,Harding,3,False,False,2
+545dbdeb-15dc-11f0-bb20-0242ac120003,30-39,ZA,Gauteng,Johannesburg,2014,male,Self employed,zul,ZA,gauteng,Johannesburg,ZA,gauteng,Johannesburg,26,False,False,2
+9559593e-0554-11f0-8300-0242ac120004,40-49,ZA,Gauteng,Boksburg,1459,female,Host,zul,ZA,gauteng,Gauteng,ZA,gauteng,Gauteng,5,False,False,2
+2f94111d-1380-11f0-b3c5-0242ac120004,18-29,ZA,KwaZulu-Natal,Durban,4309,male,Sales Agent,zul,ZA,kwazulu_natal,Durban,ZA,kwazulu_natal,Durban,27,False,False,2
+d785471e-02fa-11f0-8300-0242ac120004,30-39,ZA,Mpumalanga,Emalahleni,1039,female,Unemployed,zul,ZA,mpumalanga,Carolina,ZA,mpumalanga,Witbank,10,False,False,2
+276a7430-15d5-11f0-bb20-0242ac120003,30-39,ZA,KwaZulu-Natal,Pietermaritzburg,3201,male,Self employed,zul,ZA,kwazulu_natal,Pietermaritzburg,ZA,kwazulu_natal,Pietermaritzburg,10,False,False,2
+8eb3bd26-0ec0-11f0-89c7-0242ac120004,18-29,ZA,Mpumalanga,Standerton,2434,female,Unemployed,zul,ZA,mpumalanga,Standerton,ZA,mpumalanga,Standerton,10,False,False,6
+eea18ebb-fa73-11ef-a9a6-0242ac120003,18-29,ZA,KwaZulu-Natal,Estcourt,3310,female,Unemployed,zul,ZA,kwazulu_natal,Estcourt,ZA,kwazulu_natal,Estcourt,20,False,False,2
+a8dccd63-03c0-11f0-8300-0242ac120004,18-29,ZA,Gauteng,Johannesburg,1868,female,Unemployed,zul,ZA,gauteng,Soweto,ZA,gauteng,Soweto,25,False,False,3
+20131655-f4f9-11ef-ac4e-0242ac120005,30-39,ZA,KwaZulu-Natal,Port Shepstone,4240,female,Electrical  engineering,zul,ZA,kwazulu_natal,Port Shepstone,ZA,kwazulu_natal,Port Shespstone,31,False,False,3
+c122c948-0f89-11f0-89c7-0242ac120004,18-29,ZA,KwaZulu-Natal,Newcastle,2952,female,Student,zul,ZA,kwazulu_natal,Newcastle,ZA,kwazulu_natal,Newcastle,20,False,False,2
+53882740-f282-11ef-bb32-0242ac120002,30-39,ZA,KwaZulu-Natal,Durban,4501,female,Research Assistant,zul,ZA,kwazulu_natal,Pietermaritzburg,ZA,kwazulu_natal,Pietermaritzburg,10,False,False,7
+e6106c96-02fb-11f0-8300-0242ac120004,40-49,ZA,Gauteng,Ekurhuleni,1541,female,Sales Agent,zul,ZA,gauteng,Johannesburg,ZA,gauteng,Johannesburg,2,False,False,3
+30e98e0c-1f48-11f0-8813-0242ac120003,30-39,ZA,Gauteng,Centurion,187,male,Unemployed,zul,ZA,kwazulu_natal,Nongoma,ZA,kwazulu_natal,Nongoma,3,False,False,5
+f91adfc6-f8c2-11ef-a361-0242ac120003,30-39,ZA,Gauteng,Johannesburg,1841,male,Freelancer,zul,ZA,gauteng,Johannesburg,ZA,gauteng,Johannesburg,20,False,False,5
+780876c5-1f48-11f0-8813-0242ac120003,18-29,ZA,KwaZulu-Natal,Pietermaritzburg,3201,male,Unemployed,zul,ZA,kwazulu_natal,Greytown,ZA,kwazulu_natal,Greytown,2,False,False,5
+7d824bfa-19c2-11f0-9933-0242ac120005,18-29,ZA,Gauteng,Johannesburg,1841,male,Unemployment,zul,ZA,gauteng,Soweto,ZA,gauteng,Orange Farm,22,False,False,2
+1d86f158-1a92-11f0-ab2d-0242ac120005,30-39,ZA,KwaZulu-Natal,Newcastle,2951,male,Unemployed,zul,ZA,kwazulu_natal,Newcastle,ZA,kwazulu_natal,Newcastle,30,False,False,3
+6e7c7207-f282-11ef-bb32-0242ac120002,18-29,ZA,Gauteng,Sebokeng,1983,female,Unemployed,zul,ZA,kwazulu_natal,Ndwedwe,ZA,kwazulu_natal,Ndwedwe,10,False,False,5
+289a3d35-1a8f-11f0-9933-0242ac120005,18-29,ZA,Mpumalanga,Kwamhlanga,1022,male,Unemployed,zul,ZA,mpumalanga,Kwamhlanga,ZA,mpumalanga,Kwamhlanga,20,False,False,2
+329a45b5-f285-11ef-bb32-0242ac120002,18-29,ZA,Gauteng,Johannesburg,1841,female,Self employed,zul,ZA,gauteng,Johannesburg,ZA,gauteng,Johannesburg,8,False,False,2
+624c7ad0-e792-11ef-9e0f-0242ac120002,18-29,ZA,KwaZulu-Natal,Durban,4339,male,NONE,zul,ZA,kwazulu_natal,Durban,ZA,kwazulu_natal,Durban,3,False,False,2
+ba01e7ae-02fa-11f0-8300-0242ac120004,18-29,ZA,KwaZulu-Natal,Durban,4339,male,Currently unemployed,zul,ZA,kwazulu_natal,Durban,ZA,kwazulu_natal,Durban,20,False,False,2
+f433d35e-fb2a-11ef-a9a6-0242ac120003,18-29,ZA,Gauteng,Johannesburg,1841,female,Self employed,zul,ZA,gauteng,Johannesburg,ZA,gauteng,Johannesburg,26,False,False,2
+16ffbf1d-f27a-11ef-bb32-0242ac120002,30-39,ZA,KwaZulu-Natal,Verulam,4340,female,Clerk,zul,ZA,kwazulu_natal,Verulam,ZA,kwazulu_natal,Verulam,39,False,False,2
+680655c7-f362-11ef-b429-0242ac120003,18-29,ZA,KwaZulu-Natal,Durban,4091,female,Community Participation,zul,ZA,kwazulu_natal,Ndwedwe,ZA,kwazulu_natal,Ndwedwe,3,False,False,4
+51f557a5-19c1-11f0-9933-0242ac120005,18-29,ZA,Gauteng,Johannesburg,1868,male,Student,zul,ZA,gauteng,Soweto,ZA,gauteng,Soweto,25,False,False,5
+80b13700-03dd-11f0-8300-0242ac120004,40-49,ZA,Gauteng,Brakpan,1550,female,Self employed,zul,ZA,gauteng,Brakpan,ZA,gauteng,Brakpan,10,False,False,1
+5eb0c000-1b58-11f0-b335-0242ac120002,30-39,ZA,Mpumalanga,Witbank,1034,male,General worker,zul,ZA,mpumalanga,Witbank,ZA,mpumalanga,Emalahleni,30,False,False,1
+8bcf9bec-ee8c-11ef-9a96-0242ac120002,18-29,ZA,KwaZulu-Natal,Durban,4001,female,Unemployed,zul,ZA,kwazulu_natal,Umzinyathi,ZA,kwazulu_natal,Umlazi,2017,False,True,9
+b1386d7a-1134-11f0-9fdc-0242ac120004,18-29,ZA,Gauteng,Benoni,1519,male,Translater,zul,ZA,gauteng,Brakpan,ZA,gauteng,Daveyton,19,False,False,2
+75eb9f68-15d1-11f0-bb20-0242ac120003,18-29,ZA,KwaZulu-Natal,Pinetown,3610,male,,zul,ZA,kwazulu_natal,Ixopo,ZA,kwazulu_natal,Ixopo,2025,False,False,2
+bdd634de-e489-11ef-b971-0242ac120002,18-29,ZA,KwaZulu-Natal,Durban,4126,female,Student,zul,ZA,kwazulu_natal,Durban,ZA,kwazulu_natal,Durban,24,False,False,3
+522ce281-fd95-11ef-a9a6-0242ac120003,60+,ZA,Gauteng,Johannesburg,1984,female,Cleaner,zul,ZA,gauteng,Johannesburg,ZA,gauteng,Johannesburg,23,False,False,2
+70609c82-1b53-11f0-b335-0242ac120002,18-29,ZA,KwaZulu-Natal,Newcastle,2952,male,UNEMPLOYED,zul,ZA,kwazulu_natal,Newcastle,ZA,kwazulu_natal,Newcastle,21,False,False,2
+cc2c964a-f4d7-11ef-ac4e-0242ac120005,40-49,ZA,Gauteng,Johannesburg,1687,female,SHERQ Specialist,zul,ZA,kwazulu_natal,Bergville,ZA,kwazulu_natal,Ulundi,15,False,False,4
+f9d2c079-fb2e-11ef-a9a6-0242ac120003,30-39,ZA,KwaZulu-Natal,Durban,4001,female,Unemployed,zul,ZA,kwazulu_natal,Vryheid,ZA,kwazulu_natal,Vryheid,6,False,False,2
+610281f9-030a-11f0-8300-0242ac120004,18-29,ZA,KwaZulu-Natal,Newcastle,2952,female,Baker,zul,ZA,kwazulu_natal,Newcastle,ZA,kwazulu_natal,Newcastle,26,False,False,2
+2ce00fb4-f7fd-11ef-bf9c-0242ac120002,40-49,ZA,Gauteng,Bronkhorstspruit,1021,female,Creditors Clerk,zul,ZA,gauteng,Pretoria,ZA,gauteng,Bronkhorstspruit,37,False,False,4
+212f8186-1f40-11f0-8813-0242ac120003,30-39,ZA,Gauteng,Vereeniging,1984,male,IT support engineer,zul,ZA,gauteng,Vereeniging,ZA,gauteng,Vereeniging,13,False,False,4
+a1f436a2-137c-11f0-b3c5-0242ac120004,40-49,ZA,Gauteng,Johannesburg,1431,female,Unemployed,zul,ZA,gauteng,Johannesburg,ZA,gauteng,Johannesburg,2,False,False,2
+96117546-fa7a-11ef-a9a6-0242ac120003,18-29,ZA,Mpumalanga,Kwamhlanga,1022,female,none,zul,ZA,mpumalanga,Nelspruit,ZA,mpumalanga,Witbank,7,False,False,2
+9f40c4ae-ee8d-11ef-9a96-0242ac120002,18-29,ZA,Gauteng,Ekurhuleni,1575,female,Unemployed,zul,ZA,gauteng,Johannesburg,ZA,gauteng,Johannesburg,13,False,False,2
+1b8993dd-19c2-11f0-9933-0242ac120005,18-29,ZA,Gauteng,Johannesburg,1924,male,electrical intern,zul,ZA,mpumalanga,Witbank,ZA,mpumalanga,Witbank,5,False,False,5
+4e5dfe98-0df8-11f0-9047-0242ac120004,18-29,ZA,Gauteng,Pretoria,152,female,Unemployed,zul,ZA,mpumalanga,Kwamhlanga,ZA,gauteng,Pretoria,2025,False,False,2
+deb9c214-f01c-11ef-84c3-0242ac120003,30-39,ZA,Gauteng,Sandton,2191,male,Customer care team leader,zul,ZA,gauteng,Johannesburg,ZA,gauteng,Johannesburg,1,False,False,2
+99d33281-f7fd-11ef-bf9c-0242ac120002,60+,ZA,Gauteng,Pretoria,400,female,Pensioner,zul,ZA,gauteng,Pretoria,ZA,gauteng,Pretoria,42,False,False,2
+345f59a5-1b58-11f0-b335-0242ac120002,40-49,ZA,KwaZulu-Natal,Dundee,3000,male,Self employed,zul,ZA,kwazulu_natal,Dundee,ZA,kwazulu_natal,Dundee,45,False,False,2
+d4df8c86-19c1-11f0-9933-0242ac120005,40-49,ZA,KwaZulu-Natal,Newcastle,2940,female,Administrator,zul,ZA,gauteng,Johannesburg,ZA,gauteng,Newcastle,5,False,False,5
+7b562eb1-15d0-11f0-bb20-0242ac120003,40-49,ZA,KwaZulu-Natal,Newcastle,2951,female,Unemployed,zul,ZA,kwazulu_natal,Newcastle,ZA,kwazulu_natal,Newcastle,34,False,False,4
+dab3f369-0e38-11f0-9047-0242ac120004,18-29,ZA,Mpumalanga,Ermelo,2334,female,Unemployed,zul,ZA,mpumalanga,Ermelo,ZA,mpumalanga,Ermelo,19,False,False,2
+de5dbdd5-1054-11f0-945d-0242ac120004,30-39,ZA,KwaZulu-Natal,Durban,4066,female,legal practitioner,zul,ZA,kwazulu_natal,Durban,ZA,kwazulu_natal,Durban,30,False,False,7
+5aca8753-f297-11ef-bb32-0242ac120002,30-39,ZA,KwaZulu-Natal,Jozini,3969,male,Sales agent,zul,ZA,kwazulu_natal,Durban,ZA,kwazulu_natal,Nongoma,10,False,False,5
+75fa71b8-1f41-11f0-8813-0242ac120003,18-29,ZA,KwaZulu-Natal,Durban,4083,male,Unemployed,zul,ZA,kwazulu_natal,Durban,ZA,kwazulu_natal,Durban,5,False,False,4
+bb13332d-1f3f-11f0-8813-0242ac120003,30-39,ZA,KwaZulu-Natal,Ladysmith,3370,male,Security officer,zul,ZA,kwazulu_natal,Ladysmith,ZA,kwazulu_natal,Ladysmith,30,False,False,4
+1c01f755-137e-11f0-b3c5-0242ac120004,18-29,ZA,Mpumalanga,Amersfoort,2490,female,Unemployed,zul,ZA,freestate,Zastron,ZA,freestate,Zastron,5,False,False,2
+0d9094b3-15dc-11f0-bb20-0242ac120003,18-29,ZA,KwaZulu-Natal,Durban,4031,male,Unemployed,zul,ZA,kwazulu_natal,Durban,ZA,kwazulu_natal,Durban,20,False,False,2
+d2fc1c47-13a0-11f0-b3c5-0242ac120004,30-39,ZA,Mpumalanga,Middleburg,1200,male,Teacher,zul,ZA,mpumalanga,Middleburg,ZA,mpumalanga,Middleburg,3,False,False,2
+23c31feb-111d-11f0-9fdc-0242ac120004,18-29,ZA,KwaZulu-Natal,Empangeni,3880,female,Seamstress/ Fashion Designer,zul,ZA,kwazulu_natal,Empangeni,ZA,kwazulu_natal,Empangeni,26,False,False,4
+faf637f0-19cb-11f0-9933-0242ac120005,30-39,ZA,North West,Mafikeng,2735,male,Self employed/driver,zul,ZA,kwazulu_natal,Durban,ZA,kwazulu_natal,Durban,4,False,False,3
+4abd1120-048d-11f0-8300-0242ac120004,18-29,ZA,KwaZulu-Natal,Estcourt,3310,female,Employed,zul,ZA,kwazulu_natal,Estcourt,ZA,kwazulu_natal,Estcourt,27,False,False,2
+0fc857f3-f01f-11ef-84c3-0242ac120003,30-39,ZA,Gauteng,Johannesburg,1852,female,Writer,zul,ZA,gauteng,Johannesburg,ZA,gauteng,Soweto,35,False,False,4
+a088997c-15df-11f0-bb20-0242ac120003,18-29,ZA,KwaZulu-Natal,Umkomaas,4170,male,Unemployed,zul,ZA,kwazulu_natal,Scottburgh,ZA,kwazulu_natal,Umkomass,3,False,False,3
+98875121-fb39-11ef-a9a6-0242ac120003,18-29,ZA,Gauteng,Springs,1575,male,Employee,zul,ZA,gauteng,Springs,ZA,gauteng,Springs,23,False,False,2
+2ea2b382-f4d8-11ef-ac4e-0242ac120005,18-29,ZA,Gauteng,Pretoria,152,female,Intern,zul,ZA,kwazulu_natal,Vryheid,ZA,kwazulu_natal,Vryheid,9,False,False,5
+47e82bb7-f27a-11ef-bb32-0242ac120002,,ZA,KwaZulu-Natal,Newcastle,2952,female,Student,zul,ZA,kwazulu_natal,Newcastle,ZA,kwazulu_natal,Newcastle,18,False,False,2
+91a7d57f-fb2f-11ef-a9a6-0242ac120003,30-39,ZA,KwaZulu-Natal,Newcastle,2944,female,Unemployed,zul,ZA,freestate,Vrede,ZA,freestate,Newcastle,32,False,False,9
+bee61c1b-f44c-11ef-ac4e-0242ac120005,18-29,ZA,KwaZulu-Natal,Durban,4360,female,Not Applicable,zul,ZA,kwazulu_natal,Durban,ZA,kwazulu_natal,Durban,28,False,False,2
+b269d662-f42c-11ef-ac4e-0242ac120005,30-39,ZA,KwaZulu-Natal,Durban,4126,female,Unemployed,zul,ZA,kwazulu_natal,Durban,ZA,kwazulu_natal,Durban,32,False,False,2
+e5aae631-f42d-11ef-ac4e-0242ac120005,30-39,ZA,Gauteng,Boksburg,1459,male,Sales assistant,zul,ZA,kwazulu_natal,Manguzi,ZA,kwazulu_natal,Manguzi,3,False,False,2
+36c92066-f284-11ef-bb32-0242ac120002,40-49,ZA,KwaZulu-Natal,Durban,4066,female,Community participation,zul,ZA,kwazulu_natal,Durban,ZA,kwazulu_natal,Durban,39,False,False,9
+5d8d1c7f-02fb-11f0-8300-0242ac120004,30-39,ZA,KwaZulu-Natal,Durban,4066,female,Unemployed,zul,ZA,kwazulu_natal,Umlazi,ZA,kwazulu_natal,Umlazi,30,False,False,4
+f9e6de57-f360-11ef-b429-0242ac120003,30-39,ZA,KwaZulu-Natal,Nqutu,3135,female,Unemployed,zul,ZA,gauteng,Boksburg,ZA,gauteng,Nqutu,34,False,False,4
+654c1c52-0a35-11f0-a8a9-0242ac120003,18-29,ZA,KwaZulu-Natal,Mtubatuba,3935,male,Unemployed,zul,ZA,kwazulu_natal,Mtubatuba,ZA,kwazulu_natal,Mtubatuba,25,False,False,5
+5b4612ae-f4d9-11ef-ac4e-0242ac120005,18-29,ZA,Mpumalanga,Ermelo,2350,female,No occupation,zul,ZA,mpumalanga,Randfontain,ZA,gauteng,Ermelo,15,False,False,2
+7f47a335-f5bc-11ef-bf9c-0242ac120002,18-29,ZA,Gauteng,Pretoria,152,female,Language Practioner,zul,ZA,mpumalanga,Silobela Carolina,ZA,mpumalanga,Silobela Carolina,3,False,False,4
+e4f23132-e23f-11ef-931f-0242ac120004,30-39,ZA,Gauteng,Germiston,1431,male,Voice Over Artist,zul,ZA,gauteng,Germiston,ZA,gauteng,Germiston,19,False,False,2
+abbee11f-f4d7-11ef-ac4e-0242ac120005,30-39,ZA,Gauteng,Johannesburg,1550,male,Unemployed,zul,ZA,gauteng,Tsakane,ZA,gauteng,Tsakane,29,False,False,4
+f01fb17d-f35e-11ef-b893-0242ac120002,30-39,ZA,Gauteng,Johannesburg,1841,female,Unemployed,zul,ZA,gauteng,Lenasia,ZA,gauteng,Johannesburg,20,False,False,5
+a3c88bb4-f59c-11ef-ac4e-0242ac120005,18-29,ZA,Gauteng,Johannesburg,1812,female,Unemployed,zul,ZA,gauteng,Johannesburg,ZA,gauteng,Johannesburg,19,False,False,5
+90bd7936-f7ff-11ef-bf9c-0242ac120002,18-29,ZA,KwaZulu-Natal,Durban,3610,female,Self employed,zul,ZA,kwazulu_natal,Pinetown,ZA,kwazulu_natal,Pinetown,28,False,False,2
+e98b9063-f27f-11ef-bb32-0242ac120002,18-29,ZA,KwaZulu-Natal,Pietermaritzburg,3201,female,Commis chef,zul,ZA,kwazulu_natal,Pietermaritzburg,ZA,kwazulu_natal,Pietermaritzburg Imbali unit 14 Em69,15,False,False,4
+4b3cac70-ecfa-11ef-aaa8-0242ac120003,40-49,ZA,Gauteng,Johannesburg,1809,male,Claim Consultant,zul,ZA,gauteng,Pimville,ZA,gauteng,Pimville,40,False,False,9
+09bb1209-00c3-11f0-9dd7-0242ac120004,30-39,ZA,KwaZulu-Natal,Durban,3699,female,Unemployed,zul,ZA,kwazulu_natal,Pinetown,ZA,kwazulu_natal,Durban,31,False,False,5
+7ad11b3f-e221-11ef-931f-0242ac120004,30-39,ZA,Mpumalanga,Nelspruit,1203,male,Unemployed,zul,ZA,mpumalanga,Nelspruit,ZA,mpumalanga,Durban,3,True,False,5
+eeb9b087-f35d-11ef-b893-0242ac120002,30-39,ZA,KwaZulu-Natal,Pietermaritzburg,3217,female,Self employed,zul,ZA,kwazulu_natal,Pietermaritzburg,ZA,kwazulu_natal,Pietermaritzburg,25,False,False,4
+adfbf953-030b-11f0-8300-0242ac120004,18-29,ZA,Gauteng,Pretoria,8,female,Unemployed,zul,ZA,gauteng,Benoni,ZA,gauteng,Benoni,3,False,False,2
+b7867aae-f283-11ef-bb32-0242ac120002,30-39,ZA,KwaZulu-Natal,Durban,3650,female,Unemployed,zul,ZA,kwazulu_natal,Durban,ZA,kwazulu_natal,Durban,32,False,False,2
+a939528c-15db-11f0-bb20-0242ac120003,40-49,ZA,Gauteng,Johannesburg,2091,female,TEFL teacher,zul,ZA,gauteng,Johannesburg,ZA,gauteng,Johannesburg,7,False,False,5
+29e48625-030b-11f0-8300-0242ac120004,18-29,ZA,KwaZulu-Natal,Durban,4001,female,Cashier,zul,ZA,kwazulu_natal,Durban,ZA,kwazulu_natal,Durban,29,False,False,6
+490c2078-fb2a-11ef-a9a6-0242ac120003,30-39,ZA,KwaZulu-Natal,Durban,4001,female,Unemployed,zul,ZA,kwazulu_natal,Durban,ZA,kwazulu_natal,Durban,31,False,False,3
+a5e5e411-0647-11f0-9be4-0242ac120003,18-29,ZA,KwaZulu-Natal,Durban,4339,female,Unemployed,zul,ZA,kwazulu_natal,Durban,ZA,kwazulu_natal,Durban,23,False,False,2
+1536ae59-03c2-11f0-8300-0242ac120004,18-29,ZA,KwaZulu-Natal,Durban,4092,female,actor,zul,ZA,kwazulu_natal,Durban,ZA,kwazulu_natal,Durban,20,False,False,5
+d58b5638-fa78-11ef-a9a6-0242ac120003,60+,ZA,Gauteng,Johannesburg,1682,female,Self employed,zul,ZA,gauteng,Johannesburg,ZA,gauteng,Johannesburg,23,False,False,2
+50546122-f9b4-11ef-a9a6-0242ac120003,18-29,ZA,KwaZulu-Natal,Durban,4342,female,Unemployed,zul,ZA,kwazulu_natal,Durban,ZA,kwazulu_natal,Durban,23,False,False,2
+726c2b05-ffd3-11ef-a4e6-0242ac120005,18-29,ZA,KwaZulu-Natal,Stanger,4450,female,Unemployed,zul,ZA,kwazulu_natal,Stanger,ZA,kwazulu_natal,Stanger,10,False,False,3
+6ffa305b-f7fa-11ef-bf9c-0242ac120002,50-59,ZA,Gauteng,Johannesburg,1812,female,Unemployed,zul,ZA,gauteng,Johannesburg,ZA,gauteng,Johannesburg,19,False,False,1
+8a0f8aff-fb2a-11ef-a9a6-0242ac120003,18-29,ZA,Gauteng,Akasia,182,female,Student,zul,ZA,kwazulu_natal,Newcastle,ZA,kwazulu_natal,Newcastle,22,False,False,4
+19320e25-fa66-11ef-a9a6-0242ac120003,40-49,ZA,KwaZulu-Natal,Ladysmith,3370,female,,zul,ZA,kwazulu_natal,Ladysmith,ZA,kwazulu_natal,Ladysmith,45,False,False,5
+63203d1a-03dd-11f0-8300-0242ac120004,30-39,ZA,KwaZulu-Natal,Newcastle,2940,male,Self employed,zul,ZA,kwazulu_natal,Newcastle,ZA,kwazulu_natal,Newcastle,15,False,False,4
+bfc09659-f4d7-11ef-ac4e-0242ac120005,50-59,ZA,KwaZulu-Natal,Durban,4051,female,Teacher,zul,ZA,kwazulu_natal,Durban,ZA,kwazulu_natal,Durban,31,False,False,4
+49b61d6f-e22e-11ef-931f-0242ac120004,30-39,ZA,Gauteng,Johannesburg,2001,female,Call centre agent,zul,ZA,gauteng,Soweto,ZA,gauteng,Soweto,10,False,False,2
+ed63c438-e886-11ef-9e0f-0242ac120002,30-39,ZA,Gauteng,Johannesburg,1801,female,Administrator,zul,ZA,gauteng,Johannesburg,ZA,gauteng,Johannesburg,15,False,False,4
+77ea8e71-02fb-11f0-8300-0242ac120004,30-39,ZA,KwaZulu-Natal,Durban,4309,female,,zul,ZA,kwazulu_natal,Durban,ZA,kwazulu_natal,Durban,30,False,False,2
+3ff7abfd-0e39-11f0-9047-0242ac120004,18-29,ZA,KwaZulu-Natal,Durban,4066,female,Students,zul,ZA,kwazulu_natal,Pietermaritzburg,ZA,kwazulu_natal,Kranskop,5,False,False,3
+676fe666-0618-11f0-8778-0242ac120002,30-39,ZA,KwaZulu-Natal,Durban,4133,female,Caregiver,zul,ZA,kwazulu_natal,Durban,ZA,kwazulu_natal,Durban,5,False,False,4
+43a6d4aa-030b-11f0-8300-0242ac120004,30-39,ZA,Gauteng,Johannesburg,1686,female,Marketplace Representative,zul,ZA,gauteng,Ixopo,ZA,kwazulu_natal,Ixopo,4,False,False,5
+855bdd6a-137d-11f0-b3c5-0242ac120004,18-29,ZA,KwaZulu-Natal,Pietermaritzburg,3226,male,Unemployed,zul,ZA,kwazulu_natal,Pietermaritzburg,ZA,kwazulu_natal,Pietermaritzburg,10,False,False,3
+8bafccee-18f9-11f0-8bbc-0242ac120005,18-29,ZA,Gauteng,Katlehong,1431,male,Junior Draughtsman,zul,ZA,limpopo,Dennilton,ZA,mpumalanga,Carolina,23,False,False,3
+76a1ef7b-0940-11f0-ae3c-0242ac120003,18-29,ZA,KwaZulu-Natal,Mtubatuba,3935,male,Unemployed,zul,ZA,kwazulu_natal,Mtubatuba,ZA,kwazulu_natal,Mtubatuba,5,False,False,2
+feb93027-f7fc-11ef-bf9c-0242ac120002,30-39,ZA,Gauteng,Soshanguve,152,female,Student,zul,ZA,kwazulu_natal,Durban,ZA,kwazulu_natal,Gingindlovu,10,False,False,4
+4af2336b-15de-11f0-bb20-0242ac120003,18-29,ZA,KwaZulu-Natal,Mandeni,4490,male,Unemployed,zul,ZA,kwazulu_natal,Mandeni,ZA,kwazulu_natal,Mandeni,29,False,False,5
+7960d2a6-137d-11f0-b3c5-0242ac120004,18-29,ZA,Gauteng,Johannesburg,1833,female,Unemployed,zul,ZA,gauteng,Johannesburg,ZA,gauteng,Johannesburg,26,False,False,5
+698ade48-15de-11f0-bb20-0242ac120003,40-49,ZA,KwaZulu-Natal,Pietermaritzburg,3201,female,"Quality Control Office, Translator part time",zul,ZA,kwazulu_natal,"Harding, KwaZulu natal",ZA,kwazulu_natal,"Harding, KwaZulu natal",12,False,False,4
+3f8a41c4-0940-11f0-ae3c-0242ac120003,50-59,ZA,KwaZulu-Natal,Durban,4091,female,Unemployed,zul,ZA,kwazulu_natal,Nongoma,ZA,kwazulu_natal,Durban,20,False,False,1
+915b8cfe-061a-11f0-8778-0242ac120002,30-39,ZA,KwaZulu-Natal,Eshowe,3801,female,,zul,ZA,kwazulu_natal,Eshowe,ZA,kwazulu_natal,Eshowe,34,False,False,3
+02afe679-0df8-11f0-9047-0242ac120004,30-39,ZA,KwaZulu-Natal,Durban,4309,female,Unemployed,zul,ZA,kwazulu_natal,Nongoma,ZA,kwazulu_natal,Nongoma,3,False,False,2
+b8f32321-e220-11ef-931f-0242ac120004,40-49,ZA,KwaZulu-Natal,Pinetown,3610,male,Health and safety coordinator,zul,ZA,kwazulu_natal,Durban,ZA,kwazulu_natal,Durban,7,False,False,5
+a69324a1-0566-11f0-8300-0242ac120004,18-29,ZA,Gauteng,Johannesburg,1475,female,Executive Assistant,zul,ZA,gauteng,Johannesburg,ZA,gauteng,Johannesburg,27,False,False,4
+747b80d4-056b-11f0-8300-0242ac120004,30-39,ZA,KwaZulu-Natal,Durban,4031,female,Customer Assistant,zul,ZA,kwazulu_natal,Durban,ZA,kwazulu_natal,Durban,31,False,False,3
+90669eb5-1054-11f0-945d-0242ac120004,30-39,ZA,KwaZulu-Natal,Durban,4066,female,Teacher,zul,ZA,kwazulu_natal,Durban,ZA,kwazulu_natal,Durban,30,False,False,6
+aaea6c4d-fd94-11ef-a9a6-0242ac120003,18-29,ZA,KwaZulu-Natal,Vryheid,3100,female,unemployed,zul,ZA,kwazulu_natal,Vryheid,ZA,kwazulu_natal,Vryheid,23,False,False,5
+74c64d67-ef57-11ef-a867-0242ac120003,30-39,ZA,Gauteng,Johannesburg,1723,female,Unemployed,zul,ZA,gauteng,Johannesburg,ZA,gauteng,Johannesburg,31,False,False,5
+339e6d16-030a-11f0-8300-0242ac120004,18-29,ZA,Mpumalanga,Breyten,2330,female,Unemployed,zul,ZA,mpumalanga,Breyten,ZA,mpumalanga,Breyten,20,False,False,2
+b94df903-0fc3-11f0-945d-0242ac120004,30-39,ZA,KwaZulu-Natal,Paulpietersburg,3180,female,Student,zul,ZA,kwazulu_natal,Nkandla,ZA,kwazulu_natal,Paulpietersburg,26,False,False,5
+b7c2453d-1054-11f0-945d-0242ac120004,18-29,ZA,KwaZulu-Natal,Durban,3699,female,Unemployed,zul,ZA,gauteng,Pretoria,ZA,kwazulu_natal,Durban,20,False,False,5
+e9f4cd25-16a1-11f0-bb20-0242ac120003,18-29,ZA,Gauteng,Johannesburg,2032,male,unemployed,zul,ZA,kwazulu_natal,Manguzi,ZA,kwazulu_natal,Manguzi,0,False,False,5
+431996c6-0ec0-11f0-89c7-0242ac120004,30-39,ZA,KwaZulu-Natal,Mtubatuba,3935,male,Unemployed,zul,ZA,kwazulu_natal,Mtubatuba,ZA,kwazulu_natal,Mtubatuba,31,False,False,1
+de5a4060-0619-11f0-8778-0242ac120002,18-29,ZA,KwaZulu-Natal,Pinetown,3620,female,Student,zul,SZ,,Hlathikhulu,ZA,mpumalanga,Elukwatini,3,False,False,2
+0eb510a2-0df8-11f0-9047-0242ac120004,18-29,ZA,KwaZulu-Natal,Kranskop,3268,female,Unemployed,zul,ZA,kwazulu_natal,Kranskop,ZA,kwazulu_natal,Kranskop,22,False,False,2
+4566e9e5-009d-11f0-9dd7-0242ac120004,30-39,ZA,KwaZulu-Natal,Durban,3605,female,Unemployed,zul,ZA,kwazulu_natal,Durban,ZA,kwazulu_natal,Durban,29,False,True,1
+9699dd38-fe41-11ef-a4e6-0242ac120005,18-29,ZA,KwaZulu-Natal,Port Shepstone,4682,female,,zul,ZA,kwazulu_natal,Port Shepstone,ZA,kwazulu_natal,Port Shepstone,25,False,False,2
+0b342ab8-048e-11f0-8300-0242ac120004,30-39,ZA,KwaZulu-Natal,Durban,4066,female,Speech collection,zul,ZA,kwazulu_natal,Pietermaritzburg,ZA,kwazulu_natal,Durban South,20,False,False,4
+e7d57628-0309-11f0-8300-0242ac120004,30-39,ZA,KwaZulu-Natal,Estcourt,3310,female,Unemployed,zul,ZA,kwazulu_natal,Estcourt,ZA,kwazulu_natal,Estcourt,30,False,False,5
+d16f35d5-ffdf-11ef-b43a-0242ac120003,18-29,ZA,KwaZulu-Natal,Durban,4000,female,Teacher,zul,ZA,kwazulu_natal,Estcourt,ZA,kwazulu_natal,Durban,7,False,False,5
+5312a766-0897-11f0-ae3c-0242ac120003,18-29,ZA,Gauteng,Ekurhuleni,1632,female,Technical support,zul,ZA,gauteng,Johannesburg,ZA,gauteng,Johannesburg,27,False,False,3
+abb6def0-0f89-11f0-89c7-0242ac120004,18-29,ZA,KwaZulu-Natal,Durban,4342,female,Student,zul,ZA,kwazulu_natal,Ndwedwe,ZA,kwazulu_natal,Ndwedwe,5,False,False,2
+1be0a9d4-030b-11f0-8300-0242ac120004,30-39,ZA,KwaZulu-Natal,Pietermaritzburg,3201,female,Intern,zul,ZA,kwazulu_natal,Pietermaritzburg,ZA,kwazulu_natal,Pietermaritzburg,31,True,False,4
+b6fdd009-0f89-11f0-89c7-0242ac120004,18-29,ZA,KwaZulu-Natal,Harding,4680,female,Student,zul,ZA,kwazulu_natal,Harding,ZA,kwazulu_natal,Harding,19,False,False,2
+4c77a4fa-0e39-11f0-9047-0242ac120004,18-29,ZA,Mpumalanga,Mbombela,1332,female,Unemployed,zul,ZA,mpumalanga,Shongwe Mission,ZA,mpumalanga,Malelane,15,False,False,2
+77fff8cb-0f89-11f0-89c7-0242ac120004,30-39,ZA,Gauteng,Ga-Rankuwa,208,female,Social worker,zul,ZA,kwazulu_natal,Hlabisa,ZA,kwazulu_natal,Hlabisa,11,False,False,5
+366825de-e39f-11ef-baa7-0242ac120004,30-39,ZA,Gauteng,Johannesburg,1868,male,Community Patrol,zul,ZA,kwazulu_natal,Newcastle,ZA,kwazulu_natal,Gauteng,37,False,False,2
+c1fa9e85-02fb-11f0-8300-0242ac120004,18-29,ZA,Gauteng,Johannesburg,1626,female,Unemployed,zul,ZA,mpumalanga,Nelspruit,ZA,mpumalanga,Nelspruit,2,True,False,2
+c0f667a2-0940-11f0-ae3c-0242ac120003,18-29,ZA,Gauteng,Johannesburg,1431,female,Student,zul,ZA,gauteng,Germiston,ZA,gauteng,Johannesburg,15,False,False,2
+ec1e3f09-0653-11f0-9be4-0242ac120003,18-29,ZA,KwaZulu-Natal,Dundee,3000,female,,zul,ZA,kwazulu_natal,Dundee,ZA,kwazulu_natal,Dundee,26,False,False,5
+8c8fed39-062e-11f0-8778-0242ac120002,18-29,ZA,Mpumalanga,Nelspruit,1200,female,Unemployed,zul,ZA,kwazulu_natal,Pongola,ZA,kwazulu_natal,Pongola,5,False,False,5
+616e74a7-e79a-11ef-9e0f-0242ac120002,30-39,ZA,KwaZulu-Natal,Mandeni,3802,female,Unemployed,zul,ZA,kwazulu_natal,Stanger,ZA,kwazulu_natal,Hibberdene,8,False,False,4
+34e38e95-0619-11f0-8778-0242ac120002,18-29,ZA,Gauteng,Johannesburg,1847,female,Unemployed,zul,ZA,kwazulu_natal,Vryheid,ZA,kwazulu_natal,Vryheid,5,False,False,5
+8af87d9e-0876-11f0-ae3c-0242ac120003,18-29,ZA,KwaZulu-Natal,Durban,4090,female,University student,zul,ZA,kwazulu_natal,Durban,ZA,kwazulu_natal,Durban,4,False,False,5
+5c447765-f431-11ef-ac4e-0242ac120005,18-29,ZA,KwaZulu-Natal,Durban,4027,male,Software engineer,zul,ZA,kwazulu_natal,Durban,ZA,kwazulu_natal,Durban,28,False,False,5
+bc51daa1-0afc-11f0-b40b-0242ac120004,40-49,ZA,Gauteng,Sebokeng,1983,female,Unemployed,zul,ZA,gauteng,Soweto,ZA,gauteng,Soweto,5,False,False,9
+f065ea54-0647-11f0-9be4-0242ac120003,40-49,ZA,Limpopo,Groblersdal,1030,female,Sales consultant,zul,ZA,limpopo,Groblersdal,ZA,limpopo,Groblersdal,14,False,False,3
+bb29c63f-0f8a-11f0-89c7-0242ac120004,18-29,ZA,KwaZulu-Natal,Johannesburg,2018,female,Teacher,zul,ZA,kwazulu_natal,Pietermaritzburg,ZA,kwazulu_natal,Pietermaritzburg,3,False,False,5
+8a0c4d91-0940-11f0-ae3c-0242ac120003,18-29,ZA,KwaZulu-Natal,Durban,4066,male,Entrepreneur,zul,ZA,kwazulu_natal,Durban,ZA,kwazulu_natal,Durban,24,False,False,2
+82e8b551-0df8-11f0-9047-0242ac120004,18-29,ZA,Limpopo,Polokwane,470,female,Psychology intern,zul,ZA,limpopo,Polokwane,ZA,limpopo,Polokwane,20,False,False,6
+b48932cc-00b8-11f0-9dd7-0242ac120004,30-39,ZA,Gauteng,Johannesburg,1841,female,Unemployed,zul,ZA,gauteng,Johannesburg,ZA,gauteng,Johannesburg,20,False,False,2
+17cf5e86-0587-11f0-ac56-0242ac120003,18-29,ZA,KwaZulu-Natal,Nqutu,3135,female,Student,zul,ZA,kwazulu_natal,Nqutu,ZA,kwazulu_natal,Nqutu,20,False,False,2
+40f706a0-030a-11f0-8300-0242ac120004,18-29,ZA,KwaZulu-Natal,Newcastle,2952,female,Receptionist,zul,ZA,kwazulu_natal,Newcastle,ZA,kwazulu_natal,Newcastle,23,False,False,5
+96d33bb8-e21c-11ef-931f-0242ac120004,30-39,ZA,KwaZulu-Natal,Durban,4200,female,Unemployed,zul,ZA,kwazulu_natal,Durban,ZA,kwazulu_natal,Durban,30,False,False,5
+bae596b5-03c0-11f0-8300-0242ac120004,18-29,ZA,KwaZulu-Natal,Newcastle,2952,female,Student,zul,ZA,kwazulu_natal,Newcastle,ZA,kwazulu_natal,Newcastle,21,False,False,2
+b020f8c9-f59b-11ef-ac4e-0242ac120005,30-39,ZA,Gauteng,Pretoria,152,female,Lecturer,zul,ZA,kwazulu_natal,Pongola,ZA,kwazulu_natal,Pongola,3,False,False,7
+680780a0-02fb-11f0-8300-0242ac120004,18-29,ZA,Gauteng,Johannesburg,1724,female,Student,zul,ZA,gauteng,Johannesburg,ZA,gauteng,Johannesburg,1,False,False,2
+b1ee8e36-03c1-11f0-8300-0242ac120004,30-39,ZA,KwaZulu-Natal,Pietermarizburg,3201,female,Program Manager,zul,ZA,kwazulu_natal,Ladysmith,ZA,kwazulu_natal,Pietermaritzburg,20,False,False,6
+46be1da8-0618-11f0-8778-0242ac120002,60+,ZA,KwaZulu-Natal,Ladysmith,3381,female,Unemployed,zul,ZA,kwazulu_natal,Ladysmith,ZA,kwazulu_natal,Ladysmith,67,False,False,2
+07d83730-02f9-11f0-8300-0242ac120004,18-29,ZA,Gauteng,Ekurhuleni,1550,female,Unemployed,zul,ZA,gauteng,Ekurhuleni,ZA,gauteng,Ekurhuleni,6,False,False,2
+88dbfe6a-056b-11f0-8300-0242ac120004,18-29,ZA,Mpumalanga,Witbank,1039,male,Security officer,zul,ZA,mpumalanga,Witbank,ZA,mpumalanga,Witbank,3,False,False,2
+634e9896-03c0-11f0-8300-0242ac120004,18-29,ZA,KwaZulu-Natal,Newcastle,2952,female,Student,zul,ZA,kwazulu_natal,Newcastle,ZA,kwazulu_natal,Newcastle,23,False,False,2
+77b70692-fa66-11ef-a9a6-0242ac120003,18-29,ZA,KwaZulu-Natal,Nquthu,3135,female,Unemployed,zul,ZA,kwazulu_natal,Nqutu,ZA,kwazulu_natal,Nqutu,25,False,False,5
+69f45ff3-fa66-11ef-a9a6-0242ac120003,50-59,ZA,Gauteng,Johannesburg,1818,female,Not employed,zul,ZA,gauteng,Johannesburg,ZA,gauteng,Johannesburg,53,False,False,4
+8d1c8815-009c-11f0-9dd7-0242ac120004,18-29,ZA,Gauteng,Pretoria,8,female,Unemployed,zul,ZA,kwazulu_natal,Pietermaritzburg,ZA,kwazulu_natal,Pietermaritzburg,3,False,False,3
+205e8ae8-00c3-11f0-9dd7-0242ac120004,18-29,ZA,Gauteng,Johannesburg,2191,female,Transcriber/Translator,zul,ZA,kwazulu_natal,Cato Ridge,ZA,kwazulu_natal,Hammarsdale,1,False,False,4
+d7e10fde-048d-11f0-8300-0242ac120004,18-29,ZA,KwaZulu-Natal,Empangeni,3887,female,Unemployed,zul,ZA,kwazulu_natal,Empangeni,ZA,kwazulu_natal,Empangeni,24,False,False,3
+45c68d8d-00c3-11f0-9dd7-0242ac120004,18-29,ZA,Gauteng,Johannesburg,2014,female,Student,zul,ZA,gauteng,Johannesburg,ZA,kwazulu_natal,Ladysmith,3,False,False,5
+bd618b3e-009d-11f0-9dd7-0242ac120004,18-29,ZA,KwaZulu-Natal,Estcourt,3310,female,Student,zul,ZA,kwazulu_natal,Newcastle,ZA,kwazulu_natal,Newcastle,1,False,False,2
+e85a0d5e-f59d-11ef-ac4e-0242ac120005,18-29,ZA,Gauteng,Pretoria,122,female,Student,zul,ZA,gauteng,Pretoria,ZA,gauteng,Pretoria,24,False,False,4
+1f4bbc88-e235-11ef-931f-0242ac120004,30-39,ZA,Gauteng,Pretoria,122,female,Unemployed,zul,ZA,gauteng,Pretoria,ZA,gauteng,Pretoria,35,False,False,2
+b2eb4311-009c-11f0-9dd7-0242ac120004,30-39,ZA,Gauteng,Johannesburg,1475,male,Unemployed,zul,ZA,gauteng,Vosloorus,ZA,gauteng,Vosloorus,33,False,False,3
+e5c34bcf-fb2b-11ef-a9a6-0242ac120003,18-29,ZA,KwaZulu-Natal,Hillcrest,3650,female,Unemployed,zul,ZA,kwazulu_natal,Pinetown,ZA,kwazulu_natal,Pinetown,22,False,False,4
+49f0886b-fa66-11ef-a9a6-0242ac120003,30-39,ZA,Gauteng,Johannesburg,1819,female,Online English Tutor,zul,ZA,kwazulu_natal,Donnybrook,ZA,kwazulu_natal,Donnybrook,20,False,False,4
+719d61e9-f27c-11ef-bb32-0242ac120002,18-29,ZA,KwaZulu-Natal,Newcastle,2940,female,,zul,ZA,gauteng,Pretoria,ZA,kwazulu_natal,Newcastle,15,False,False,2
+0a80a725-fe56-11ef-a4e6-0242ac120005,18-29,ZA,Gauteng,Johannesburg,2189,female,Transcriber,zul,ZW,,Victoria Falls,ZA,gauteng,Johannesburg,3,False,False,1
+0d56819c-f7fa-11ef-bf9c-0242ac120002,18-29,ZA,Gauteng,Vanderbijlpark,1984,female,Student,zul,ZA,kwazulu_natal,Pietermaritzburg,ZA,kwazulu_natal,Soweto,10,False,False,2
+ac50ffbe-f7ff-11ef-bf9c-0242ac120002,18-29,ZA,Gauteng,Pretoria,208,female,language practice student,zul,ZA,kwazulu_natal,Spruitview,ZA,kwazulu_natal,Nquthu,2,False,False,2
+93e77728-f27f-11ef-bb32-0242ac120002,30-39,ZA,Gauteng,Vereeniging,1983,male,Unemployed,zul,ZA,gauteng,Sebokeng,ZA,gauteng,Ndwedwe,10,False,False,9
+087f4ba1-e793-11ef-9e0f-0242ac120002,40-49,ZA,KwaZulu-Natal,Pietermaritzburg,3200,female,,zul,ZA,kwazulu_natal,Pietermaritzburg,ZA,kwazulu_natal,Pietermaritzburg,15,False,False,2
+8fb140f6-f5bd-11ef-bf9c-0242ac120002,18-29,ZA,Gauteng,Pretoria,2,female,Unemployed,zul,ZA,kwazulu_natal,Pietermaritzburg,ZA,kwazulu_natal,Pietermaritzburg,2,False,False,5
+7f2b33bb-04b6-11f0-8300-0242ac120004,18-29,ZA,Gauteng,Brakpan,1550,female,Unemployed,zul,ZA,gauteng,Brakpan,ZA,gauteng,Brakpan,5,False,False,2
+64e14d7a-f35e-11ef-b893-0242ac120002,18-29,ZA,Gauteng,Johannesburg,1852,male,Professional Tattoo Artist,zul,ZA,gauteng,Johannesburg,ZA,gauteng,Johannesburg,2,False,False,2
+6ef9bf40-e796-11ef-9e0f-0242ac120002,18-29,ZA,KwaZulu-Natal,Durban,4001,female,Information technology,zul,ZA,kwazulu_natal,Durban,ZA,kwazulu_natal,Durban,29,False,False,2
+79fa1e6b-f29c-11ef-bb32-0242ac120002,30-39,ZA,Gauteng,Johannesburg,1685,female,Community Participation,zul,ZA,gauteng,Johannesburg,ZA,gauteng,Johannesburg,31,False,False,7
+cceabc1b-f7fb-11ef-bf9c-0242ac120002,18-29,ZA,KwaZulu-Natal,Ndumu,3996,female,Student,zul,ZA,kwazulu_natal,Ndumu,ZA,kwazulu_natal,Ndumu,4,False,False,5
+8a6eb8f5-f296-11ef-bb32-0242ac120002,30-39,ZA,KwaZulu-Natal,Newcastle,2944,female,Unemployed,zul,ZA,kwazulu_natal,Newcastle,ZA,kwazulu_natal,Newcastle,33,False,False,2
+f5c9fcb3-f282-11ef-bb32-0242ac120002,40-49,ZA,KwaZulu-Natal,Newcastle,2952,female,Domestic worker,zul,ZA,kwazulu_natal,Newcastle,ZA,kwazulu_natal,Newcastle,46,False,False,2
+53ff463d-f434-11ef-ac4e-0242ac120005,18-29,ZA,KwaZulu-Natal,Mandeni,4490,female,Teacher,zul,ZA,kwazulu_natal,Durban,ZA,kwazulu_natal,Mandeni,22,False,False,5
+20dd889e-f42d-11ef-ac4e-0242ac120005,30-39,ZA,KwaZulu-Natal,Durban,4066,female,Self employed,zul,ZA,kwazulu_natal,Izinqoleni,ZA,kwazulu_natal,Durban,13,False,False,2
+2924b2d3-f4dd-11ef-ac4e-0242ac120005,40-49,ZA,KwaZulu-Natal,Durban,4001,female,Unemployed,zul,ZA,kwazulu_natal,Durban,ZA,kwazulu_natal,Durban,5,False,False,3
+93b178b0-f29f-11ef-bb32-0242ac120002,30-39,ZA,KwaZulu-Natal,Durban,4360,female,Student,zul,ZA,kwazulu_natal,Durban,ZA,kwazulu_natal,Durban,30,False,False,3
+c0f22643-f42d-11ef-ac4e-0242ac120005,18-29,ZA,Free State,Phuthaditjhaba,9868,female,Unemployed,zul,ZA,kwazulu_natal,Durban,ZA,kwazulu_natal,Durban,5,False,False,2
+db78f857-f282-11ef-bb32-0242ac120002,18-29,ZA,KwaZulu-Natal,Eshowe,3815,female,Cashier,zul,ZA,kwazulu_natal,Eshowe,ZA,kwazulu_natal,Eshowe,18,False,False,2
+f871b608-f344-11ef-b893-0242ac120002,18-29,ZA,KwaZulu-Natal,Umlazi,4066,female,Customer service agent,zul,ZA,kwazulu_natal,Durban,ZA,kwazulu_natal,Durban,23,False,False,2
+7821bd97-f27f-11ef-bb32-0242ac120002,30-39,ZA,Gauteng,Benoni,1501,female,Cashier,zul,ZA,kwazulu_natal,Pongola,ZA,kwazulu_natal,Pongola,13,False,False,5

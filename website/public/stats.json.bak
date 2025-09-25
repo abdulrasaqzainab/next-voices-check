@@ -1,0 +1,112 @@
+{
+  "dataCollection": {
+    "audioHours": {
+      "total": 1250,
+      "byLanguage": {
+        "isiZulu": 450,
+        "isiXhosa": 350,
+        "Sesotho": 200,
+        "Setswana": 150,
+        "Xitsonga": 100,
+        "Tshivenda": 75,
+        "Siswati": 50
+      }
+    },
+    "transcribedHours": {
+      "total": 875,
+      "byLanguage": {
+        "isiZulu": 325,
+        "isiXhosa": 275,
+        "Sesotho": 150,
+        "Setswana": 75,
+        "Xitsonga": 50,
+        "Tshivenda": 45,
+        "Siswati": 30
+      }
+    },
+    "speakers": {
+      "total": 2500,
+      "byGender": {
+        "female": 1300,
+        "male": 1100,
+        "nonBinary": 100
+      },
+      "byRegion": {
+        "KwaZuluNatal": 650,
+        "Gauteng": 550,
+        "EasternCape": 400,
+        "WesternCape": 350,
+        "FreeState": 200,
+        "Limpopo": 150,
+        "NorthWest": 100,
+        "Mpumalanga": 50,
+        "NorthernCape": 50
+      }
+    }
+  },
+  "modelPerformance": {
+    "speechToText": {
+      "werScores": {
+        "isiZulu": 18.5,
+        "isiXhosa": 19.2,
+        "Sesotho": 22.1,
+        "Setswana": 23.5,
+        "Xitsonga": 25.8,
+        "Tshivenda": 27.3,
+        "Siswati": 26.1
+      },
+      "improvementFromBaseline": {
+        "isiZulu": 35,
+        "isiXhosa": 32,
+        "Sesotho": 28,
+        "Setswana": 25,
+        "Xitsonga": 22,
+        "Tshivenda": 20,
+        "Siswati": 21
+      }
+    },
+    "textToSpeech": {
+      "mosScores": {
+        "isiZulu": 3.8,
+        "isiXhosa": 3.7,
+        "Sesotho": 3.5,
+        "Setswana": 3.4,
+        "Xitsonga": 3.2,
+        "Tshivenda": 3.1,
+        "Siswati": 3.0
+      }
+    }
+  },
+  "impact": {
+    "downloads": 12500,
+    "citations": 45,
+    "activeContributors": 75,
+    "partneredOrganizations": 8,
+    "deployments": {
+      "academic": 12,
+      "commercial": 5,
+      "government": 3,
+      "ngo": 7
+    }
+  },
+  "timeline": {
+    "lastUpdated": "2025-09-07",
+    "milestones": [
+      {
+        "date": "2025-01-15",
+        "title": "1000 hours milestone reached",
+        "description": "Project successfully collected 1000 hours of audio across target languages"
+      },
+      {
+        "date": "2025-04-22",
+        "title": "First model release",
+        "description": "Initial ASR models released for isiZulu and isiXhosa"
+      },
+      {
+        "date": "2025-07-10",
+        "title": "Expanded language support",
+        "description": "Added support for Sesotho, Setswana, and Xitsonga"
+      }
+    ]
+  }
+}
