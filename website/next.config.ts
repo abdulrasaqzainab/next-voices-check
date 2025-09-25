@@ -11,13 +11,16 @@ const nextConfig: NextConfig = {
   basePath: repo ? `/${repo}` : '',
   assetPrefix: repo ? `/${repo}/` : '',
 
-  // 3) Disable next/image optimization (requires server)
+  // Configure images for static export
   images: {
     unoptimized: true,
+    path: process.env.GITHUB_REPOSITORY ? `/${process.env.GITHUB_REPOSITORY.split('/')[1]}/_next/image` : '/_next/image',
+    loader: 'custom',
+    loaderFile: './image-loader.ts',
   },
 
-  // optional, trailing slash in exported paths
-  trailingSlash: false,
+  // Use trailing slash for consistency
+  trailingSlash: true,
 };
 
 export default nextConfig;

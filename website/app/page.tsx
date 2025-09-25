@@ -84,10 +84,42 @@ export default function App() {
       <section className="py-12 max-w-5xl mx-auto">
         <h2 className="text-2xl font-bold text-center mb-8">Partners & Supporters</h2>
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 items-center justify-center">
-          <Image src="/images/WayWithWords.png" alt="Way With Words" width={64} height={64} className="h-16 mx-auto" />
-          <Image src="/images/Law_UP.png" alt="UP Law" width={48} height={48} className="h-12 mx-auto" />
-          <Image src="/images/Meta-Logo-trans.png" alt="Meta" width={48} height={48} className="h-12 mx-auto" />
-          <Image src="/images/Gates_Foundation_Logo.png" alt="Gates Foundation" width={48} height={48} className="h-12 mx-auto" />
+          <Image 
+            src="/images/WayWithWords.png" 
+            alt="Way With Words" 
+            width={64} 
+            height={64} 
+            className="h-16 mx-auto"
+            loading="eager"
+            priority
+          />
+          <Image 
+            src="/images/Law_UP.png" 
+            alt="UP Law" 
+            width={48} 
+            height={48} 
+            className="h-12 mx-auto"
+            loading="eager"
+            priority
+          />
+          <Image 
+            src="/images/Meta-Logo-trans.png" 
+            alt="Meta" 
+            width={48} 
+            height={48} 
+            className="h-12 mx-auto"
+            loading="eager"
+            priority
+          />
+          <Image 
+            src="/images/Gates_Foundation_Logo.png" 
+            alt="Gates Foundation" 
+            width={48} 
+            height={48} 
+            className="h-12 mx-auto"
+            loading="eager"
+            priority
+          />
         </div>
       </section>
 
