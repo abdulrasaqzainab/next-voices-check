@@ -2,7 +2,9 @@
 
 import { Card, CardContent, CardDescription, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import { GradientSection } from "@/components/ui/gradient-section";
 import Image from 'next/image';
+import picture from "../../website/public/images/example.png"
 
 // Impact stories data structure that's easy to update
 const impactStories = [
@@ -13,7 +15,7 @@ const impactStories = [
 		content: "Using our ASR models, the university developed lecture transcription tools for isiZulu and Sesotho speakers, improving access for over 3,000 students.",
 		quote: "The models have transformed how we support diverse language speakers in our programs.",
 		person: "Dr. Thabo Molekwa, Department of Computer Science",
-		imageUrl: "/images/uofl.png",
+		imageUrl: picture,
 	},
 	{
 		id: 2,
@@ -22,7 +24,7 @@ const impactStories = [
 		content: "Deployed our speech technologies in 12 rural clinics, helping healthcare workers communicate with patients in their native languages.",
 		quote: "Staff report 40% better understanding of patient concerns when using the translation system.",
 		person: "Nomsa Dlamini, Program Director",
-		imageUrl: "/images/rhi.png",
+		imageUrl: picture,
 	},
 	{
 		id: 3,
@@ -31,7 +33,7 @@ const impactStories = [
 		content: "Our models helped transcribe over 200 hours of oral histories from elders speaking endangered language dialects.",
 		quote: "These technologies are instrumental in our mission to preserve linguistic heritage for future generations.",
 		person: "Michael van der Merwe, Heritage Preservation Lead",
-		imageUrl: "/images/sahc.png",
+		imageUrl: picture,
 	},
 	{
 		id: 4,
@@ -40,13 +42,13 @@ const impactStories = [
 		content: "Integrated voice recognition in service kiosks supporting Xitsonga and Setswana, serving over 15,000 citizens monthly.",
 		quote: "We've seen a 35% reduction in service time and improved satisfaction scores.",
 		person: "Lerato Moloi, Digital Transformation Officer",
-		imageUrl: "/images/dha.png",
+		imageUrl: picture,
 	},
 ];
 
 export default function CommunityImpact() {
 	return (
-		<section className="py-12 bg-gradient-to-b from-white to-gray-50">
+		<GradientSection variant="plain">
 			<div className="max-w-5xl mx-auto">
 				<h2 className="text-2xl font-bold text-center mb-8">Community Impact</h2>
 
@@ -85,6 +87,6 @@ export default function CommunityImpact() {
           To add more impact stories, edit the <code className="bg-gray-100 p-1 rounded">impactStories</code> array in <code className="bg-gray-100 p-1 rounded">components/CommunityImpact.tsx</code>
         </p> */}
 			</div>
-		</section>
+		</GradientSection>
 	);
 }

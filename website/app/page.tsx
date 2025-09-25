@@ -2,6 +2,7 @@ import { Card, CardDescription, CardFooter, CardTitle } from "@/components/ui/ca
 import { Button } from "@/components/ui/button";
 import { Github, Twitter } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
+import { GradientSection } from "@/components/ui/gradient-section";
 import NewsUpdates from "@/components/NewsUpdates";
 import CommunityImpact from "@/components/CommunityImpact";
 import TechnicalBenchmarks from "@/components/TechnicalBenchmarks";
@@ -9,13 +10,13 @@ import StatsVisualization from "@/components/StatsVisualization";
 import Image from 'next/image';
 // No need for importing statsData as we're using fallbackStats directly in the components
 
-import pic from "../public/images/Law_UP.png"
+
 
 export default function App() {
   return (
     <div className="min-h-screen text-gray-900 bg-gradient-to-br from-red-200 via-yellow-400 via-white to-teal-500">
       {/* Hero Section */}
-      <section className="py-16 text-center bg-gradient-to-r  text-white">
+      <GradientSection variant="hero" className="text-center text-white">
         <h1 className="text-4xl md:text-6xl font-bold mb-4">
           Swivuriso: ZA-African Next Voices
         </h1>
@@ -40,7 +41,7 @@ export default function App() {
             </a>
           </Button>
         </div>
-      </section>
+      </GradientSection>
 
       <section className="py-12 bg-white">
         <div className="max-w-3xl mx-auto text-center">
@@ -68,64 +69,32 @@ export default function App() {
       </section>
 
       {/* Authors Section */}
-      <section className="py-12 max-w-5xl mx-auto">
-        <h2 className="text-2xl font-bold text-center mb-6">Project Team</h2>
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-2 text-center">
-          {["Vukosi Marivate (co-PI)", "Kayode Olaleye (co-PI)", "Sitwala Mundia", "Unarine Netshifhefhe", "Nia Zion van Wyk", "Mahmooda Milanzie", "Tsholofelo Mogale", "Chijioke Okorie", "Thapelo Sindane", "Andinda Bakainaga", "Graham Morrissey", "Dale Dunbar", "Franscois Smit", "Tsosheletso Chidi", "Rooweither Mabuya", "Andiswa Bukula", "Respect Mlambo", "Tebogo Macucwa"].map((name) => (
-            <Badge variant="names" key={name}>
-              {name}
-            </Badge>
-          ))}
+      <GradientSection className="text-white">
+        <div className="max-w-5xl mx-auto">
+          <h2 className="text-2xl font-bold text-center mb-6">Project Team</h2>
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-2 text-center">
+            {["Vukosi Marivate (co-PI)", "Kayode Olaleye (co-PI)", "Sitwala Mundia", "Unarine Netshifhefhe", "Nia Zion van Wyk", "Mahmooda Milanzie", "Tsholofelo Mogale", "Chijioke Okorie", "Thapelo Sindane", "Andinda Bakainaga", "Graham Morrissey", "Dale Dunbar", "Franscois Smit", "Tsosheletso Chidi", "Rooweither Mabuya", "Andiswa Bukula", "Respect Mlambo", "Tebogo Macucwa"].map((name) => (
+              <Badge variant="names" key={name}>
+                {name}
+              </Badge>
+            ))}
+          </div>
         </div>
-      </section>
+      </GradientSection>
 
       
       {/* Partners Section */}
-      <section className="py-12 max-w-5xl mx-auto">
-        <h2 className="text-2xl font-bold text-center mb-8">Partners & Supporters</h2>
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 items-center justify-center">
-          <div className="flex items-center justify-center">
-            <Image 
-              src={'../public/images/WayWithWords.png'} 
-              alt="Way With Words" 
-              width={128}
-              height={128}
-              className="h-16 w-auto object-contain"
-              priority
-            />
-          </div>
-          <div className="flex items-center justify-center">
-            <Image 
-              src={'../public/images/Law_UP.png'} 
-              alt="UP Law" 
-              width={96}
-              height={96}
-              className="h-12 w-auto object-contain"
-              priority
-            />
-          </div>
-          <div className="flex items-center justify-center">
-            <Image 
-              src={'../public/images/Meta-Logo-trans.png'} 
-              alt="Meta" 
-              width={96}
-              height={96}
-              className="h-12 w-auto object-contain"
-              priority
-            />
-          </div>
-          <div className="flex items-center justify-center">
-            <Image 
-              src={'../public/images/Gates_Foundation_Logo.png'} 
-              alt="Gates Foundation" 
-              width={96}
-              height={96}
-              className="h-12 w-auto object-contain"
-              priority
-            />
+      <GradientSection variant="plain">
+        <div className="max-w-5xl mx-auto">
+          <h2 className="text-2xl font-bold text-center mb-8">Partners & Supporters</h2>
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 items-center justify-center">
+            <Image src="/images/WayWithWords.png" alt="Way With Words" width={64} height={64} className="h-16 mx-auto" />
+            <Image src="/images/Law_UP.png" alt="UP Law" width={48} height={48} className="h-12 mx-auto" />
+            <Image src="/images/Meta-Logo-trans.png" alt="Meta" width={48} height={48} className="h-12 mx-auto" />
+            <Image src="/images/Gates_Foundation_Logo.png" alt="Gates Foundation" width={48} height={48} className="h-12 mx-auto" />
           </div>
         </div>
-      </section>
+      </GradientSection>
 
       {/* Statistics Visualization Section */}
       <StatsVisualization />
@@ -140,13 +109,13 @@ export default function App() {
       <CommunityImpact />
 
       {/* Footer */}
-      <footer className="py-8 text-center bg-gray-900 text-gray-300">
+      <GradientSection variant="footer" className="text-center text-white">
         <p className="text-sm">Citation: TBC</p>
         <p className="text-xs mt-2">Acknowledgments: Lelapa AI, Agricultural Research Council, Karya, Lanfrica, SADiLaR</p>
         <div className="flex justify-center mt-6">
-          <Image src="../public/images/dsfsi_logo2.png" alt="DSFSI Logo" width={64} height={64} className="h-16" />
+          <Image src="/images/dsfsi_logo2.png" alt="DSFSI Logo" width={64} height={58} className="h-16 flex items-center justify-center mt-6 w-18 h-18 rounded-full bg-white shadow" />
         </div>
-      </footer>
+      </GradientSection>
     </div>
   );
 }

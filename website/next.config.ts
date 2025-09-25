@@ -1,28 +1,23 @@
 import type { NextConfig } from "next";
 
+// get repo name from GitHub Actions env, fallback to empty string for local dev
+const repo = process.env.GITHUB_REPOSITORY?.split('/')[1] || '';
+
 const nextConfig: NextConfig = {
-  // Enable static HTML export
+  // 1) Enable static HTML export
   output: 'export',
 
-  // Configure for GitHub Pages
-  basePath: '/next-voices-check',
-  assetPrefix: '/next-voices-check/',
+  // 2) If this is a project page, set basePath/assetPrefix automatically
+  basePath: repo ? `/${repo}` : '',
+  assetPrefix: repo ? `/${repo}/` : '',
 
-  // Configure images for static export
+  // 3) Disable next/image optimization (requires server)
   images: {
     unoptimized: true,
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: '**',
-      },
-    ],
-    loader: 'custom',
-    loaderFile: './image-loader.ts',
   },
 
-  // Use trailing slash for consistency
-  trailingSlash: true,
+  // optional, trailing slash in exported paths
+  trailingSlash: false,
 };
 
 export default nextConfig;

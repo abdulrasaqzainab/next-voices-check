@@ -1,5 +1,6 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import { GradientSection } from "@/components/ui/gradient-section";
 
 // News/Updates data structure that's easy to update
 const newsItems = [
@@ -43,8 +44,9 @@ const categoryColors: Record<string, string> = {
 
 export default function NewsUpdates() {
   return (
-    <section className="py-12 max-w-5xl mx-auto">
-      <h2 className="text-2xl font-bold text-center mb-8">News & Updates</h2>
+    <GradientSection variant="plain">
+      <div className="max-w-5xl mx-auto">
+        <h2 className="text-2xl font-bold text-center mb-8">News & Updates</h2>
       <div className="space-y-6">
         {newsItems.map((item) => (
           <Card key={item.id} className="overflow-hidden">
@@ -73,6 +75,7 @@ export default function NewsUpdates() {
       {/* <p className="text-center text-sm text-gray-500 mt-8">
         To add more updates, edit the <code className="bg-gray-100 p-1 rounded">newsItems</code> array in <code className="bg-gray-100 p-1 rounded">components/NewsUpdates.tsx</code>
       </p> */}
-    </section>
+      </div>
+    </GradientSection>
   );
 }

@@ -1,68 +1,45 @@
-# Workflow for deploying Next.js site to GitHub Pages
-name: Deploy Next.js site to Pages
+name: Deploy Jekyll site to Pages
 
 on:
-  # Runs on pushes targeting the default branch
   push:
     branches: ["main"]
-
-  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: read
   pages: write
   id-token: write
 
-# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
-# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
 concurrency:
   group: "pages"
   cancel-in-progress: false
 
 jobs:
-  # Build job
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+        
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
         with:
-          node-version: "18"    # change if you need a different Node version
-          cache: "npm"
-
-          cache-dependency-path: ./website/package-lock.json
-
-      - name: Install dependencies
-        run: npm ci
-        working-directory: ./website
-
-
-      - name: Build (Next static export)
+          ruby-version: '3.1'
+          bundler-cache: true
+          cache-version: 0
+          
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v4
+        
+      - name: Build with Jekyll
+        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
-          NODE_ENV: production
-        run: |
-          npm run build
-          # Copy static assets
-          cp -r static/* public/
-          # if your build does not create out/ automatically (older Next), run: npm run build && npm run export
-        working-directory: ./website
-
-      - name: Ensure .nojekyll (prevents Jekyll ignoring _next)
-        run: |
-          # create a blank .nojekyll inside the final output folder (out/)
-          touch ./website/out/.nojekyll
-
-      - name: Upload pages artifact
-        # this packages & uploads the static output for use by the deploy job
+          JEKYLL_ENV: production
+          
+      - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./website/out
 
-  # Deployment job
   deploy:
     environment:
       name: github-pages
