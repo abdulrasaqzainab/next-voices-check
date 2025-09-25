@@ -9,7 +9,7 @@ import StatsVisualization from "@/components/StatsVisualization";
 import Image from 'next/image';
 // No need for importing statsData as we're using fallbackStats directly in the components
 
-
+import pic from "../public/images/Law_UP.png"
 
 export default function App() {
   return (
@@ -86,7 +86,7 @@ export default function App() {
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 items-center justify-center">
           <div className="flex items-center justify-center">
             <Image 
-              src={'/images/WayWithWords.png'} 
+              src={'../public/images/WayWithWords.png'} 
               alt="Way With Words" 
               width={128}
               height={128}
@@ -96,7 +96,7 @@ export default function App() {
           </div>
           <div className="flex items-center justify-center">
             <Image 
-              src={'/images/Law_UP.png'} 
+              src={'../public/images/Law_UP.png'} 
               alt="UP Law" 
               width={96}
               height={96}
@@ -106,7 +106,7 @@ export default function App() {
           </div>
           <div className="flex items-center justify-center">
             <Image 
-              src={'/images/Meta-Logo-trans.png'} 
+              src={'../public/images/Meta-Logo-trans.png'} 
               alt="Meta" 
               width={96}
               height={96}
@@ -116,7 +116,7 @@ export default function App() {
           </div>
           <div className="flex items-center justify-center">
             <Image 
-              src={'/images/Gates_Foundation_Logo.png'} 
+              src={'../public/images/Gates_Foundation_Logo.png'} 
               alt="Gates Foundation" 
               width={96}
               height={96}
@@ -144,7 +144,7 @@ export default function App() {
         <p className="text-sm">Citation: TBC</p>
         <p className="text-xs mt-2">Acknowledgments: Lelapa AI, Agricultural Research Council, Karya, Lanfrica, SADiLaR</p>
         <div className="flex justify-center mt-6">
-          <Image src="/images/dsfsi_logo2.png" alt="DSFSI Logo" width={64} height={64} className="h-16" />
+          <Image src="../public/images/dsfsi_logo2.png" alt="DSFSI Logo" width={64} height={64} className="h-16" />
         </div>
       </footer>
     </div>
