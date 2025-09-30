@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="Swivuriso: A large-scale multilingual speech dataset targeting over 3000 hours of audio across 7 South African languages for Automatic Speech Recognition (ASR) and inclusive speech technologies.">
+  <meta property="og:title" content="Swivuriso: ZA-African Next Voices - Multilingual Speech Dataset"/>
+  <meta property="og:description" content="Large-scale multilingual speech dataset for South African languages supporting ASR research and inclusive speech technologies. Access via Hugging Face and Zenodo."/>
+  <meta property="og:url" content="https://www.dsfsi.co.za/za-african-next-voices/"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="Swivuriso: ZA-African Next Voices Dataset">
+  <meta name="twitter:description" content="Large-scale multilingual speech dataset for 7 South African languages. Supporting ASR research and inclusive speech technologies.">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/za_next_voices_twitter_banner.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="speech recognition, ASR, African languages, South African languages, multilingual dataset, isiZulu, isiXhosa, Sesotho, Setswana, Xitsonga, isiNdebele, Tshivenda, machine learning, artificial intelligence, DSFSI, inclusive technology">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>African Next-Voices-Za </title>
+  <link rel="icon" type="image/x-icon" href="https://www.dsfsi.co.za/assets/icon/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+  <script src="https://cdn.plot.ly/plotly-3.0.1.min.js" charset="utf-8"></script>
+  <script src="plotly-3.0.1.min.js" charset="utf-8"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">Swivuriso: ZA-African Next Voices</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <div class="is-size-5 publication-authors">
+                <!-- Paper authors -->
+                <span class="author-block">
+                  <a href="https://dsfsi.co.za/members/" target="_blank">Vukosi Marivate (co-PI)</a>
+                </span>
+                <span class="author-block">
+                  <a href="https://dsfsi.co.za/members/" target="_blank">Kayode Olaleye (co-PI)</a>
+                </span>
+                <span class="author-block">
+                  <a href="https://dsfsi.co.za/members/" target="_blank">Sitwala Mundia</a>
+                </span>
+                <span class="author-block">
+                  <a href="https://dsfsi.co.za/members/" target="_blank">Unarine Netshifhefhe</a>
+                </span>
+                <span class="author-block">
+                  <a href="https://dsfsi.co.za/members/" target="_blank">Nia Zion van Wyk</a>
+                </span>
+                <span class="author-block">
+                  <a href="https://dsfsi.co.za/members/" target="_blank">Mahmooda Milanzie</a>
+                </span>
+                <span class="author-block">
+                  <a href="https://dsfsi.co.za/members/" target="_blank">Tsholofelo Mogale</a>
+                </span>
+                <span class="author-block">
+                  <a href="https://dsfsi.co.za/members/" target="_blank">Chijioke Okorie</a>
+                </span>
+                <span class="author-block">
+                  <a href="https://dsfsi.co.za/members/" target="_blank">Thapelo Sindane</a>
+                </span>
+                <span class="author-block">
+                  <a href="https://dsfsi.co.za/members/" target="_blank">Andinda Bakainaga</a>
+                </span>
+                <span class="author-block">
+                  <a href="#" target="_blank">Graham Morrissey</a>
+                </span>
+                <span class="author-block">
+                  <a href="#" target="_blank">Dale Dunbar</a>
+                </span>
+                <span class="author-block">
+                  <a href="#" target="_blank">Franscois Smit</a>
+                </span>
+                <span class="author-block">
+                  <a href="https://dsfsi.co.za/members/" target="_blank">Tsosheletso Chidi</a>
+                </span>
+                <span class="author-block">
+                  <a href="#" target="_blank">Rooweither Mabuya</a>
+                </span>
+                <span class="author-block">
+                  <a href="#" target="_blank">Andiswa Bukula</a>
+                </span>
+                <span class="author-block">
+                  <a href="#" target="_blank">Respect Mlambo</a>
+                </span>
+                <span class="author-block">
+                  <a href="#" target="_blank">Tebogo Macucwa</a>
+                </span>
+
+              </div>
+                
+                <!-- Collaborators Logos -->
+                <div class="columns is-centered is-vcentered" style="margin-top: 1rem;">
+                  <div class="column is-narrow has-text-centered mx-1 pr-6">
+                    <figure class="image is-128x128 is-inline-block">
+                      <a href="https://www.up.ac.za" target="_blank"><img src="static/images/UP_emblem.jpeg" alt="UP Emblem"></a>
+                    </figure>
+                  </div>
+                  <div class="column is-narrow has-text-centered mx-1 pl-6">
+                    <figure class="image is-128x158 is-inline-block">
+                      <a href="https://www.dsfsi.co.za" target="_blank"><img src="static/images/dsfsi_logo2.png" style="width: 10rem;" alt="DSFSI Logo"></a>
+                    </figure>
+                  </div>
+                  
+                </div>
+
+                <!-- Collaborators Label -->
+                <div class="has-text-centered is-size-6">
+                  <strong>Project Links</strong>
+                </div>
+                  </div>
+
+
+                  <div class="column has-text-centered">
+                    <span class="link-block">
+                      <a href="https://huggingface.co/datasets/dsfsi-anv/za-african-next-voices/" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <img src="static/images/hf-logo-pirate.png" alt="Hugging Face" style="width: 24px; height: 24px;">
+                        </span>
+                        <span>Hugging Face</span>
+                      </a>
+                    </span>
+                    
+
+
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://github.com/dsfsi/za-next-voices-2025" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>za-next-voices-2025</span>
+                  </a>
+                </span>
+
+                <!-- ArXiv abstract Link -->
+                <span class="link-block">
+                  <a href="https://twitter.com/dsfsi_research" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fab fa-twitter"></i>
+                  </span>
+                  <span>@DSFSI_Research</span>
+                </a>
+              
+            </div>
+            <div class="dataset-size">Dataset Size: TBC</div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Teaser video-->
+<!-- <section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <video poster="" id="tree" autoplay controls muted loop height="100%">
+        
+        <source src="static/videos/banner_video.mp4"
+        type="video/mp4">
+      </video>
+      <h2 class="subtitle has-text-centered">
+        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
+      </h2>
+    </div>
+  </div>
+</section> -->
+<!-- End teaser video -->
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Swivuriso: ZA-African Next Voices</h2>
+        <div class="content has-text-justified">
+          <p><strong>⚠️ IMPORTANT: Work in Progress</strong></p>
+          <p>This dataset is <strong>not final</strong>. Releases and updates will continue until <strong>end of September 2025</strong>.</p>
+          <ul>
+          <li><strong>Users must regularly check this repository</strong> for new versions, corrections, and updates.</li>
+          <li>For <strong>attribution, benchmarking, and publications</strong>, <strong>always reference the latest available information</strong> (as of September 2025 or later).</li>
+          <li>Do <strong>not</strong> cite or benchmark against old/incomplete versions. Use only the most recent release and documentation.</li>
+          </ul>
+          <p>We appreciate your patience while we expand and improve this dataset. <strong>Stay updated by watching this repo.</strong></p>
+          <h1 id="swivuriso-za-african-next-voices">About the project</h1>
+          <p><strong>Swivuriso</strong> is a large-scale multilingual speech dataset targeting over <strong>3000 hours</strong> of audio across <strong>7 South African languages</strong>. The dataset is developed to support <strong>Automatic Speech Recognition (ASR)</strong> and inclusive speech technologies for low-resource African languages. It combines both <strong>scripted</strong> and <strong>unscripted</strong> speech, collected through ethical, community-centered processes.</p>
+          <p><strong>Dataset Paper</strong>: <a href="https://arxiv.org/abs/XXXX.XXXXX">ArXiv</a> - Work in Progress</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+<section class="section hero ">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Partners, Funders & Supporters</h2>
+        <div class="content has-text-justified">
+        
+          <div class="level" style="align-items: flex-end;">
+            <div class="level-left" style="margin-top: 0.1rem;padding-right: 0rem ; margin-right: 4rem;">
+              <a href="https://waywithwords.net">
+                <img src="static/images/WayWithWords.png" alt="Way With Words" style="height: 100px;margin-top: 0.1rem;">
+              </a>   
+            </div>
+            <div class="level-item" style="margin-top: rem;padding-right: 1rem ;  margin-right: 2rem;">
+               <a href="https://www.up.ac.za/faculty-of-law">
+                  <img src="static/images/Law_UP.png" alt="University of PretoriaFaculty of Law" style="height: 50px;padding-left: 1.5rem;">
+                </a>
+            </div>
+            <div class="level-item" style="margin-top: 0.1rem;padding-right: 0.1rem ; margin-right: 2rem;">
+              <a href="https://www.dsfsi.co.za">
+                <img src="static/images/Meta-Logo-trans.png" alt="Meta" style="height: 70px;">
+              </a>
+            </div>
+            <div class="level-item" style="margin-top: 0.1rem; margin-right: 4rem;">
+              <a href="https://www.gatesfoundation.org">
+                <img src="static/images/Gates_Foundation_Logo.png" alt="DSFSI Emblem" style="height: 70px;">
+              </a>
+            </div>
+          </div> 
+          
+        </div>
+
+        <h2 class="title is-3" style="margin-top: 3rem; padding-bottom: 0.1rem;">Data Sources</h2>
+        <div class="content has-text-justified">
+          <p class="has-text-centered"> Vukuzenzele Newspaper <a href="https://www.vukuzenzele.gov.za" target="_blank">[Website]</a><a href="https://github.com/dsfsi/vukuzenzele-nlp" target="_blank">[Data Repo]</a>, Wikipedia, African Wordnet, GrainSA, Agricultural Research Council, SADILAR, Masakhane</p>
+
+          <!-- <div class="level" style="align-items: flex-end;">
+            <div class="level-left" style="margin-top: 5px;">
+                <img src="static/images/Vukuzenzele-Data.png" alt="DSFSI Emblem" style="height: 50px;">
+            </div>
+            <div class="level-item" style="margin-top: 5px;">
+                <img src="static/images/gov-communi-data.png" alt="DSFSI Emblem" style="height: 50px;padding-left: 1.5rem;">
+            </div>
+            <div class="level-item" style="margin-top: 5px;">
+                <img src="static/images/wikipedia-data.png" alt="DSFSI Emblem" style="height: 50px;">
+            </div>
+            <div class="level-item" style="margin-top: 0.3rem;">
+                <img src="static/images/GrainSA-data.png" alt="DSFSI Emblem" style="height: 50px;">
+            </div>
+          </div> -->
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+
+<!-- Image carousel -->
+<!-- Audio carousel -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item has-text-centered">
+          <figure>
+            <img src="static/images/wave.webp" alt="WAV File Icon" style="width: 100px; margin-bottom: 10px;">
+          </figure>
+          <audio controls>
+            <source src="static/audio/Zulu1.wav" type="audio/wav">
+            Your browser does not support the audio element.
+          </audio>
+          <h2 class="subtitle">
+            
+          </h2>
+        </div>
+        <div class="item has-text-centered">
+          <figure>
+            <img src="static/images/wave.webp" alt="WAV File Icon" style="width: 100px; margin-bottom: 10px;">
+          </figure>
+          <audio controls>
+            <source src="static/audio/Zulu2.wav" type="audio/wav">
+            Your browser does not support the audio element.
+          </audio>
+         
+        </div>
+        <div class="item has-text-centered">
+          <figure>
+            <img src="static/images/wave.webp" alt="WAV File Icon" style="width: 100px; margin-bottom: 10px;">
+          </figure>
+          <audio controls>
+            <source src="static/audio/Zulu3.wav" type="audio/wav">
+            Your browser does not support the audio element.
+          </audio>
+          
+        </div>
+        <div class="item has-text-centered">
+          <figure>
+            <img src="static/images/wave.webp" alt="WAV File Icon" style="width: 100px; margin-bottom: 10px;">
+          </figure>
+          <audio controls>
+            <source src="static/audio/Xhosa1.wav" type="audio/wav">
+            Your browser does not support the audio element.
+          </audio>
+         
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End audio carousel -->
+
+
+<!-- End image carousel -->
+
+
+
+
+<!-- Youtube video (Image carousel with graphs) -->
+<section class="hero is-small ">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+        <!-- First item: Two maps side by side -->
+        <div class="item has-text-centered">
+          <h4 class="title is-8">Distribution of speakers by gender between provinces</h4>
+          <div class="columns is-centered is-vcentered">
+            <div class="column is-half has-text-centered">
+              <img src="static/images/sa_map1.PNG" alt="Map 1">
+            </div>
+            <div class="column is-half has-text-centered">
+              <img src="static/images/sa_map2.PNG" alt="Map 2">
+            </div>
+          </div>
+        </div>
+
+        <!-- Third item: Single image -->
+        <div class="item has-text-centered">
+          <h4 class="title is-8">Statistics on the Dataset</h4>
+
+          <div id="tester2" style="max-width: 80%; max-height: 80%; margin-top: 1rem; margin-left: 5rem;"></div>
+        </div>
+
+        <div class="item has-text-centered" style="border : none;">
+          <h4 class="title is-8">Statistics on the Dataset</h4>
+          <div class="item-right" id="DomainDiv"><select name="Domain" id="Domain-category" style="font-family: 'Noto Sans', sans-serif; height: 2rem;
+           border-radius: 20%;
+           font-family: 'Noto Sans', sans-serif;
+            height: 2.5rem;
+            padding: 0 1rem;
+            border: none;
+            border-radius: 999px; /* 👈 Makes it perfectly pill-shaped */
+            background-color: #ffffff;
+            font-size: 1rem;"></select></div>
+          <div id="tester" style="max-width: 80%; max-height: 80%; margin-top: 1rem; margin-left: 5rem;"></div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End youtube video -->
+
+
+
+
+
+<!-- Paper poster -->
+<!-- <section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title">Poster</h2>
+
+      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
+          </iframe>
+        
+      </div>
+    </div>
+  </section> -->
+<!--End paper poster -->
+
+
+<!--BibTex citation -->
+  <!-- <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>BibTex Code Here</code></pre>
+    </div>
+</section> -->
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+          Citation TBC  <!-- Marivate, V., Olaleye, K., Mundia, S., van Wyk, N. Z., Bakainaga, A., Morrissey, G., Dunbar, D., Smit, F., & Mogale, H. T. (2024). ANV-SOT-Sample-1: Sesotho Sample Dataset - Next Voices-ZA (South Africa) (0.0.2) [Data set].  -->
+          </p>
+        </br> 
+          <h2 class="title is-5 has-text-centered" >Acknowledgments (for their inputs into our research process</h2>
+          <p class="has-text-centered"><a href="https://www.lelapa.ai" target="_blank">Lelapa AI</a>, <a href="https://www.arc.agric.za/" target="_blank">Agricultural Research Council</a>, <a href="https://www.karya.in" target="_blank">Karya</a>, <a href="https://lanfrica.com" target="_blank">Lanfrica</a>, <a href="https://sadilar.org/en/" target="_blank">South African Centre for Digital Language Resources (SADiLaR) </a> </p>
+        </div>
+      </div>
+    </div>
+    <div class="level" style="align-items: flex-end;">
+      <!-- Left side -->
+      <!-- <div class="level-left">
+        <div class="level-item">
+          <a href="LINK_TO_ZONDO_POLICY" target="_blank">Zondo Policy</a>
+        </div>
+      </div> -->
+
+      <!-- Right side -->
+      <div class="level-right">
+        <div class="level-item" style="margin-top: 100px;">
+          <img src="static/images/dsfsi_logo2.png" alt="DSFSI Emblem" style="height: 100px;">
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
