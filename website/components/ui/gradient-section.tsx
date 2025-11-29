@@ -28,7 +28,7 @@ export function GradientSection({
         <div 
           className="absolute inset-0 z-0"
           style={{
-            backgroundImage: "url('/images/Gemini_Generated_Image_aii1bbaii1bbaii1.png')",
+            backgroundImage: "url('/za-african-next-voices/images/Gemini_Generated_Image_aii1bbaii1bbaii1.png')",
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat',

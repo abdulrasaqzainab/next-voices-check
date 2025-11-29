@@ -6,7 +6,7 @@ import { GradientSection } from "@/components/ui/gradient-section";
 import Image from 'next/image';
 import picture from "../../website/public/images/example.png"
 
-// Impact stories data structure that's easy to update
+// Impact stories data structure thats easy to update
 const impactStories = [
 	{
 		id: 1,

@@ -1,0 +1,10 @@
+metric,value
+title,Geographic Distribution of Swivuriso Across South African Provinces
+description,Each province shows total hours of recorded speech and dominant language. Provinces without data are indicated.
+generated_at,2025-11-26T10:52:01.759402
+total_hours,11.29
+total_clips,1997
+provinces_with_data,2
+provinces_without_data,7
+languages_count,1
+languages_list,Sesotho

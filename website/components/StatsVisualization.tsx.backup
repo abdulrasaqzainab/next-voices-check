@@ -1,0 +1,615 @@
+"use client";
+
+import { useState } from 'react';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import Carousel from "@/components/ui/carousel";
+import {
+  Chart as ChartJS,
+  CategoryScale,
+  LinearScale,
+  BarElement,
+  Title,
+  Tooltip,
+  Legend,
+  ArcElement,
+  PointElement,
+  LineElement,
+  RadialLinearScale,
+} from 'chart.js';
+import { Bar, Doughnut, Radar } from 'react-chartjs-2';
+
+// Register Chart.js components
+ChartJS.register(
+  CategoryScale,
+  LinearScale,
+  BarElement,
+  Title,
+  Tooltip,
+  Legend,
+  ArcElement,
+  PointElement,
+  LineElement,
+  RadialLinearScale
+);
+
+// Custom color palette for charts
+const colors = {
+  primary: [
+    'rgba(99, 102, 241, 0.8)',
+    'rgba(79, 70, 229, 0.8)',
+    'rgba(67, 56, 202, 0.8)',
+    'rgba(55, 48, 163, 0.8)',
+    'rgba(49, 46, 129, 0.8)',
+  ],
+  secondary: [
+    'rgba(236, 72, 153, 0.8)',
+    'rgba(219, 39, 119, 0.8)',
+    'rgba(190, 24, 93, 0.8)',
+    'rgba(157, 23, 77, 0.8)',
+    'rgba(131, 24, 67, 0.8)',
+  ],
+  tertiary: [
+    'rgba(16, 185, 129, 0.8)',
+    'rgba(5, 150, 105, 0.8)',
+    'rgba(4, 120, 87, 0.8)',
+    'rgba(6, 95, 70, 0.8)',
+    'rgba(6, 78, 59, 0.8)',
+  ],
+};
+
+// Generated dataset statistics from actual data
+const generatedStats = {
+  overview: {
+    totalClips: 59622,
+    totalHours: 418.99,
+    totalSpeakers: 663,
+    totalLanguages: 5
+  },
+  languages: {
+    xho: {
+      name: "isiXhosa",
+      clips: 13458,
+      hours: 89.86,
+      speakers: 145,
+      avgDuration: 24.04,
+      genders: { male: 37, female: 108, other: 0 },
+      ageGroups: { "30-39": 58, "18-29": 57, "40-49": 26, "50-59": 1, "60+": 2, "unknown": 1 },
+      domains: {
+        "Culture and Society": 680,
+        "Telecommunication": 658,
+        "Sports and Hobbies": 726,
+        "Transport": 686,
+        "Finance": 645,
+        "Agriculture": 2048,
+        "Health": 1974,
+        "General": 6041
+      }
+    },
+    zul: {
+      name: "isiZulu",
+      clips: 16805,
+      hours: 123.41,
+      speakers: 276,
+      avgDuration: 26.44,
+      genders: { male: 66, female: 210, other: 0 },
+      ageGroups: { "30-39": 99, "40-49": 27, "18-29": 138, "50-59": 7, "60+": 4, "unknown": 1 },
+      domains: {
+        "Finance": 417,
+        "Agriculture": 2731,
+        "Health": 2770,
+        "Culture and Society": 363,
+        "Transport": 400,
+        "Telecommunication": 405,
+        "Sports and Hobbies": 425,
+        "General": 9292
+      }
+    },
+    sot: {
+      name: "Sesotho",
+      clips: 17192,
+      hours: 130.89,
+      speakers: 149,
+      avgDuration: 27.41,
+      genders: { male: 29, female: 120, other: 0 },
+      ageGroups: { "18-29": 86, "30-39": 47, "40-49": 13, "50-59": 3 },
+      domains: {
+        "Health": 2703,
+        "Telecommunication": 1213,
+        "Finance": 1185,
+        "Agriculture": 2819,
+        "Culture and Society": 1202,
+        "Sports and Hobbies": 1256,
+        "Transport": 1203,
+        "General": 5611
+      }
+    },
+    tsn: {
+      name: "Setswana",
+      clips: 4792,
+      hours: 23.55,
+      speakers: 54,
+      avgDuration: 17.69,
+      genders: { male: 18, female: 36, other: 0 },
+      ageGroups: { "18-29": 28, "30-39": 20, "40-49": 6 },
+      domains: {
+        "Telecommunication": 82,
+        "Sports and Hobbies": 113,
+        "Agriculture": 667,
+        "Health": 640,
+        "Finance": 84,
+        "Transport": 127,
+        "Culture and Society": 89,
+        "General": 2990
+      }
+    },
+    tso: {
+      name: "Xitsonga",
+      clips: 7375,
+      hours: 51.28,
+      speakers: 39,
+      avgDuration: 25.03,
+      genders: { male: 11, female: 28, other: 0 },
+      ageGroups: { "18-29": 28, "30-39": 10, "40-49": 1 },
+      domains: {
+        "Agriculture": 1243,
+        "Health": 1469,
+        "Finance": 741,
+        "Telecommunication": 766,
+        "Sports and Hobbies": 733,
+        "Transport": 809,
+        "Culture and Society": 781,
+        "General - Civic Life": 388,
+        "General": 444
+      }
+    }
+  },
+  demographics: {
+    ageGroups: { "30-39": 234, "18-29": 337, "40-49": 73, "50-59": 11, "60+": 6, "unknown": 2 },
+    genders: { male: 161, female: 502, other: 0 },
+    provinces: {
+      "Eastern Cape": 83,
+      "Gauteng": 251,
+      "Western Cape": 29,
+      "Free State": 78,
+      "North West": 23,
+      "KwaZulu-Natal": 151,
+      "Mpumalanga": 26,
+      "Limpopo": 20,
+      "Northern Cape": 2
+    }
+  }
+};
+
+// Complete project scope including all target languages
+const projectScope = {
+  languages: {
+    ZUL: {
+      name: 'isiZulu',
+      estimatedSpeakers: 12,
+      targetHours: 500,
+      progress: '100%',
+      currentHours: 233.03,
+      zeroShotWER: 215.0,
+      fineTunedWER: 19.5
+    },
+    XHO: {
+      name: 'isiXhosa', 
+      estimatedSpeakers: 8.1,
+      targetHours: 500,
+      progress: '100%',
+      currentHours: 89.86,
+      zeroShotWER: 182.0,
+      fineTunedWER: 22.0
+    },
+    SOT: {
+      name: 'Sesotho (Southern Sotho)',
+      estimatedSpeakers: 5.6,
+      targetHours: 500,
+      progress: '100%',
+      currentHours: 130.89,
+      zeroShotWER: 190.0,
+      fineTunedWER: 19.0
+    },
+    TSN: {
+      name: 'Setswana (Tswana)',
+      estimatedSpeakers: 4,
+      targetHours: 500,
+      progress: '100%',
+      currentHours: 23.55,
+      zeroShotWER: 223.0,
+      fineTunedWER: 13.0
+    },
+    TSO: {
+      name: 'Xitsonga (Tsonga)',
+      estimatedSpeakers: 2.3,
+      targetHours: 500,
+      progress: '100%',
+      currentHours: 0, // Not in current data yet
+      zeroShotWER: 190.0,
+      fineTunedWER: 12.0
+    },
+    VEN: {
+      name: 'Tshivenda (Venda)',
+      estimatedSpeakers: 1.2,
+      targetHours: 250,
+      progress: '100%',
+      currentHours: 0, // Not in current data yet
+      zeroShotWER: 132.0,
+      fineTunedWER: 13.0
+    },
+    NBL: {
+      name: 'isiNdebele',
+      estimatedSpeakers: 1.1,
+      targetHours: 250,
+      progress: 'In Progress',
+      currentHours: 0, // Not in current data yet
+      zeroShotWER: null, // No data yet
+      fineTunedWER: null // No data yet
+    }
+  }
+};
+
+export default function StatsVisualization() {
+  const [loading, setLoading] = useState(false);
+  const [activeCard, setActiveCard] = useState(0);
+  
+  // Total number of cards to display
+  const totalCards = 6;
+
+  const goToNextCard = () => {
+    setActiveCard((prev) => (prev + 1) % totalCards);
+  };
+
+  const goToPrevCard = () => {
+    setActiveCard((prev) => (prev - 1 + totalCards) % totalCards);
+  };
+
+  if (loading) {
+    return (
+      <section className="py-12 bg-gray-50">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-2xl font-bold text-center mb-8">Dataset Statistics</h2>
+          <div className="text-center py-12">Loading statistics...</div>
+        </div>
+      </section>
+    );
+  }
+
+  // Language name mapping for current data
+  const languageNames = {
+    XHO: 'isiXhosa',
+    ZUL: 'isiZulu', 
+    SOT: 'Sesotho',
+    TSN: 'Setswana'
+  };
+
+  // Prepare data for current progress vs targets
+  const progressData = {
+    labels: Object.keys(projectScope.languages).map(code => projectScope.languages[code as keyof typeof projectScope.languages].name),
+    datasets: [
+      {
+        label: 'Target Hours',
+        data: Object.values(projectScope.languages).map(lang => lang.targetHours),
+        backgroundColor: 'rgba(156, 163, 175, 0.6)',
+        borderColor: 'rgba(156, 163, 175, 1)',
+        borderWidth: 1,
+      },
+      {
+        label: 'Current Hours',
+        data: Object.values(projectScope.languages).map(lang => lang.currentHours),
+        backgroundColor: colors.primary[0],
+        borderColor: colors.primary[0].replace('0.8', '1'),
+        borderWidth: 1,
+      },
+    ],
+  };
+
+  // Prepare data for language distribution chart (current data only)
+  const languageData = {
+    labels: Object.keys(realStats.languages).map(code => languageNames[code as keyof typeof languageNames]),
+    datasets: [
+      {
+        label: 'Audio Hours',
+        data: Object.values(realStats.languages).map(lang => lang.hours),
+        backgroundColor: colors.primary,
+        borderColor: colors.primary.map(color => color.replace('0.8', '1')),
+        borderWidth: 1,
+      },
+      {
+        label: 'Number of Clips',
+        data: Object.values(realStats.languages).map(lang => lang.clips / 1000), // Scale down for better visualization
+        backgroundColor: colors.secondary,
+        borderColor: colors.secondary.map(color => color.replace('0.8', '1')),
+        borderWidth: 1,
+      },
+    ],
+  };
+
+  // Prepare data for speaker demographics (gender) chart
+  const totalMale = Object.values(realStats.languages).reduce((sum, lang) => sum + lang.male, 0);
+  const totalFemale = Object.values(realStats.languages).reduce((sum, lang) => sum + lang.female, 0);
+  
+  const genderData = {
+    labels: ['Male', 'Female'],
+    datasets: [
+      {
+        data: [totalMale, totalFemale],
+        backgroundColor: colors.tertiary.slice(0, 2),
+        borderColor: '#ffffff',
+        borderWidth: 2,
+      },
+    ],
+  };
+
+  // Prepare data for age group distribution
+  const ageGroupTotals = {
+    '18-29': 0,
+    '30-39': 0,
+    '40-49': 0,
+    '50-59': 0,
+    '60+': 0
+  };
+
+  Object.values(realStats.languages).forEach(lang => {
+    Object.entries(lang.ageGroups).forEach(([age, count]) => {
+      ageGroupTotals[age as keyof typeof ageGroupTotals] += count;
+    });
+  });
+
+  const ageGroupData = {
+    labels: Object.keys(ageGroupTotals),
+    datasets: [
+      {
+        label: 'Speakers by Age Group',
+        data: Object.values(ageGroupTotals),
+        backgroundColor: 'rgba(99, 102, 241, 0.2)',
+        borderColor: 'rgba(99, 102, 241, 1)',
+        borderWidth: 2,
+      },
+    ],
+  };
+
+  // Prepare data for WER performance comparison (exclude isiNdebele since no data yet)
+  const languagesWithWER = Object.entries(projectScope.languages)
+    .filter(([code, lang]) => lang.zeroShotWER !== null && lang.fineTunedWER !== null);
+
+  const werData = {
+    labels: languagesWithWER.map(([code, lang]) => lang.name),
+    datasets: [
+      {
+        label: 'Zero-Shot WER (%)',
+        data: languagesWithWER.map(([code, lang]) => lang.zeroShotWER),
+        backgroundColor: 'rgba(239, 68, 68, 0.6)',
+        borderColor: 'rgba(239, 68, 68, 1)',
+        borderWidth: 1,
+      },
+      {
+        label: 'Fine-Tuned WER (%)',
+        data: languagesWithWER.map(([code, lang]) => lang.fineTunedWER),
+        backgroundColor: 'rgba(34, 197, 94, 0.6)',
+        borderColor: 'rgba(34, 197, 94, 1)',
+        borderWidth: 1,
+      },
+    ],
+  };
+
+  // Options for bar chart
+  const barOptions = {
+    responsive: true,
+    plugins: {
+      legend: {
+        position: 'top' as const,
+      },
+      title: {
+        display: true,
+        text: 'Language Distribution (Hours)',
+      },
+    },
+    scales: {
+      y: {
+        beginAtZero: true,
+      },
+    },
+  };
+
+  // Options for progress chart
+  const progressOptions = {
+    responsive: true,
+    plugins: {
+      legend: {
+        position: 'top' as const,
+      },
+      title: {
+        display: true,
+        text: 'Project Progress: Current vs Target Hours',
+      },
+    },
+    scales: {
+      y: {
+        beginAtZero: true,
+        max: 600,
+      },
+    },
+  };
+
+  // Options for WER performance chart
+  const werOptions = {
+    responsive: true,
+    plugins: {
+      legend: {
+        position: 'top' as const,
+      },
+      title: {
+        display: true,
+        text: 'ASR Performance: Word Error Rate (WER) - Lower is Better',
+      },
+    },
+    scales: {
+      y: {
+        beginAtZero: true,
+        max: 250,
+        ticks: {
+          callback: function(value: any) {
+            return value + '%';
+          }
+        },
+      },
+    },
+  };
+
+  // Options for radar chart
+  const radarOptions = {
+    responsive: true,
+    scales: {
+      r: {
+        beginAtZero: true,
+        max: 100,
+        ticks: {
+          stepSize: 20,
+        },
+      },
+    },
+    plugins: {
+      legend: {
+        position: 'top' as const,
+      },
+      title: {
+        display: true,
+        text: 'Age Group Distribution by Language',
+      },
+    },
+  };
+
+  // Options for doughnut chart
+  const doughnutOptions = {
+    responsive: true,
+    plugins: {
+      legend: {
+        position: 'right' as const,
+      },
+      title: {
+        display: true,
+        text: 'Speaker Demographics',
+      },
+    },
+  };
+
+  return (
+    <section className="py-12 bg-gray-50">
+      <div className="max-w-6xl mx-auto">
+        <h2 className="text-2xl font-bold text-center mb-8">Dataset Statistics</h2>
+        
+        <div className="w-full max-w-4xl mx-auto">
+          <Carousel>
+            {/* Card 0: Project Progress Chart */}
+            <Card className="w-full">
+              <CardHeader>
+                <CardTitle>Project Progress Overview</CardTitle>
+                <CardDescription>Current data collection progress vs target hours for all 7 languages</CardDescription>
+              </CardHeader>
+              <CardContent className="h-96">
+                <Bar data={progressData} options={progressOptions} />
+              </CardContent>
+            </Card>
+
+            {/* Card 1: Language Distribution Chart */}
+            <Card className="w-full">
+              <CardHeader>
+                <CardTitle>Current Data Distribution</CardTitle>
+                <CardDescription>Audio hours and clips for languages with available data</CardDescription>
+              </CardHeader>
+              <CardContent className="h-96">
+                <Bar data={languageData} options={barOptions} />
+              </CardContent>
+            </Card>
+
+            {/* Card 2: ASR Performance Chart */}
+            <Card className="w-full">
+              <CardHeader>
+                <CardTitle>ASR Model Performance</CardTitle>
+                <CardDescription>Word Error Rate comparison: Zero-shot vs Fine-tuned models (lower WER is better)</CardDescription>
+              </CardHeader>
+              <CardContent className="h-96">
+                <Bar data={werData} options={werOptions} />
+              </CardContent>
+            </Card>
+
+            {/* Card 3: Age Group Distribution Chart */}
+            <Card className="w-full">
+              <CardHeader>
+                <CardTitle>Age Group Distribution</CardTitle>
+                <CardDescription>Speaker distribution across age groups</CardDescription>
+              </CardHeader>
+              <CardContent className="h-96">
+                <Radar data={ageGroupData} options={radarOptions} />
+              </CardContent>
+            </Card>
+
+            {/* Card 4: Speaker Demographics Chart */}
+            <Card className="w-full">
+              <CardHeader>
+                <CardTitle>Speaker Demographics</CardTitle>
+                <CardDescription>Distribution of speakers by gender</CardDescription>
+              </CardHeader>
+              <CardContent className="h-96">
+                <div className="flex justify-center items-center h-full">
+                  <div className="w-64">
+                    <Doughnut data={genderData} options={doughnutOptions} />
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Card 5: Key Statistics */}
+            <Card className="w-full">
+              <CardHeader>
+                <CardTitle>Project Overview</CardTitle>
+                <CardDescription>Current progress and complete project scope</CardDescription>
+              </CardHeader>
+              <CardContent className="h-96">
+                <div className="grid grid-cols-2 gap-4">
+                  <div className="bg-indigo-50 rounded-lg p-4">
+                    <h3 className="text-sm text-indigo-800 font-medium mb-1">Current Audio</h3>
+                    <p className="text-3xl font-bold text-indigo-600">
+                      {Object.values(realStats.languages).reduce((sum, lang) => sum + lang.hours, 0).toFixed(1)} hours
+                    </p>
+                    <p className="text-xs text-indigo-600 mt-1">
+                      / {Object.values(projectScope.languages).reduce((sum, lang) => sum + lang.targetHours, 0)} target
+                    </p>
+                  </div>
+                  <div className="bg-pink-50 rounded-lg p-4">
+                    <h3 className="text-sm text-pink-800 font-medium mb-1">Current Clips</h3>
+                    <p className="text-3xl font-bold text-pink-600">
+                      {Object.values(realStats.languages).reduce((sum, lang) => sum + lang.clips, 0).toLocaleString()}
+                    </p>
+                  </div>
+                  <div className="bg-green-50 rounded-lg p-4">
+                    <h3 className="text-sm text-green-800 font-medium mb-1">Current Speakers</h3>
+                    <p className="text-3xl font-bold text-green-600">
+                      {Object.values(realStats.languages).reduce((sum, lang) => sum + lang.speakers, 0)}
+                    </p>
+                  </div>
+                  <div className="bg-violet-50 rounded-lg p-4">
+                    <h3 className="text-sm text-violet-800 font-medium mb-1">Total Languages</h3>
+                    <p className="text-3xl font-bold text-violet-600">{Object.keys(projectScope.languages).length}</p>
+                    <p className="text-xs text-violet-600 mt-1">
+                      {Object.values(projectScope.languages).filter(lang => lang.progress === '100%').length} completed
+                    </p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          </Carousel>
+        </div>
+
+        {/* <p className="text-center text-sm text-gray-500 mt-8">
+          Last updated: {new Date(stats.timeline.lastUpdated).toLocaleDateString('en-US', {
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric'
+          })}
+        </p> */}
+      </div>
+    </section>
+  );
+}

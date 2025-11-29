@@ -1,0 +1,122 @@
+{
+  "title": "Geographic Distribution of Swivuriso Across South African Provinces",
+  "description": "Each province shows total hours of recorded speech and dominant language. Provinces without data are indicated.",
+  "generated_at": "2025-11-26T10:52:01.759402",
+  "summary": {
+    "total_hours": 11.29,
+    "total_clips": 1997,
+    "provinces_with_data": 2,
+    "provinces_without_data": 7
+  },
+  "provinces": {
+    "Eastern Cape": {
+      "province_name": "Eastern Cape",
+      "total_hours": 0,
+      "total_clips": 0,
+      "dominant_language": null,
+      "language_breakdown": {},
+      "has_data": false
+    },
+    "Free State": {
+      "province_name": "Free State",
+      "total_hours": 5.89,
+      "total_clips": 1132,
+      "dominant_language": {
+        "name": "Sesotho",
+        "code": "sot",
+        "hours": 5.89,
+        "clips": 1132,
+        "percentage": 100.0
+      },
+      "language_breakdown": {
+        "Sesotho": {
+          "hours": 5.89,
+          "clips": 1132,
+          "percentage": 100.0
+        }
+      },
+      "has_data": true
+    },
+    "Gauteng": {
+      "province_name": "Gauteng",
+      "total_hours": 5.4,
+      "total_clips": 865,
+      "dominant_language": {
+        "name": "Sesotho",
+        "code": "sot",
+        "hours": 5.4,
+        "clips": 865,
+        "percentage": 100.0
+      },
+      "language_breakdown": {
+        "Sesotho": {
+          "hours": 5.4,
+          "clips": 865,
+          "percentage": 100.0
+        }
+      },
+      "has_data": true
+    },
+    "KwaZulu-Natal": {
+      "province_name": "KwaZulu-Natal",
+      "total_hours": 0,
+      "total_clips": 0,
+      "dominant_language": null,
+      "language_breakdown": {},
+      "has_data": false
+    },
+    "Limpopo": {
+      "province_name": "Limpopo",
+      "total_hours": 0,
+      "total_clips": 0,
+      "dominant_language": null,
+      "language_breakdown": {},
+      "has_data": false
+    },
+    "Mpumalanga": {
+      "province_name": "Mpumalanga",
+      "total_hours": 0,
+      "total_clips": 0,
+      "dominant_language": null,
+      "language_breakdown": {},
+      "has_data": false
+    },
+    "Northern Cape": {
+      "province_name": "Northern Cape",
+      "total_hours": 0,
+      "total_clips": 0,
+      "dominant_language": null,
+      "language_breakdown": {},
+      "has_data": false
+    },
+    "North West": {
+      "province_name": "North West",
+      "total_hours": 0,
+      "total_clips": 0,
+      "dominant_language": null,
+      "language_breakdown": {},
+      "has_data": false
+    },
+    "Western Cape": {
+      "province_name": "Western Cape",
+      "total_hours": 0,
+      "total_clips": 0,
+      "dominant_language": null,
+      "language_breakdown": {},
+      "has_data": false
+    }
+  },
+  "metadata": {
+    "shading_metric": "total_hours",
+    "label_format": "{dominant_language} | {province_name} | {total_hours}h",
+    "grey_provinces": [
+      "Eastern Cape",
+      "KwaZulu-Natal",
+      "Limpopo",
+      "Mpumalanga",
+      "Northern Cape",
+      "North West",
+      "Western Cape"
+    ]
+  }
+}

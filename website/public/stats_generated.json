@@ -1,0 +1,145 @@
+{
+  "overview": {
+    "totalClips": 59619,
+    "totalHours": 418.96,
+    "totalSpeakers": 663,
+    "totalLanguages": 5
+  },
+  "languages": {
+    "xho": {
+      "code": "xho",
+      "name": "isiXhosa",
+      "clips": 13458,
+      "hours": 89.86,
+      "speakers": 145,
+      "avgDuration": 24.04,
+      "domains": {
+        "Culture and Society": 680,
+        "Telecommunication": 658,
+        "Sports and Hobbies": 726,
+        "Transport": 686,
+        "Finance": 645,
+        "Agriculture": 2048,
+        "Health": 1974,
+        "General": 6041
+      },
+      "demographics": {
+        "male": 37,
+        "female": 108
+      }
+    },
+    "zul": {
+      "code": "zul",
+      "name": "isiZulu",
+      "clips": 16803,
+      "hours": 123.39,
+      "speakers": 276,
+      "avgDuration": 26.44,
+      "domains": {
+        "Finance": 417,
+        "Agriculture": 2731,
+        "Health": 2770,
+        "Culture and Society": 363,
+        "Transport": 400,
+        "Telecommunication": 405,
+        "Sports and Hobbies": 425,
+        "General": 9292
+      },
+      "demographics": {
+        "male": 66,
+        "female": 210
+      }
+    },
+    "sot": {
+      "code": "sot",
+      "name": "Sesotho",
+      "clips": 17192,
+      "hours": 130.89,
+      "speakers": 149,
+      "avgDuration": 27.41,
+      "domains": {
+        "Health": 2703,
+        "Telecommunication": 1213,
+        "Finance": 1185,
+        "Agriculture": 2819,
+        "Culture and Society": 1202,
+        "Sports and Hobbies": 1256,
+        "Transport": 1203,
+        "General": 5611
+      },
+      "demographics": {
+        "male": 29,
+        "female": 120
+      }
+    },
+    "tsn": {
+      "code": "tsn",
+      "name": "Setswana",
+      "clips": 4792,
+      "hours": 23.55,
+      "speakers": 54,
+      "avgDuration": 17.69,
+      "domains": {
+        "Telecommunication": 82,
+        "Sports and Hobbies": 113,
+        "Agriculture": 667,
+        "Health": 640,
+        "Finance": 84,
+        "Transport": 127,
+        "Culture and Society": 89,
+        "General": 2990
+      },
+      "demographics": {
+        "male": 18,
+        "female": 36
+      }
+    },
+    "tso": {
+      "code": "tso",
+      "name": "Xitsonga",
+      "clips": 7374,
+      "hours": 51.27,
+      "speakers": 39,
+      "avgDuration": 25.03,
+      "domains": {
+        "Agriculture": 1243,
+        "Health": 1469,
+        "Finance": 741,
+        "Telecommunication": 766,
+        "Sports and Hobbies": 733,
+        "Transport": 809,
+        "Culture and Society": 781,
+        "General - Civic Life": 388,
+        "General": 444
+      },
+      "demographics": {
+        "male": 11,
+        "female": 28
+      }
+    }
+  },
+  "demographics": {
+    "ageGroups": {
+      "30-39": 234,
+      "18-29": 337,
+      "40-49": 73,
+      "50-59": 11,
+      "60+": 6
+    },
+    "genders": {
+      "female": 502,
+      "male": 161
+    },
+    "provinces": {
+      "Eastern Cape": 83,
+      "Gauteng": 251,
+      "Western Cape": 29,
+      "Free State": 78,
+      "North West": 23,
+      "KwaZulu-Natal": 151,
+      "Mpumalanga": 26,
+      "Limpopo": 20,
+      "Northern Cape": 2
+    }
+  }
+}

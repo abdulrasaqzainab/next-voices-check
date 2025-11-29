@@ -1,53 +1,73 @@
-# Academic Project Page Template
-This is an academic paper project page template.
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Getting Started
 
-Example project pages built using this template are:
-- https://horwitz.ai/probex
-- https://vision.huji.ac.il/probegen
-- https://horwitz.ai/mother
-- https://horwitz.ai/spectral_detuning
-- https://vision.huji.ac.il/ladeda
-- https://vision.huji.ac.il/dsire
-- https://horwitz.ai/podd
-- https://dreamix-video-editing.github.io
-- https://horwitz.ai/conffusion
-- https://horwitz.ai/3d_ads/
-- https://vision.huji.ac.il/ssrl_ad
-- https://vision.huji.ac.il/deepsim
+First, run the development server:
 
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Start using the template
-To start using the template click on `Use this Template`.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-The template uses html for controlling the content and css for controlling the style. 
-To edit the websites contents edit the `index.html` file. It contains different HTML "building blocks", use whichever ones you need and comment out the rest.  
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-**IMPORTANT!** Make sure to replace the `favicon.ico` under `static/images/` with one of your own, otherwise your favicon is going to be a dreambooth image of me.
+## Learn More
 
-## Components
-- Teaser video
-- Images Carousel
-- Youtube embedding
-- Video Carousel
-- PDF Poster
-- Bibtex citation
+To learn more about Next.js, take a look at the following resources:
 
-## Tips:
-- The `index.html` file contains comments instructing you what to replace, you should follow these comments.
-- The `meta` tags in the `index.html` file are used to provide metadata about your paper 
-(e.g. helping search engine index the website, showing a preview image when sharing the website, etc.)
-- The resolution of images and videos can usually be around 1920-2048, there rarely a need for better resolution that take longer to load. 
-- All the images and videos you use should be compressed to allow for fast loading of the website (and thus better indexing by search engines). For images, you can use [TinyPNG](https://tinypng.com), for videos you can need to find the tradeoff between size and quality.
-- When using large video files (larger than 10MB), it's better to use youtube for hosting the video as serving the video from the website can take time.
-- Using a tracker can help you analyze the traffic and see where users came from. [statcounter](https://statcounter.com) is a free, easy to use tracker that takes under 5 minutes to set up. 
-- This project page can also be made into a github pages website.
-- Replace the favicon to one of your choosing (the default one is of the Hebrew University). 
-- Suggestions, improvements and comments are welcome, simply open an issue or contact me. You can find my contact information at [https://horwitz.ai](https://horwitz.ai)
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-## Acknowledgments
-Parts of this project page were adopted from the [Nerfies](https://nerfies.github.io/) page.
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Website License
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## How to replace the mock data and turn on the real sections
+
+ A few sections on the homepage use mock/fallback data during development. When you have real data, replace the mock JSON or API calls and then uncomment the components in `app/page.tsx` so they render on the site.
+
+Where the mock sections live
+- `StatsVisualization` — uses `lib/fallbackStats.ts` by default for GitHub Pages/dev. Replace with your real stats JSON or update the fetch logic.
+- `TechnicalBenchmarks` — reads benchmark numbers from the same fallback source. Swap in your real `stats.json` or an API endpoint.
+- `NewsUpdates` — this renders a simple list now; point it to your real feed or update the local mock list.
+- `CommunityImpact` — uses a small mock object for downloads/citations/contributors. Replace with your real metrics source.
+
+How to enable the real sections
+1. Add/replace your real data files inside `public/` or `public/csv/` or wire up your API.
+2. Edit `app/page.tsx` and find these commented lines (near the bottom of the file):
+
+	{/* these section use mock data, uncomment them once you have real data */}
+
+	{/* Statistics Visualization Section */}
+	{/* <StatsVisualization /> */}
+            
+	{/* Technical Benchmarks Section */}
+	{/* <TechnicalBenchmarks /> */}
+
+	{/* News & Updates Section */}
+	{/* <NewsUpdates /> */}
+         
+	{/* Community Impact Section */}
+	{/* <CommunityImpact /> */}
+
+3. Uncomment the component lines you want to enable (remove the surrounding `{/*` and `*/}`) and save.
+4. Start the dev server and sanity-check the UI:
+
+```bash
+npm run dev
+# then open http://localhost:3000
+```
+

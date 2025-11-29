@@ -1,0 +1,10 @@
+province,dominant_language,province_dominant_language,total_hours,total_clips,dominant_language_code,dominant_language_hours,dominant_language_clips,dominant_language_percentage
+Gauteng,seTswana,Gauteng - seTswana,1073.72,171074,tsn,256.05,51051,23.8
+Limpopo,Xitsonga,Limpopo - Xitsonga,317.93,52890,tso,163.4,26961,51.4
+KwaZulu-Natal,isiZulu,KwaZulu-Natal - isiZulu,307.14,37233,zul,297.72,35596,96.9
+Eastern Cape,isiXhosa,Eastern Cape - isiXhosa,279.7,41867,xho,266.19,40067,95.2
+Free State,Sesotho,Free State - Sesotho,267.53,42746,sot,242.48,38510,90.6
+North West,seTswana,North West - seTswana,214.3,41120,tsn,189.31,37730,88.3
+Mpumalanga,Xitsonga,Mpumalanga - Xitsonga,147.11,21499,tso,112.63,16972,76.6
+Western Cape,isiXhosa,Western Cape - isiXhosa,125.74,17643,xho,115.28,16200,91.7
+Northern Cape,seTswana,Northern Cape - seTswana,30.75,5857,tsn,28.7,5561,93.3

@@ -1,7 +1,7 @@
 {
   "dataCollection": {
     "audioHours": {
-      "total": 1250,
+      "total": 1300,
       "byLanguage": {
         "isiZulu": 450,
         "isiXhosa": 350,
@@ -9,11 +9,12 @@
         "Setswana": 150,
         "Xitsonga": 100,
         "Tshivenda": 75,
-        "Siswati": 50
+        "Siswati": 50,
+        "isiNdebele": 25
       }
     },
     "transcribedHours": {
-      "total": 875,
+      "total": 900,
       "byLanguage": {
         "isiZulu": 325,
         "isiXhosa": 275,
@@ -21,7 +22,8 @@
         "Setswana": 75,
         "Xitsonga": 50,
         "Tshivenda": 45,
-        "Siswati": 30
+        "Siswati": 30,
+        "isiNdebele": 20
       }
     },
     "speakers": {
@@ -53,7 +55,8 @@
         "Setswana": 23.5,
         "Xitsonga": 25.8,
         "Tshivenda": 27.3,
-        "Siswati": 26.1
+        "Siswati": 26.1,
+        "isiNdebele": 28.5
       },
       "improvementFromBaseline": {
         "isiZulu": 35,
@@ -62,7 +65,8 @@
         "Setswana": 25,
         "Xitsonga": 22,
         "Tshivenda": 20,
-        "Siswati": 21
+        "Siswati": 21,
+        "isiNdebele": 18
       }
     },
     "textToSpeech": {
@@ -73,7 +77,8 @@
         "Setswana": 3.4,
         "Xitsonga": 3.2,
         "Tshivenda": 3.1,
-        "Siswati": 3.0
+        "Siswati": 3.0,
+        "isiNdebele": 2.9
       }
     }
   },

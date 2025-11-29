@@ -39,3 +39,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+#data files/
+data/*.csv
+
+# Generated statistics (contains test data - must stay private)
+public/csv/stats_generated.json
+public/csv/stats_summary.csv
