@@ -92,7 +92,7 @@ const ProvinceMap: React.FC<ProvinceMapProps> = ({
             
             console.log(`Hours range: ${minHours} - ${maxHours}`);
 
-            const chart = Highcharts.mapChart(containerRef.current, {
+            const chart = (Highcharts as any).mapChart(containerRef.current, {
               chart: {
                 map: topology,
                 backgroundColor: 'transparent',
@@ -297,7 +297,7 @@ const ProvinceMap: React.FC<ProvinceMapProps> = ({
           const minPercentage = Math.min(...percentages);
           const maxPercentage = Math.max(...percentages);
 
-          const chart = Highcharts.mapChart(containerRef.current, {
+          const chart = (Highcharts as any).mapChart(containerRef.current, {
             chart: {
               map: topology,
               backgroundColor: 'transparent',
@@ -477,7 +477,7 @@ const ProvinceMap: React.FC<ProvinceMapProps> = ({
 
           const maxValue = Math.max(...Object.values(provinceData));
 
-          const chart = Highcharts.mapChart(containerRef.current, {
+          const chart = (Highcharts as any).mapChart(containerRef.current, {
             chart: {
               map: topology,
               backgroundColor: 'transparent',
