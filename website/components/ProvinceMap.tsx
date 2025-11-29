@@ -92,6 +92,7 @@ const ProvinceMap: React.FC<ProvinceMapProps> = ({
             
             console.log(`Hours range: ${minHours} - ${maxHours}`);
 
+            // eslint-disable-next-line @typescript-eslint/no-explicit-any
             const chart = (Highcharts as any).mapChart(containerRef.current, {
               chart: {
                 map: topology,
@@ -156,8 +157,9 @@ const ProvinceMap: React.FC<ProvinceMapProps> = ({
                 style: {
                   fontSize: '14px',
                 },
-              formatter: function (this: Highcharts.TooltipFormatterContextObject) {
-                const point = this.point as { name: string; dominantLanguage: string; totalHours: number; dominancePercentage: number };
+              formatter: function () {
+                // eslint-disable-next-line @typescript-eslint/no-explicit-any
+                const point = (this as any).point;
                   const provinceName = point.name;
                   const language = point.dominantLanguage;
                   const hours = point.totalHours;
@@ -233,7 +235,7 @@ const ProvinceMap: React.FC<ProvinceMapProps> = ({
                       textOutline: '2px black',
                     },
                   },
-                } as Highcharts.SeriesMapOptions,
+                } as Highcharts.SeriesOptionsType,
               ],
 
               credits: {
@@ -297,6 +299,7 @@ const ProvinceMap: React.FC<ProvinceMapProps> = ({
           const minPercentage = Math.min(...percentages);
           const maxPercentage = Math.max(...percentages);
 
+          // eslint-disable-next-line @typescript-eslint/no-explicit-any
           const chart = (Highcharts as any).mapChart(containerRef.current, {
             chart: {
               map: topology,
@@ -477,6 +480,7 @@ const ProvinceMap: React.FC<ProvinceMapProps> = ({
 
           const maxValue = Math.max(...Object.values(provinceData));
 
+          // eslint-disable-next-line @typescript-eslint/no-explicit-any
           const chart = (Highcharts as any).mapChart(containerRef.current, {
             chart: {
               map: topology,
