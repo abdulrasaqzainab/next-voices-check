@@ -16,13 +16,9 @@ $(document).ready(function() {
     }
 
 		// Initialize all div with carousel class
-    var carousels = bulmaCarousel.attach('.carousel', options);
+    bulmaCarousel.attach('.carousel', options);
 	
     bulmaSlider.attach();
-
-	
-
-	let globalData = null;
 	const transcriptFiles = [
 		"transcripts_isiZulu.csv",
 		"transcripts_isiXhosa.csv",
@@ -200,7 +196,8 @@ $(document).ready(function() {
 	}
 
 
-    function plotDomainData(data) {
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+    function plotDomainData(_data) {
 		const keys = Object.keys(data);
 		if (keys.length < 6) {
 			alert('CSV must have at least 6 columns for domain data');
@@ -248,7 +245,8 @@ $(document).ready(function() {
 		Plotly.newPlot(graph, [trace], layout);
 	}
 
-	function plotData(data,index,plotTitle) {
+	// eslint-disable-next-line @typescript-eslint/no-unused-vars
+	function plotData(_data, _index, _plotTitle) {
 		const keys = Object.keys(data);
 		if (keys.length < 6) {
 			alert('CSV must have at least 6 columns for domain data');
@@ -310,7 +308,8 @@ $(document).ready(function() {
 		});
 	}
 
-	function plotDomainLevel(data){
+	// eslint-disable-next-line @typescript-eslint/no-unused-vars
+	function plotDomainLevel(_data){
 		const keys = Object.keys(data);
 		if (keys.length < 6) {
 			alert('CSV must have at least 6 columns for domain/script data');
@@ -355,7 +354,8 @@ $(document).ready(function() {
 		Plotly.newPlot(document.getElementById("tester"), [trace], layout);
 	}
 
-	function plotLanguageCount(data){
+	// eslint-disable-next-line @typescript-eslint/no-unused-vars
+	function plotLanguageCount(_data){
 		const keys = Object.keys(data);
 		if (keys.length < 6) {
 			alert('CSV must have at least 6 columns for domain/script data');

@@ -38,14 +38,7 @@ const ProvinceMap: React.FC<ProvinceMapProps> = ({
     'Western Cape': 'za-wc',
   }), []);
 
-  // Intensity-based color mapping (yellow to red gradient)
-  const getIntensityColor = (percentage: number): string => {
-    if (percentage >= 70) return '#7F1D1D'; // Dark red
-    if (percentage >= 60) return '#DC2626'; // Red
-    if (percentage >= 40) return '#F59E0B'; // Orange
-    if (percentage >= 25) return '#FCD34D'; // Yellow
-    return '#FEF3C7'; // Light yellow
-  };
+
 
   useEffect(() => {
     let isMounted = true;
@@ -163,8 +156,8 @@ const ProvinceMap: React.FC<ProvinceMapProps> = ({
                 style: {
                   fontSize: '14px',
                 },
-                formatter: function () {
-                  const point = (this as any).point;
+              formatter: function (this: Highcharts.TooltipFormatterContextObject) {
+                const point = this.point as { name: string; dominantLanguage: string; totalHours: number; dominancePercentage: number };
                   const provinceName = point.name;
                   const language = point.dominantLanguage;
                   const hours = point.totalHours;
@@ -240,7 +233,7 @@ const ProvinceMap: React.FC<ProvinceMapProps> = ({
                       textOutline: '2px black',
                     },
                   },
-                } as any,
+                } as Highcharts.SeriesMapOptions,
               ],
 
               credits: {
@@ -369,6 +362,7 @@ const ProvinceMap: React.FC<ProvinceMapProps> = ({
                 fontSize: '14px',
               },
               formatter: function () {
+                // eslint-disable-next-line @typescript-eslint/no-explicit-any
                 const point = (this as any).point;
                 const provinceName = point.name;
                 const language = point.language;
@@ -444,7 +438,7 @@ const ProvinceMap: React.FC<ProvinceMapProps> = ({
                     textOutline: '2px black',
                   },
                 },
-              } as any,
+              } as Highcharts.SeriesOptionsType,
             ],
 
             credits: {
@@ -522,6 +516,7 @@ const ProvinceMap: React.FC<ProvinceMapProps> = ({
               borderColor: 'rgba(99, 102, 241, 0.8)',
               borderRadius: 8,
               formatter: function () {
+                // eslint-disable-next-line @typescript-eslint/no-explicit-any
                 const point = (this as any).point;
                 const provinceName = point.name;
                 const value = point.value || 0;

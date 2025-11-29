@@ -18,6 +18,12 @@ const eslintConfig = [
       "out/**",
       "build/**",
       "next-env.d.ts",
+      "static/js/bulma-carousel.js",
+      "static/js/bulma-carousel.min.js",
+      "static/js/bulma-slider.js",
+      "static/js/bulma-slider.min.js",
+      "static/js/fontawesome.all.min.js",
+      "public/stats_generated.json",
     ],
   },
 ];

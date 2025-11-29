@@ -1,7 +1,10 @@
 #!/usr/bin/env node
+// eslint-disable-next-line @typescript-eslint/no-require-imports
 const fs = require('fs');
+// eslint-disable-next-line @typescript-eslint/no-require-imports
 const path = require('path');
-const parse = require('csv-parse');
+// eslint-disable-next-line @typescript-eslint/no-require-imports
+const { parse } = require('csv-parse');
 
 // Simple CLI with defaults (supports --meta=, --transcripts=, --out=, --outcsv=)
 const repoRoot = path.join(__dirname, '..');
